@@ -45,8 +45,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="BaseDeDatos\EstructurasDeTablas.PNG" />
     <Content Include="BaseDeDatos\Modelo_Relacional.PNG" />
+=======
+>>>>>>> 6b99a2ad863e6b84eb54ca3482f67734491e330f
     <Content Include="BaseDeDatos\Sistema_Ventas.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
