@@ -206,7 +206,7 @@
             this.Controls.Add(this.menuTitulo);
             this.MainMenuStrip = this.menu;
             this.Name = "Inicio";
-            this.Text = "Form1";
+            this.Text = "IGU VENTAS";
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
             this.ResumeLayout(false);
