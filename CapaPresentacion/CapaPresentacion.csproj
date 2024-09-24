@@ -53,6 +53,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Igu_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Igu_Login.Designer.cs">
+      <DependentUpon>Igu_Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
