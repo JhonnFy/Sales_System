@@ -19,17 +19,17 @@ namespace CapaPresentacion
 
         private void Document_Number_TextChanged(object sender, EventArgs e)
         {
-
+            // Implementa la lógica necesaria aquí
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
-            
+            // Implementa la lógica necesaria aquí
         }
 
         private void Igu_Login_Load(object sender, EventArgs e)
         {
-
+            // Implementa la lógica necesaria para la carga del formulario aquí
         }
     }
 }
