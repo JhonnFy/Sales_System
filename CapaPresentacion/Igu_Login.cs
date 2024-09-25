@@ -31,5 +31,15 @@ namespace CapaPresentacion
         {
             // Implementa la lógica necesaria para la carga del formulario aquí
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
