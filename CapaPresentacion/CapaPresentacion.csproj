@@ -53,6 +53,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Igu_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Igu_Login.Designer.cs">
+      <DependentUpon>Igu_Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Igu_Login.resx">
+      <DependentUpon>Igu_Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +105,7 @@
     <Content Include="Iconos Igu Ventas\FontAwesome Icon6.png" />
     <Content Include="Iconos Igu Ventas\FontAwesome Icon7.png" />
     <Content Include="Iconos Igu Ventas\FontAwesome Icon8.png" />
+    <Content Include="Login\BancoDePruebas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
