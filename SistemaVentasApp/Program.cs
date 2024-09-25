@@ -1,10 +1,11 @@
-﻿using System;
+﻿using CapaPresentacion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CapaPresentacion
+namespace SistemaVentasApp
 {
     internal static class Program
     {
@@ -16,8 +17,8 @@ namespace CapaPresentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Inicio());
-            Application.Run(new LoginV1());
+            //Application.Run(new Form1());
+            Application.Run(new Igu_Login());
         }
     }
 }

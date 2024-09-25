@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class Igu_Login : Form
+    public partial class LoginV1 : Form
     {
-        public Igu_Login()
+        public LoginV1()
         {
             InitializeComponent();
         }
@@ -30,6 +30,16 @@ namespace CapaPresentacion
         private void Igu_Login_Load(object sender, EventArgs e)
         {
             // Implementa la lógica necesaria para la carga del formulario aquí
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
