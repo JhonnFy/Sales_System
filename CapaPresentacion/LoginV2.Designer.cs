@@ -68,6 +68,11 @@
             this.SalesSystem.Location = new System.Drawing.Point(81, 251);
             this.SalesSystem.Name = "SalesSystem";
             this.SalesSystem.Size = new System.Drawing.Size(163, 13);
+            this.SalesSystem.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SalesSystem.ForeColor = System.Drawing.Color.Black;
+            this.SalesSystem.Location = new System.Drawing.Point(84, 251);
+            this.SalesSystem.Name = "SalesSystem";
+            this.SalesSystem.Size = new System.Drawing.Size(163, 16);
             this.SalesSystem.TabIndex = 12;
             this.SalesSystem.Text = "SALES SYSTEM";
             this.SalesSystem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
