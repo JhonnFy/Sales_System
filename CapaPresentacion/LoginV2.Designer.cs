@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.SalesSystem = new System.Windows.Forms.TextBox();
             this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -51,26 +50,12 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel1.Controls.Add(this.SalesSystem);
             this.panel1.Controls.Add(this.iconPictureBox3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 400);
             this.panel1.TabIndex = 0;
-            // 
-            // SalesSystem
-            // 
-            this.SalesSystem.BackColor = System.Drawing.Color.SteelBlue;
-            this.SalesSystem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.SalesSystem.Font = new System.Drawing.Font("Microsoft Himalaya", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SalesSystem.ForeColor = System.Drawing.Color.Black;
-            this.SalesSystem.Location = new System.Drawing.Point(81, 251);
-            this.SalesSystem.Name = "SalesSystem";
-            this.SalesSystem.Size = new System.Drawing.Size(163, 13);
-            this.SalesSystem.TabIndex = 12;
-            this.SalesSystem.Text = "SALES SYSTEM";
-            this.SalesSystem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // iconPictureBox3
             // 
@@ -234,7 +219,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginV2";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocumentNumber)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
@@ -258,6 +242,5 @@
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
-        private System.Windows.Forms.TextBox SalesSystem;
     }
 }
