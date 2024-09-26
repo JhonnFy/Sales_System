@@ -51,7 +51,6 @@
             this.Name = "LoginV2";
             this.Text = "LoginV2";
             this.ResumeLayout(false);
-
         }
 
         #endregion
