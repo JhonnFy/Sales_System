@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SalesSystem = new System.Windows.Forms.TextBox();
+            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -39,13 +41,11 @@
             this.DocumentNumber = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
-            this.SalesSystem = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocumentNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -58,6 +58,33 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 400);
             this.panel1.TabIndex = 0;
+            // 
+            // SalesSystem
+            // 
+            this.SalesSystem.BackColor = System.Drawing.Color.SteelBlue;
+            this.SalesSystem.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SalesSystem.Font = new System.Drawing.Font("Microsoft Himalaya", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SalesSystem.ForeColor = System.Drawing.Color.Black;
+            this.SalesSystem.Location = new System.Drawing.Point(81, 251);
+            this.SalesSystem.Name = "SalesSystem";
+            this.SalesSystem.Size = new System.Drawing.Size(163, 13);
+            this.SalesSystem.TabIndex = 12;
+            this.SalesSystem.Text = "SALES SYSTEM";
+            this.SalesSystem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // iconPictureBox3
+            // 
+            this.iconPictureBox3.BackColor = System.Drawing.Color.SteelBlue;
+            this.iconPictureBox3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.Asymmetrik;
+            this.iconPictureBox3.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox3.IconSize = 241;
+            this.iconPictureBox3.Location = new System.Drawing.Point(1, 74);
+            this.iconPictureBox3.Name = "iconPictureBox3";
+            this.iconPictureBox3.Size = new System.Drawing.Size(243, 241);
+            this.iconPictureBox3.TabIndex = 0;
+            this.iconPictureBox3.TabStop = false;
             // 
             // label1
             // 
@@ -184,33 +211,6 @@
             this.iconPictureBox1.TabIndex = 11;
             this.iconPictureBox1.TabStop = false;
             // 
-            // iconPictureBox3
-            // 
-            this.iconPictureBox3.BackColor = System.Drawing.Color.SteelBlue;
-            this.iconPictureBox3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.Asymmetrik;
-            this.iconPictureBox3.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox3.IconSize = 241;
-            this.iconPictureBox3.Location = new System.Drawing.Point(4, 71);
-            this.iconPictureBox3.Name = "iconPictureBox3";
-            this.iconPictureBox3.Size = new System.Drawing.Size(243, 241);
-            this.iconPictureBox3.TabIndex = 0;
-            this.iconPictureBox3.TabStop = false;
-            // 
-            // SalesSystem
-            // 
-            this.SalesSystem.BackColor = System.Drawing.Color.SteelBlue;
-            this.SalesSystem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.SalesSystem.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SalesSystem.ForeColor = System.Drawing.Color.Black;
-            this.SalesSystem.Location = new System.Drawing.Point(86, 247);
-            this.SalesSystem.Name = "SalesSystem";
-            this.SalesSystem.Size = new System.Drawing.Size(163, 25);
-            this.SalesSystem.TabIndex = 12;
-            this.SalesSystem.Text = "Sales System";
-            this.SalesSystem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // LoginV2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,10 +235,10 @@
             this.Text = "LoginV2";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocumentNumber)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
