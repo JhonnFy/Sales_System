@@ -133,12 +133,22 @@ namespace CapaPresentacion
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            ////Se crea la instancia del objeto Inicio
-            Inicio FormLoginV2 = new Inicio();
+            // Se crea la instancia del formulario Inicio
+            Inicio formInicio = new Inicio();
 
-            ////Se usa el nuevo objeto, con la nomenclatura del punto
-            FormLoginV2.Show();
+            // Muestra el nuevo formulario y oculta el actual
+            formInicio.Show();
             this.Hide();
+
+            // Suscribe al evento FormClosed en lugar de FormClosing
+            formInicio.FormClosed += FormInicio_FormClosed;
         }
+
+        private void FormInicio_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Muestra el formulario actual nuevamente
+            this.Show();
+        }
+
     }
 }
