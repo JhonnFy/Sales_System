@@ -1,5 +1,9 @@
 # Sistema_Ventas
 
+![image](https://github.com/user-attachments/assets/f6a46e57-877f-4b48-ac43-7f8937d475c1)
+![image](https://github.com/user-attachments/assets/e5ca633b-fa25-4424-8815-c29c0b9b8dfa)
+![image](https://github.com/user-attachments/assets/412994ae-4781-4ed4-a9af-d829edc5037c)
+
 ![Modelo_Relacional](https://github.com/user-attachments/assets/43289df0-d032-4671-b771-cd0918d8eea7)
 ![AddFontAwesome](https://github.com/user-attachments/assets/8337fea9-b5ad-4b3f-a2d3-3c103634767c)
 ![FontAwesome Icon1](https://github.com/user-attachments/assets/06ff8831-6b47-4fd7-b431-1bb771bda1cc)
