@@ -17,7 +17,10 @@ namespace CapaPresentacion
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Inicio());
-            Application.Run(new Igu_Login());
+
+            //Application.Run(new LoginV1());
+            //Application.Run(new LoginV1());
+            Application.Run(new LoginV2());
         }
     }
 }
