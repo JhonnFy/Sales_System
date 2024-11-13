@@ -70,7 +70,7 @@
             this.Usuarios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Usuarios.Name = "Usuarios";
             this.Usuarios.Size = new System.Drawing.Size(100, 70);
-            this.Usuarios.Text = "Usuarios";
+            this.Usuarios.Text = "Users";
             this.Usuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // Administrador
@@ -83,7 +83,7 @@
             this.Administrador.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Administrador.Name = "Administrador";
             this.Administrador.Size = new System.Drawing.Size(100, 70);
-            this.Administrador.Text = "Administrador";
+            this.Administrador.Text = "Administrator";
             this.Administrador.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // Ventas
@@ -96,7 +96,7 @@
             this.Ventas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Ventas.Name = "Ventas";
             this.Ventas.Size = new System.Drawing.Size(100, 70);
-            this.Ventas.Text = "Ventas";
+            this.Ventas.Text = "Sales";
             this.Ventas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // Compras
@@ -109,7 +109,7 @@
             this.Compras.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Compras.Name = "Compras";
             this.Compras.Size = new System.Drawing.Size(100, 70);
-            this.Compras.Text = "Compras";
+            this.Compras.Text = "Shopping";
             this.Compras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // Clientes
@@ -122,7 +122,7 @@
             this.Clientes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Clientes.Name = "Clientes";
             this.Clientes.Size = new System.Drawing.Size(100, 70);
-            this.Clientes.Text = "Clientes";
+            this.Clientes.Text = "Clients";
             this.Clientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // Proveedores
@@ -135,7 +135,7 @@
             this.Proveedores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Proveedores.Name = "Proveedores";
             this.Proveedores.Size = new System.Drawing.Size(100, 70);
-            this.Proveedores.Text = "Proveedores";
+            this.Proveedores.Text = "Suppliers";
             this.Proveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // Reportes
@@ -148,7 +148,7 @@
             this.Reportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Reportes.Name = "Reportes";
             this.Reportes.Size = new System.Drawing.Size(122, 70);
-            this.Reportes.Text = "Reportes";
+            this.Reportes.Text = "Reports";
             this.Reportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // MiGitHub
@@ -161,7 +161,7 @@
             this.MiGitHub.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.MiGitHub.Name = "MiGitHub";
             this.MiGitHub.Size = new System.Drawing.Size(122, 70);
-            this.MiGitHub.Text = "Mi GitHub";
+            this.MiGitHub.Text = "My GitHub";
             this.MiGitHub.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // menuTitulo
@@ -183,9 +183,9 @@
             this.label.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label.Location = new System.Drawing.Point(12, 9);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(246, 31);
+            this.label.Size = new System.Drawing.Size(150, 31);
             this.label.TabIndex = 2;
-            this.label.Text = "Sistema De Ventas";
+            this.label.Text = "Kwik E Mar";
             // 
             // Contenedor
             // 
@@ -206,7 +206,7 @@
             this.Controls.Add(this.menuTitulo);
             this.MainMenuStrip = this.menu;
             this.Name = "Inicio";
-            this.Text = "IGU VENTAS";
+            this.Text = "Sales System";
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
             this.ResumeLayout(false);
