@@ -106,5 +106,11 @@
     <Content Include="Iconos Igu Ventas\FontAwesome Icon7.png" />
     <Content Include="Iconos Igu Ventas\FontAwesome Icon8.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{415c1c77-f8e0-487a-9473-2434837e8b78}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
