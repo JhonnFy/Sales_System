@@ -105,7 +105,6 @@
     <Content Include="Iconos Igu Ventas\FontAwesome Icon6.png" />
     <Content Include="Iconos Igu Ventas\FontAwesome Icon7.png" />
     <Content Include="Iconos Igu Ventas\FontAwesome Icon8.png" />
-    <Content Include="Login\FontLogin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
