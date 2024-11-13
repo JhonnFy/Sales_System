@@ -134,11 +134,11 @@ namespace CapaPresentacion
         private void btnLogin_Click(object sender, EventArgs e)
         {
             ////Se crea la instancia del objeto Inicio
-            //Inicio FormLoginV2 = new Inicio();
+            Inicio FormLoginV2 = new Inicio();
 
             ////Se usa el nuevo objeto, con la nomenclatura del punto
-            //FormLoginV2.Show();
-            //this.Hide();
+            FormLoginV2.Show();
+            this.Hide();
         }
     }
 }
