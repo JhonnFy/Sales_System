@@ -31,19 +31,21 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtuser = new System.Windows.Forms.TextBox();
+            this.txtpass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.Welcome = new System.Windows.Forms.TextBox();
             this.Acceder = new System.Windows.Forms.Button();
             this.DocumentNumber = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
+            this.pcbexit = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocumentNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbexit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,6 +58,8 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 400);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // iconPictureBox3
             // 
@@ -82,30 +86,35 @@
             this.label1.Text = "____________________________________________________";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // txtuser
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InfoText;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(350, 137);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 14);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Document Number";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtuser.BackColor = System.Drawing.SystemColors.InfoText;
+            this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtuser.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuser.ForeColor = System.Drawing.Color.DimGray;
+            this.txtuser.Location = new System.Drawing.Point(350, 137);
+            this.txtuser.Name = "txtuser";
+            this.txtuser.Size = new System.Drawing.Size(275, 14);
+            this.txtuser.TabIndex = 1;
+            this.txtuser.Text = "Document Number";
+            this.txtuser.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtuser.Enter += new System.EventHandler(this.txtUsuario_Enter);
+            this.txtuser.Leave += new System.EventHandler(this.txtuser_Leave);
             // 
-            // textBox2
+            // txtpass
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InfoText;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox2.Location = new System.Drawing.Point(347, 209);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(277, 14);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "User Password";
+            this.txtpass.BackColor = System.Drawing.SystemColors.InfoText;
+            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtpass.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpass.ForeColor = System.Drawing.Color.DimGray;
+            this.txtpass.Location = new System.Drawing.Point(347, 209);
+            this.txtpass.Name = "txtpass";
+            this.txtpass.Size = new System.Drawing.Size(277, 14);
+            this.txtpass.TabIndex = 2;
+            this.txtpass.Text = "User Password";
+            this.txtpass.TextChanged += new System.EventHandler(this.txtpass_TextChanged);
+            this.txtpass.Enter += new System.EventHandler(this.txtpass_Enter);
+            this.txtpass.Leave += new System.EventHandler(this.txtpass_Leave);
             // 
             // label2
             // 
@@ -153,7 +162,7 @@
             this.Acceder.Location = new System.Drawing.Point(310, 272);
             this.Acceder.Name = "Acceder";
             this.Acceder.Size = new System.Drawing.Size(315, 30);
-            this.Acceder.TabIndex = 8;
+            this.Acceder.TabIndex = 3;
             this.Acceder.Text = "Log In To The System";
             this.Acceder.UseVisualStyleBackColor = false;
             // 
@@ -183,18 +192,33 @@
             this.iconPictureBox2.TabIndex = 10;
             this.iconPictureBox2.TabStop = false;
             // 
+            // pcbexit
+            // 
+            this.pcbexit.ForeColor = System.Drawing.Color.DarkGray;
+            this.pcbexit.IconChar = FontAwesome.Sharp.IconChar.RightFromBracket;
+            this.pcbexit.IconColor = System.Drawing.Color.DarkGray;
+            this.pcbexit.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.pcbexit.IconSize = 24;
+            this.pcbexit.Location = new System.Drawing.Point(651, 40);
+            this.pcbexit.Name = "pcbexit";
+            this.pcbexit.Size = new System.Drawing.Size(24, 27);
+            this.pcbexit.TabIndex = 11;
+            this.pcbexit.TabStop = false;
+            this.pcbexit.Click += new System.EventHandler(this.pcbexit_Click);
+            // 
             // iconPictureBox1
             // 
             this.iconPictureBox1.ForeColor = System.Drawing.Color.DarkGray;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.FileExport;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Minus;
             this.iconPictureBox1.IconColor = System.Drawing.Color.DarkGray;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 23;
-            this.iconPictureBox1.Location = new System.Drawing.Point(659, 10);
+            this.iconPictureBox1.IconSize = 24;
+            this.iconPictureBox1.Location = new System.Drawing.Point(614, 40);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(32, 23);
-            this.iconPictureBox1.TabIndex = 11;
+            this.iconPictureBox1.Size = new System.Drawing.Size(24, 27);
+            this.iconPictureBox1.TabIndex = 12;
             this.iconPictureBox1.TabStop = false;
+            this.iconPictureBox1.Click += new System.EventHandler(this.iconPictureBox1_Click_1);
             // 
             // LoginV2
             // 
@@ -203,25 +227,29 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(700, 400);
             this.Controls.Add(this.iconPictureBox1);
+            this.Controls.Add(this.pcbexit);
             this.Controls.Add(this.iconPictureBox2);
             this.Controls.Add(this.DocumentNumber);
             this.Controls.Add(this.Acceder);
             this.Controls.Add(this.Welcome);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtpass);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtuser);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginV2";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LoginV2";
+            this.Text = " ";
+            this.Load += new System.EventHandler(this.LoginV2_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LoginV2_MouseDown);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocumentNumber)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbexit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -232,15 +260,16 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtuser;
+        private System.Windows.Forms.TextBox txtpass;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox Welcome;
         private System.Windows.Forms.Button Acceder;
         private FontAwesome.Sharp.IconPictureBox DocumentNumber;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
+        private FontAwesome.Sharp.IconPictureBox pcbexit;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
     }
 }
