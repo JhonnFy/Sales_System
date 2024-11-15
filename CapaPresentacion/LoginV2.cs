@@ -148,7 +148,25 @@ namespace CapaPresentacion
         {
             // Muestra el formulario actual nuevamente
             this.Show();
-        }
+
+            //Itera para consultar 
+            if (!string.IsNullOrEmpty(lblDni.Text))
+            {
+                lblDni.Text = "Document Number";
+                lblDni.ForeColor = ColorTranslator.FromHtml("#888888");
+
+                //Cursor Sobre Este Input
+                lblDni.Focus();
+            }
+
+            if (!string.IsNullOrEmpty(lblPassword.Text))
+            {
+                lblPassword.Text = "User Password";
+                lblPassword.ForeColor = ColorTranslator.FromHtml("#888888");
+                lblPassword.UseSystemPasswordChar = false;
+            }
+
+        }//Metodo
 
     }
 }
