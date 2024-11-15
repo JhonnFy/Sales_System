@@ -204,6 +204,7 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.menuTitulo);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MainMenuStrip = this.menu;
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
