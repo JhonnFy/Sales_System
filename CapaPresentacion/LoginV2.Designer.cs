@@ -242,6 +242,7 @@
             this.Controls.Add(this.lblDni);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginV2";
             this.Opacity = 0.9D;
