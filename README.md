@@ -4,6 +4,8 @@
 ![image](https://github.com/user-attachments/assets/e5ca633b-fa25-4424-8815-c29c0b9b8dfa)
 ![image](https://github.com/user-attachments/assets/412994ae-4781-4ed4-a9af-d829edc5037c)
 ![image](https://github.com/user-attachments/assets/71860924-44b2-440f-b6d1-de3fe2171ca1)
+![image](https://github.com/user-attachments/assets/7d624b19-67d1-42d7-a3d4-f7fcf7ed6804)
+
 
 
 ![Modelo_Relacional](https://github.com/user-attachments/assets/43289df0-d032-4671-b771-cd0918d8eea7)
