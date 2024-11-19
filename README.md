@@ -1,16 +1,23 @@
-# Sistema_Ventas
-
+# Sales System
 ![image](https://github.com/user-attachments/assets/f6a46e57-877f-4b48-ac43-7f8937d475c1)
 ![image](https://github.com/user-attachments/assets/e5ca633b-fa25-4424-8815-c29c0b9b8dfa)
 ![image](https://github.com/user-attachments/assets/412994ae-4781-4ed4-a9af-d829edc5037c)
-![image](https://github.com/user-attachments/assets/71860924-44b2-440f-b6d1-de3fe2171ca1)
+# Entities
+![image](https://github.com/user-attachments/assets/f51e201b-62f3-4ff6-9017-deacff6772fc)
 ![image](https://github.com/user-attachments/assets/7d624b19-67d1-42d7-a3d4-f7fcf7ed6804)
-#
-![image](https://github.com/user-attachments/assets/53d88a63-e62e-422f-9cdf-d9f0863b5401)
-
-
-
-
+![image](https://github.com/user-attachments/assets/d1957f68-04c7-40b4-9f4a-d16e5df30fdd)
+![image](https://github.com/user-attachments/assets/dceba795-ca49-4ce7-b101-370cdbb2a870)
+![image](https://github.com/user-attachments/assets/29e5fb1c-629c-4a78-936b-1e624b9dd2ec)
+![image](https://github.com/user-attachments/assets/88b250c9-3665-4419-98af-47ca0bc39800)
+![image](https://github.com/user-attachments/assets/cbb5a5e5-b187-4b49-ab8c-7199f389ed89)
+![image](https://github.com/user-attachments/assets/39573a44-826f-442f-809c-1737cea423d6)
+![image](https://github.com/user-attachments/assets/8ac7514e-b6ac-4389-9466-9e57583414bb)
+![image](https://github.com/user-attachments/assets/5cd246a0-8ba6-4098-abb2-7c28801a4258)
+![image](https://github.com/user-attachments/assets/e98e8ea7-bde3-461b-8dff-a67c9ae4402c)
+![image](https://github.com/user-attachments/assets/79a965ad-9716-46fc-a031-8ee3377675c5)
+![image](https://github.com/user-attachments/assets/6d88cca0-a014-4dd6-a4b6-a973c3d64a91)
+![image](https://github.com/user-attachments/assets/28c75f50-cfa6-4b0f-8d97-e861c9f893b7)
+# Relational Model
 ![Modelo_Relacional](https://github.com/user-attachments/assets/43289df0-d032-4671-b771-cd0918d8eea7)
 ![AddFontAwesome](https://github.com/user-attachments/assets/8337fea9-b5ad-4b3f-a2d3-3c103634767c)
 ![FontAwesome Icon1](https://github.com/user-attachments/assets/06ff8831-6b47-4fd7-b431-1bb771bda1cc)
@@ -21,4 +28,5 @@
 ![FontAwesome Icon6](https://github.com/user-attachments/assets/4eaadac0-2ad4-4ce7-85e8-b7ace75ab4e9)
 ![FontAwesome Icon7](https://github.com/user-attachments/assets/1a5faeb6-f024-4ca6-9495-72be5e43b227)
 ![FontAwesome Icon8](https://github.com/user-attachments/assets/029b1650-a6f3-4686-b0eb-0037bdde1b85)
+![image](https://github.com/user-attachments/assets/545e825a-884e-4753-bcc1-a34b40f431af)
 ![image](https://github.com/user-attachments/assets/36065114-25c1-4b20-afd7-2c90bbac0c99)
