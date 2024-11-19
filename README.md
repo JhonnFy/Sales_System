@@ -33,4 +33,6 @@
 # Connect DataBase
 ![image](https://github.com/user-attachments/assets/34ce988d-8eb9-495f-8ce2-e2bfd7f6f046)
 ![image](https://github.com/user-attachments/assets/e9842db3-b70d-4646-bf38-e8ae87546908)
+![image](https://github.com/user-attachments/assets/b0f2bdea-8373-45bf-88f8-81114d456ffb)
+![image](https://github.com/user-attachments/assets/f1be5a50-eef0-4600-8902-8b2373064265)
 
