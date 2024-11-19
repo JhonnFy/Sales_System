@@ -9,7 +9,7 @@
 ![image](https://github.com/user-attachments/assets/29e5fb1c-629c-4a78-936b-1e624b9dd2ec)
 ![image](https://github.com/user-attachments/assets/88b250c9-3665-4419-98af-47ca0bc39800)
 ![image](https://github.com/user-attachments/assets/cbb5a5e5-b187-4b49-ab8c-7199f389ed89)
-
+![image](https://github.com/user-attachments/assets/39573a44-826f-442f-809c-1737cea423d6)
 # Relational Model
 ![Modelo_Relacional](https://github.com/user-attachments/assets/43289df0-d032-4671-b771-cd0918d8eea7)
 ![AddFontAwesome](https://github.com/user-attachments/assets/8337fea9-b5ad-4b3f-a2d3-3c103634767c)
