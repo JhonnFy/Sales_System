@@ -11,7 +11,6 @@
 ![image](https://github.com/user-attachments/assets/cbb5a5e5-b187-4b49-ab8c-7199f389ed89)
 ![image](https://github.com/user-attachments/assets/39573a44-826f-442f-809c-1737cea423d6)
 # Relational Model
-![image](https://github.com/user-attachments/assets/545e825a-884e-4753-bcc1-a34b40f431af)
 ![Modelo_Relacional](https://github.com/user-attachments/assets/43289df0-d032-4671-b771-cd0918d8eea7)
 ![AddFontAwesome](https://github.com/user-attachments/assets/8337fea9-b5ad-4b3f-a2d3-3c103634767c)
 ![FontAwesome Icon1](https://github.com/user-attachments/assets/06ff8831-6b47-4fd7-b431-1bb771bda1cc)
@@ -22,4 +21,5 @@
 ![FontAwesome Icon6](https://github.com/user-attachments/assets/4eaadac0-2ad4-4ce7-85e8-b7ace75ab4e9)
 ![FontAwesome Icon7](https://github.com/user-attachments/assets/1a5faeb6-f024-4ca6-9495-72be5e43b227)
 ![FontAwesome Icon8](https://github.com/user-attachments/assets/029b1650-a6f3-4686-b0eb-0037bdde1b85)
+![image](https://github.com/user-attachments/assets/545e825a-884e-4753-bcc1-a34b40f431af)
 ![image](https://github.com/user-attachments/assets/36065114-25c1-4b20-afd7-2c90bbac0c99)
