@@ -42,4 +42,5 @@
 ![image](https://github.com/user-attachments/assets/92ce196f-8039-42a3-841c-7d565c51dc8d)
 #Connection-class
 ![image](https://github.com/user-attachments/assets/b6a2fe67-c5b4-4b9d-9e26-bb437a3520ed)
+![image](https://github.com/user-attachments/assets/e7dae2de-21ac-47b3-9503-9e5c997e0c38)
 
