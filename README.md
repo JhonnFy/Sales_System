@@ -40,3 +40,6 @@
 ![image](https://github.com/user-attachments/assets/4ccd6e83-16b1-42ce-aa83-23707ea39bff)
 ![image](https://github.com/user-attachments/assets/92984c4b-3255-4d02-9239-d5020fb61b48)
 ![image](https://github.com/user-attachments/assets/92ce196f-8039-42a3-841c-7d565c51dc8d)
+#Connection-class
+![image](https://github.com/user-attachments/assets/b6a2fe67-c5b4-4b9d-9e26-bb437a3520ed)
+
