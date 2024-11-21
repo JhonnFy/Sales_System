@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
+//Referencia
+using CapaNegocio;
+using CapaEntidad;
+
 
 namespace CapaPresentacion
 {
@@ -133,15 +137,30 @@ namespace CapaPresentacion
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            // Se crea la instancia del formulario Inicio
-            Inicio formInicio = new Inicio();
 
-            // Muestra el nuevo formulario y oculta el actual
-            formInicio.Show();
-            this.Hide();
+            List<Usuario> objTest = new CN_Usuario().Listar();
 
-            // Suscribe al evento FormClosed en lugar de FormClosing
-            formInicio.FormClosed += FormInicio_FormClosed;
+            //Expresion lamda para conexion
+            Usuario objUsuario = new CN_Usuario().Listar().Where(u => u.Documento == lblDni.Text && u.Clave == lblPassword.Text).FirstOrDefault();
+
+
+            //Control Iterador
+            if (objUsuario != null)
+            {
+                // Se crea la instancia del formulario Inicio
+                Inicio formInicio = new Inicio();
+
+                // Muestra el nuevo formulario y oculta el actual
+                formInicio.Show();
+                this.Hide();
+
+                // Suscribe al evento FormClosed en lugar de FormClosing
+                formInicio.FormClosed += FormInicio_FormClosed;
+            }
+            else
+            {
+                MessageBox.Show("The User Cannot Be Found in the DB", "Not Found", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void FormInicio_FormClosed(object sender, FormClosedEventArgs e)

@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using CapaEntidad;
- 
+
+
 
 namespace CapaDatos
 {
@@ -26,7 +27,7 @@ namespace CapaDatos
 
                 try
                 {
-                    string querySQL = "SELECT  IdUsuario, Documento, NombreCompleto,Correo,Clave, Estado  FROM [dbSistema_Ventas].[dbo].[USUARIO]";
+                    string querySQL = "SELECT  IdUsuario, Documento, NombreCompleto,Correo,Clave, Estado  FROM  USUARIO";
                     SqlCommand cmd = new SqlCommand(querySQL, objConexion);
                     
                     cmd.CommandType = CommandType.Text;
@@ -52,7 +53,8 @@ namespace CapaDatos
                 }
                 catch (Exception ex)
                 {
-                    lista = new List<Usuario>();
+                    Console.WriteLine("Error al ejecutar la consulta: " + ex.Message);
+                    //lista = new List<Usuario>();
                 }
             }
             return lista;

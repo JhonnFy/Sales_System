@@ -11,12 +11,11 @@ namespace CapaNegocio
     public class CN_Usuario
     {
         //Nuevo Objeto
-        private CD_Usuario objCD_Usuario = new CD_Usuario();
+        private CD_Usuario objcd_Usuario = new CD_Usuario();
 
         public List<Usuario> Listar()
         {
-            return objCD_Usuario.Listar();
+            return objcd_Usuario.Listar();
         }
-
     }
 }
