@@ -1,0 +1,419 @@
+*   [33mdcf3288[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'feature/FormAlerts'
+[31m|[m[32m\[m  
+[31m|[m *   [33m1cc6daf[m [Característica] Se agregan los txtBox al formulario de alertas para notificaciones de usuario
+[31m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33m6bf9f46[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m *   [33mfe3e0d3[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m [1;31m|[m[1;32m\[m  
+* [1;31m|[m [1;32m\[m   [33m5e8e10d[m [Característica] Se le agrega el título y opciones personalizadas al formulario de alertas para notificaciones de usuario
+[1;31m|[m[1;32m\[m [1;31m\[m [1;32m\[m  
+[1;31m|[m [1;32m|[m[1;31m/[m [1;32m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;32m/[m   
+[1;31m|[m [1;32m|[m[1;32m/[m    
+[1;31m|[m * [33m6012f9b[m Update README.md
+* [1;34m|[m [33m7b3ec13[m [Característica] Se agregó un nuevo formulario personalizado de alertas con mensajes personalizados para notificaciones de usuarios.
+[1;34m|[m[1;34m/[m  
+* [33m4373962[m Update README.md
+* [33m4053867[m Update README.md
+*   [33me3eb38c[m Merge branch 'feature/connection-igu'
+[1;35m|[m[1;36m\[m  
+[1;35m|[m *   [33maeb6aff[m[33m ([m[1;32mfeature/connection-igu[m[33m)[m Feat: Control del formulario con registros de la base de datos
+[1;35m|[m [31m|[m[32m\[m  
+* [31m|[m [32m|[m [33mc8d9869[m Update README.md
+* [31m|[m [32m|[m [33m35be01f[m Update README.md
+* [31m|[m [32m|[m   [33me265bc3[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[31m|[m[32m\[m [31m\[m [32m\[m  
+[31m|[m [32m|[m[31m/[m [32m/[m  
+[31m|[m[31m/[m[32m|[m [32m/[m   
+[31m|[m [32m|[m[32m/[m    
+[31m|[m * [33mfa589c3[m Update README.md
+[31m|[m * [33mb317df6[m Update README.md
+[31m|[m * [33m0ee48a2[m Update README.md
+[31m|[m * [33m3c7654f[m Update README.md
+[31m|[m * [33m6b0f126[m Update README.md
+[31m|[m * [33mc069172[m Update README.md
+[31m|[m * [33m2abc2ad[m Update README.md
+[31m|[m * [33m94bdf07[m Update README.md
+[31m|[m * [33m800b8a1[m Update README.md
+[31m|[m * [33m06eb1a0[m Update README.md
+[31m|[m * [33ma3de5ff[m Update README.md
+[31m|[m * [33m05a6736[m Update README.md
+[31m|[m * [33me83c6ea[m Update README.md
+[31m|[m * [33m331c8a1[m Update README.md
+[31m|[m * [33mc885a1d[m Update README.md
+* [34m|[m   [33m13d701b[m Merge branch 'feature/connection-class'
+[34m|[m[36m\[m [34m\[m  
+[34m|[m [36m|[m[34m/[m  
+[34m|[m[34m/[m[36m|[m   
+[34m|[m *   [33mb59223b[m[33m ([m[1;32mfeature/connection-class[m[33m)[m feat: Implementar clase CD_Usuario para listar usuarios desde la base de datos
+[34m|[m [1;31m|[m[1;32m\[m  
+* [1;31m|[m [1;32m\[m   [33m3859853[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;31m|[m[1;32m\[m [1;31m\[m [1;32m\[m  
+[1;31m|[m [1;32m|[m[1;31m/[m [1;32m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;32m/[m   
+[1;31m|[m [1;32m|[m[1;32m/[m    
+[1;31m|[m *   [33m1a76d65[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;31m|[m [1;35m|[m[1;36m\[m  
+* [1;35m|[m [1;36m\[m   [33mba14207[m [Configuración] Agregar conexión a la base de datos SQL Server local
+[1;35m|[m[1;36m\[m [1;35m\[m [1;36m\[m  
+[1;35m|[m [1;36m|[m[1;35m/[m [1;36m/[m  
+[1;35m|[m[1;35m/[m[1;36m|[m [1;36m/[m   
+[1;35m|[m [1;36m|[m[1;36m/[m    
+[1;35m|[m * [33m4a33b26[m Update README.md
+[1;35m|[m * [33m51a9ba2[m Connect DataBase.md
+[1;35m|[m * [33mb21f541[m Update README.md
+[1;35m|[m * [33m8f695df[m Update README.md
+[1;35m|[m * [33m59cd3d1[m Update README.md
+[1;35m|[m * [33m8893024[m Update README.md
+[1;35m|[m *   [33meced051[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;35m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33ma4ef70e[m [Configuración] Agregar conexión a la base de datos SQL Server local
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m * [33m933a5bd[m Update README.md
+[33m|[m * [33m9338385[m Update README.md
+[33m|[m * [33m891d6cb[m Update README.md
+[33m|[m * [33mc013491[m Update README.md
+[33m|[m * [33md53c580[m Update README.md
+[33m|[m * [33m46a31c1[m Update README.md
+[33m|[m * [33mda40221[m Update README.md
+[33m|[m * [33m6d74c06[m Update README.md
+[33m|[m * [33mb8c173c[m Update README.md
+[33m|[m * [33mf275909[m Update README.md
+[33m|[m * [33mfb00c52[m Update README.md
+[33m|[m * [33m1e88c2c[m Update README.md
+[33m|[m * [33mea9ec13[m Update README.md
+[33m|[m * [33ma3b964a[m Update README.md
+[33m|[m * [33m5dbf8f2[m Update README.md
+[33m|[m * [33m735aa89[m Update README.md
+[33m|[m * [33mba9ced8[m Update README.md
+[33m|[m * [33mab7b365[m Update README.md
+[33m|[m * [33m539bccc[m Update README.md
+* [36m|[m [33m65d4958[m[33m ([m[1;32mfeature/Entities[m[33m)[m feat: Se agrega clase 'Venta' para representar la tabla Venta en la DB
+[36m|[m[36m/[m  
+*   [33ma83b210[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33m911d770[m Update README.md
+* [1;32m|[m [33m68d8508[m feat: Se elimina la clase por defecto en CapaEntidad
+[1;32m|[m[1;32m/[m  
+* [33m5342f6e[m Class Rol.md
+* [33me5aa927[m Add Class Entidad.md
+*   [33mb0b3352[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;33m|[m[1;34m\[m  
+[1;33m|[m * [33m2a7b05b[m Update README.md
+[1;33m|[m *   [33m0dcb43f[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;33m|[m [1;35m|[m[1;36m\[m  
+* [1;35m|[m [1;36m\[m   [33mc8c1e4a[m feat(Igu): Cambiar cursor a icono de mano en elementos interactivos.
+[1;35m|[m[1;36m\[m [1;35m\[m [1;36m\[m  
+[1;35m|[m [1;36m|[m[1;35m/[m [1;36m/[m  
+[1;35m|[m[1;35m/[m[1;36m|[m [1;36m/[m   
+[1;35m|[m [1;36m|[m[1;36m/[m    
+[1;35m|[m *   [33m236eafd[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;35m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33m9d6e56a[m feat(Igu): Cambiar cursor a icono de mano en elementos interactivos.
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m *   [33m3abfe11[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m [1;31m|[m[1;32m\[m  
+* [1;31m|[m [1;32m\[m   [33mc6cfa23[m feat: Añadida funcionalidad para preservar los valores "Document Number" y "User Password" al cerrar el segundo formulario.
+[1;31m|[m[1;32m\[m [1;31m\[m [1;32m\[m  
+[1;31m|[m [1;32m|[m[1;31m/[m [1;32m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;32m/[m   
+[1;31m|[m [1;32m|[m[1;32m/[m    
+[1;31m|[m *   [33m1b8ee0e[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;31m|[m [1;35m|[m[1;36m\[m  
+* [1;35m|[m [1;36m\[m   [33m823411c[m style: centra el formulario 2 en la pantalla al iniciar
+[1;35m|[m[1;36m\[m [1;35m\[m [1;36m\[m  
+[1;35m|[m [1;36m|[m[1;35m/[m [1;36m/[m  
+[1;35m|[m[1;35m/[m[1;36m|[m [1;36m/[m   
+[1;35m|[m [1;36m|[m[1;36m/[m    
+[1;35m|[m *   [33mf90b177[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;35m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33m2a0a34a[m feat:Se agrega funcionalidad para regresar al formulario de login desde inicio.
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m *   [33m8b99b18[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m [1;31m|[m[1;32m\[m  
+* [1;31m|[m [1;32m\[m   [33mcae235c[m OpenInicio
+[1;31m|[m[1;32m\[m [1;31m\[m [1;32m\[m  
+[1;31m|[m [1;32m|[m[1;31m/[m [1;32m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;32m/[m   
+[1;31m|[m [1;32m|[m[1;32m/[m    
+[1;31m|[m * [33m3c8b529[m Update Configuration.md
+[1;31m|[m * [33mbe480ea[m Configuration.md
+[1;31m|[m *   [33mc0a0314[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;31m|[m [1;35m|[m[1;36m\[m  
+* [1;35m|[m [1;36m\[m   [33m2759199[m RestoredProjectLoginV2
+[1;35m|[m[1;36m\[m [1;35m\[m [1;36m\[m  
+[1;35m|[m [1;36m|[m[1;35m/[m [1;36m/[m  
+[1;35m|[m[1;35m/[m[1;36m|[m [1;36m/[m   
+[1;35m|[m [1;36m|[m[1;36m/[m    
+[1;35m|[m *   [33mb355077[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;35m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33mf37a65f[m ChangesNames
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m *   [33mae5140a[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m [1;31m|[m[1;32m\[m  
+* [1;31m|[m [1;32m\[m   [33m00566e0[m RemovePNG
+[1;31m|[m[1;32m\[m [1;31m\[m [1;32m\[m  
+[1;31m|[m [1;32m|[m[1;31m/[m [1;32m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;32m/[m   
+[1;31m|[m [1;32m|[m[1;32m/[m    
+[1;31m|[m *   [33m2dcae77[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;31m|[m [1;35m|[m[1;36m\[m  
+* [1;35m|[m [1;36m\[m   [33m3ef1807[m FormV2 instanceMerge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;35m|[m[1;36m\[m [1;35m\[m [1;36m\[m  
+[1;35m|[m [1;36m|[m[1;35m/[m [1;36m/[m  
+[1;35m|[m[1;35m/[m[1;36m|[m [1;36m/[m   
+[1;35m|[m [1;36m|[m[1;36m/[m    
+[1;35m|[m *   [33m37fee00[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;35m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33m1ca1041[m FormV2 instanceMerge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m * [33m6b4cec8[m Readme LoginV2.md
+[33m|[m *   [33m03b2b1f[m Merge branch 'LoginV2'
+[33m|[m [1;31m|[m[1;32m\[m  
+* [1;31m|[m [1;32m\[m   [33m83d332d[m FormV2 instanceMerge branch 'LoginV2'
+[1;31m|[m[1;32m\[m [1;31m\[m [1;32m\[m  
+[1;31m|[m [1;32m|[m[1;31m/[m [1;32m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;32m/[m   
+[1;31m|[m [1;32m|[m[1;32m/[m    
+[1;31m|[m *   [33m2df6d1e[m[33m ([m[1;31morigin/LoginV2[m[33m, [m[1;32mLoginV2[m[33m)[m Delete LoginV1
+[1;31m|[m [1;35m|[m[1;36m\[m  
+[1;31m|[m [1;35m|[m *   [33m5f188d7[m [Solucion Sin Conflictos]
+[1;31m|[m [1;35m|[m [31m|[m[32m\[m  
+[1;31m|[m * [31m|[m [32m\[m   [33m08a5364[m Funcionalidad[Logo]
+[1;31m|[m [31m|[m[32m\[m [31m\[m [32m\[m  
+[1;31m|[m [31m|[m [32m|[m[31m/[m [32m/[m  
+[1;31m|[m [31m|[m[31m/[m[32m|[m [32m/[m   
+[1;31m|[m [31m|[m [32m|[m[32m/[m    
+[1;31m|[m [31m|[m *   [33m35e5e35[m [Funcionalidad, solucionar conflictos en el archivo LoginV2]
+[1;31m|[m [31m|[m [35m|[m[36m\[m  
+[1;31m|[m * [35m|[m [36m\[m   [33mecbef73[m Funcionalidad[Logo]
+[1;31m|[m [35m|[m[36m\[m [35m\[m [36m\[m  
+[1;31m|[m [35m|[m [36m|[m[35m/[m [36m/[m  
+[1;31m|[m [35m|[m[35m/[m[36m|[m [36m/[m   
+[1;31m|[m [35m|[m [36m|[m[36m/[m    
+[1;31m|[m [35m|[m *   [33m118e920[m Solucion Conflictos En Este Archivo LoginV2
+[1;31m|[m [35m|[m [1;33m|[m[1;34m\[m  
+[1;31m|[m * [1;33m|[m [1;34m\[m   [33m641ed8f[m Funcionalidad[Modificar El Icono]
+[1;31m|[m [1;33m|[m[1;34m\[m [1;33m\[m [1;34m\[m  
+[1;31m|[m [1;33m|[m [1;34m|[m[1;33m/[m [1;34m/[m  
+[1;31m|[m [1;33m|[m[1;33m/[m[1;34m|[m [1;34m/[m   
+[1;31m|[m [1;33m|[m [1;34m|[m[1;34m/[m    
+[1;31m|[m [1;33m|[m *   [33m8b4a7dc[m [Solucion, archivos LoginV2Desinger y Programcs, ya tienen la misma vrs]
+[1;31m|[m [1;33m|[m [31m|[m[32m\[m  
+[1;31m|[m * [31m|[m [32m\[m   [33m4eb9e1d[m Funcionalidad[Se agrega los iconos del sistema de vetas, los imput, el boton, y el mensaja de bienvenida][Solucion, archivos LoginV2Desinger y Programcs, ya tienen la misma vrs]
+[1;31m|[m [31m|[m[32m\[m [31m\[m [32m\[m  
+[1;31m|[m [31m|[m [32m|[m[31m/[m [32m/[m  
+[1;31m|[m [31m|[m[31m/[m[32m|[m [32m/[m   
+[1;31m|[m [31m|[m [32m|[m[32m/[m    
+[1;31m|[m [31m|[m *   [33m9aae91d[m NuevaFuncionalidad[Agregue un nuevo Form, para el loginV2, cambie el nombre del anterior Loginv1]Merge branch 'Igu_Login'
+[1;31m|[m [31m|[m [35m|[m[36m\[m  
+[1;31m|[m * [35m|[m [36m\[m   [33mbe53112[m Funcionalidad[Program.cs, se cambia el orden para que inicie por el nuevo Loginv2]
+[1;31m|[m [35m|[m[36m\[m [35m\[m [36m\[m  
+[1;31m|[m [35m|[m [36m|[m[35m/[m [36m/[m  
+[1;31m|[m [35m|[m[35m/[m[36m|[m [36m/[m   
+[1;31m|[m [35m|[m [36m|[m[36m/[m    
+* [35m|[m [36m|[m   [33m88d4988[m Merge branch 'Igu_Login'
+[35m|[m[36m\[m [35m\[m [36m\[m  
+[35m|[m [36m|[m[35m/[m [36m/[m  
+[35m|[m[35m/[m[36m|[m [36m/[m   
+[35m|[m [36m|[m[36m/[m    
+[35m|[m *   [33m3566764[m[33m ([m[1;31morigin/Igu_Login[m[33m)[m Merge branch 'Igu_Login' of https://github.com/JhonnFy/Sistema_Ventas into Igu_Login
+[35m|[m [1;35m|[m[1;36m\[m  
+[35m|[m [1;35m|[m *   [33m1aea1ad[m Merge branch 'Igu_Login' of https://github.com/JhonnFy/Sistema_Ventas into Igu_Login
+[35m|[m [1;35m|[m [31m|[m[32m\[m  
+[35m|[m * [31m|[m [32m\[m   [33m0ca0983[m Igu V3
+[35m|[m [31m|[m[32m\[m [31m\[m [32m\[m  
+[35m|[m [31m|[m [32m|[m[31m/[m [32m/[m  
+[35m|[m [31m|[m[31m/[m[32m|[m [32m/[m   
+[35m|[m [31m|[m [32m|[m[32m/[m    
+[35m|[m [31m|[m *   [33m8957631[m Merge branch 'Igu_Login' of https://github.com/JhonnFy/Sistema_Ventas into Igu_Login
+[35m|[m [31m|[m [35m|[m[36m\[m  
+[35m|[m * [35m|[m [36m\[m   [33m7f92894[m IguV3
+[35m|[m [35m|[m[36m\[m [35m\[m [36m\[m  
+[35m|[m [35m|[m [36m|[m[35m/[m [36m/[m  
+[35m|[m [35m|[m[35m/[m[36m|[m [36m/[m   
+[35m|[m [35m|[m [36m|[m[36m/[m    
+[35m|[m [35m|[m *   [33m4982172[m Merge branch 'Igu_Login' of https://github.com/JhonnFy/Sistema_Ventas into Igu_Login
+[35m|[m [35m|[m [1;33m|[m[1;34m\[m  
+[35m|[m * [1;33m|[m [1;34m\[m   [33m1ff4411[m IguV3
+[35m|[m [1;33m|[m[1;34m\[m [1;33m\[m [1;34m\[m  
+[35m|[m [1;33m|[m [1;34m|[m[1;33m/[m [1;34m/[m  
+[35m|[m [1;33m|[m[1;33m/[m[1;34m|[m [1;34m/[m   
+[35m|[m [1;33m|[m [1;34m|[m[1;34m/[m    
+[35m|[m [1;33m|[m *   [33m132fb3c[m Merge branch 'Igu_Login' of https://github.com/JhonnFy/Sistema_Ventas into Igu_Login
+[35m|[m [1;33m|[m [31m|[m[32m\[m  
+[35m|[m * [31m|[m [32m\[m   [33m0685246[m IguV2
+[35m|[m [31m|[m[32m\[m [31m\[m [32m\[m  
+[35m|[m [31m|[m [32m|[m[31m/[m [32m/[m  
+[35m|[m [31m|[m[31m/[m[32m|[m [32m/[m   
+[35m|[m [31m|[m [32m|[m[32m/[m    
+[35m|[m [31m|[m *   [33m41536bd[m Merge branch 'Igu_Login' of https://github.com/JhonnFy/Sistema_Ventas into Igu_Login
+[35m|[m [31m|[m [35m|[m[36m\[m  
+[35m|[m * [35m|[m [36m\[m   [33m5db028a[m Label Textbox
+[35m|[m [35m|[m[36m\[m [35m\[m [36m\[m  
+[35m|[m [35m|[m [36m|[m[35m/[m [36m/[m  
+[35m|[m [35m|[m[35m/[m[36m|[m [36m/[m   
+[35m|[m [35m|[m [36m|[m[36m/[m    
+[35m|[m * [36m|[m   [33mc7990d4[m Imagen Para LoginResolución de conflictos en Igu_Login.cs e Igu_Login.Designer.cs
+[35m|[m [1;33m|[m[1;34m\[m [36m\[m  
+* [1;33m|[m [1;34m\[m [36m\[m   [33md7a2fb5[m Merge branch 'Igu_Login'
+[1;35m|[m[36m\[m [1;33m\[m [1;34m\[m [36m\[m  
+[1;35m|[m [36m|[m [1;33m|[m[36m_[m[1;34m|[m[36m/[m  
+[1;35m|[m [36m|[m[36m/[m[1;33m|[m [1;34m|[m   
+[1;35m|[m * [1;33m|[m [1;34m|[m   [33m28ed8c3[m Resolución de conflictos en Igu_Login.cs e Igu_Login.Designer.cs
+[1;35m|[m [1;33m|[m[1;34m\[m [1;33m\[m [1;34m\[m  
+[1;35m|[m [1;33m|[m [1;34m|[m[1;33m/[m [1;34m/[m  
+[1;35m|[m [1;33m|[m[1;33m/[m[1;34m|[m [1;34m/[m   
+[1;35m|[m [1;33m|[m [1;34m|[m[1;34m/[m    
+[1;35m|[m [1;33m|[m *   [33m8980cd2[m Igu_Login
+[1;35m|[m [1;33m|[m [33m|[m[34m\[m  
+[1;35m|[m * [33m|[m [34m\[m   [33md9ca487[m Igu V1
+[1;35m|[m [33m|[m[34m\[m [33m\[m [34m\[m  
+[1;35m|[m [33m|[m [34m|[m[33m/[m [34m/[m  
+[1;35m|[m [33m|[m[33m/[m[34m|[m [34m/[m   
+[1;35m|[m [33m|[m [34m|[m[34m/[m    
+* [33m|[m [34m|[m   [33mb2e1d54[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m * [33m6a5d361[m Update README.md
+* [1;32m|[m   [33mfbb1eb7[m Merge branch 'IguVentasv1'
+[1;32m|[m[1;34m\[m [1;32m\[m  
+[1;32m|[m [1;34m|[m[1;32m/[m  
+[1;32m|[m[1;32m/[m[1;34m|[m   
+[1;32m|[m *   [33m576b2e7[m[33m ([m[1;31morigin/IguVeentasv1[m[33m, [m[1;32mIguVeentasv1[m[33m)[m Merge branch 'IguVeentasv1' of https://github.com/JhonnFy/Sistema_Ventas into IguVentasv1
+[1;32m|[m [1;35m|[m[1;36m\[m  
+[1;32m|[m [1;35m|[m *   [33m582c898[m Merge branch 'IguVeentasv1' of https://github.com/JhonnFy/Sistema_Ventas into IguVentasv1
+[1;32m|[m [1;35m|[m [31m|[m[32m\[m  
+[1;32m|[m * [31m|[m [32m\[m   [33m410c837[m Igu Ventas
+[1;32m|[m [31m|[m[32m\[m [31m\[m [32m\[m  
+[1;32m|[m [31m|[m [32m|[m[31m/[m [32m/[m  
+[1;32m|[m [31m|[m[31m/[m[32m|[m [32m/[m   
+[1;32m|[m [31m|[m [32m|[m[32m/[m    
+[1;32m|[m [31m|[m *   [33mc2e4114[m Merge branch 'IguVeentasv1' of https://github.com/JhonnFy/Sistema_Ventas into IguVeentasv1
+[1;32m|[m [31m|[m [35m|[m[36m\[m  
+[1;32m|[m * [35m|[m [36m\[m   [33m12cb99d[m Igu v1 TerminadaMerge branch 'IguVeentasv1' of https://github.com/JhonnFy/Sistema_Ventas into IguVeentasv1
+[1;32m|[m [35m|[m[36m\[m [35m\[m [36m\[m  
+[1;32m|[m [35m|[m [36m|[m[35m/[m [36m/[m  
+[1;32m|[m [35m|[m[35m/[m[36m|[m [36m/[m   
+[1;32m|[m [35m|[m [36m|[m[36m/[m    
+[1;32m|[m [35m|[m *   [33m1dfe689[m Merge branch 'IguVeentasv1' of https://github.com/JhonnFy/Sistema_Ventas into IguVeentasv1
+[1;32m|[m [35m|[m [1;33m|[m[1;34m\[m  
+[1;32m|[m * [1;33m|[m [1;34m\[m   [33m65d7b68[m Igu V1 Terminada
+[1;32m|[m [1;33m|[m[1;34m\[m [1;33m\[m [1;34m\[m  
+[1;32m|[m [1;33m|[m [1;34m|[m[1;33m/[m [1;34m/[m  
+[1;32m|[m [1;33m|[m[1;33m/[m[1;34m|[m [1;34m/[m   
+[1;32m|[m [1;33m|[m [1;34m|[m[1;34m/[m    
+[1;32m|[m * [1;34m|[m   [33m3fe55b6[m Label v1
+[1;32m|[m [31m|[m[32m\[m [1;34m\[m  
+* [31m|[m [32m\[m [1;34m\[m   [33m742600b[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m[1;34m\[m [31m\[m [32m\[m [1;34m\[m  
+[33m|[m [1;34m|[m [31m|[m[1;34m_[m[32m|[m[1;34m/[m  
+[33m|[m [1;34m|[m[1;34m/[m[31m|[m [32m|[m   
+[33m|[m * [31m|[m [32m|[m   [33m57897b6[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m [31m|[m[32m\[m [31m\[m [32m\[m  
+[33m|[m [31m|[m [32m|[m[31m/[m [32m/[m  
+[33m|[m [31m|[m[31m/[m[32m|[m [32m/[m   
+[33m|[m [31m|[m [32m|[m[32m/[m    
+* [31m|[m [32m|[m   [33mac2158b[m Cambio En El Icono 5
+[31m|[m[32m\[m [31m\[m [32m\[m  
+[31m|[m [32m|[m[31m/[m [32m/[m  
+[31m|[m[31m/[m[32m|[m [32m/[m   
+[31m|[m [32m|[m[32m/[m    
+[31m|[m *   [33mc8d6eb6[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[31m|[m [1;33m|[m[1;34m\[m  
+* [1;33m|[m [1;34m\[m   [33m26c12cd[m Libreria Font Awesome
+[1;33m|[m[1;34m\[m [1;33m\[m [1;34m\[m  
+[1;33m|[m [1;34m|[m[1;33m/[m [1;34m/[m  
+[1;33m|[m[1;33m/[m[1;34m|[m [1;34m/[m   
+[1;33m|[m [1;34m|[m[1;34m/[m    
+[1;33m|[m *   [33m77ca519[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;33m|[m [31m|[m[32m\[m  
+* [31m|[m [32m\[m   [33md4125fd[m Formulario Igu
+[31m|[m[32m\[m [31m\[m [32m\[m  
+[31m|[m [32m|[m[31m/[m [32m/[m  
+[31m|[m[31m/[m[32m|[m [32m/[m   
+[31m|[m [32m|[m[32m/[m    
+[31m|[m *   [33m52ee0a2[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[31m|[m [35m|[m[36m\[m  
+* [35m|[m [36m\[m   [33m17607b1[m Iconos Igu VentasMerge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[35m|[m[36m\[m [35m\[m [36m\[m  
+[35m|[m [36m|[m[35m/[m [36m/[m  
+[35m|[m[35m/[m[36m|[m [36m/[m   
+[35m|[m [36m|[m[36m/[m    
+[35m|[m *   [33m6ad86e4[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[35m|[m [1;33m|[m[1;34m\[m  
+* [1;33m|[m [1;34m\[m   [33m7afde9c[m Iconos Igu VentasMerge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;33m|[m[1;34m\[m [1;33m\[m [1;34m\[m  
+[1;33m|[m [1;34m|[m[1;33m/[m [1;34m/[m  
+[1;33m|[m[1;33m/[m[1;34m|[m [1;34m/[m   
+[1;33m|[m [1;34m|[m[1;34m/[m    
+[1;33m|[m * [33mc4c5d31[m Cambios En Capa Presentacion
+* [1;36m|[m [33m5c192eb[m FontAwesomeCambios En Capa Presentacion
+[1;36m|[m[1;36m/[m  
+* [33ma4b433b[m Update README.md
+* [33m853f867[m Agregar FontAwesomeCapaPresentacion Fw702
+* [33m968e0d6[m Capa De Presentacion
+*   [33m2c6adee[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[31m|[m[32m\[m  
+[31m|[m *   [33m93db886[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[31m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33m1f30fea[m Renombrando La SolucionMerge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m *   [33m479d28d[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m [1;31m|[m[1;32m\[m  
+* [1;31m|[m [1;32m\[m   [33mbf4a499[m Vincular Libreria FontAwesomeMerge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;31m|[m[1;32m\[m [1;31m\[m [1;32m\[m  
+[1;31m|[m [1;32m|[m[1;31m/[m [1;32m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;32m/[m   
+[1;31m|[m [1;32m|[m[1;32m/[m    
+[1;31m|[m *   [33m9ce5a2c[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;31m|[m [1;35m|[m[1;36m\[m  
+* [1;35m|[m [1;36m\[m   [33md573806[m Vincular Libreria FontAwesome Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;35m|[m[1;36m\[m [1;35m\[m [1;36m\[m  
+[1;35m|[m [1;36m|[m[1;35m/[m [1;36m/[m  
+[1;35m|[m[1;35m/[m[1;36m|[m [1;36m/[m   
+[1;35m|[m [1;36m|[m[1;36m/[m    
+[1;35m|[m *   [33m44d7b40[m Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[1;35m|[m [33m|[m[34m\[m  
+* [33m|[m [34m\[m   [33mb6ca7fe[m Script dbSistema De Ventas V1Merge branch 'master' of https://github.com/JhonnFy/Sistema_Ventas
+[33m|[m[34m\[m [33m\[m [34m\[m  
+[33m|[m [34m|[m[33m/[m [34m/[m  
+[33m|[m[33m/[m[34m|[m [34m/[m   
+[33m|[m [34m|[m[34m/[m    
+[33m|[m * [33mbd0da55[m Update README.md
+[33m|[m *   [33m18f8246[m Resuelto conflicto en Scripts/Scripts.csproj
+[33m|[m [1;31m|[m[1;32m\[m  
+* [1;31m|[m [1;32m\[m   [33mbfd7220[m Script dbSistema De Ventas V1
+[1;31m|[m[1;32m\[m [1;31m\[m [1;32m\[m  
+[1;31m|[m [1;32m|[m[1;31m/[m [1;32m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;32m/[m   
+[1;31m|[m [1;32m|[m[1;32m/[m    
+[1;31m|[m * [33m6b99a2a[m Script dbSistema De Ventas V1
+* [1;34m|[m [33m38978dc[m Script dbSistemaVentas OkScript dbSistema De Ventas V1
+[1;34m|[m[1;34m/[m  
+* [33m769c82f[m Add project files.
+* [33m9c3d716[m Add .gitattributes, .gitignore, and README.md.
