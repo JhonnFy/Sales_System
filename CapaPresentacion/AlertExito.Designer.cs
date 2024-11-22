@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
             this.Welcome = new System.Windows.Forms.TextBox();
@@ -36,6 +37,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocumentNumber)).BeginInit();
@@ -136,6 +139,16 @@
             this.iconPictureBox2.TabIndex = 11;
             this.iconPictureBox2.TabStop = false;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 30;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 30;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
             // AlertExito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -153,6 +166,7 @@
             this.Name = "AlertExito";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AlertExito";
+            this.Load += new System.EventHandler(this.AlertExito_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocumentNumber)).EndInit();
@@ -172,5 +186,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
     }
 }
