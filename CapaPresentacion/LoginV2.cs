@@ -148,7 +148,7 @@ namespace CapaPresentacion
             if (objUsuario != null)
             {
                 // Se crea la instancia del formulario Inicio
-                Inicio formInicio = new Inicio();
+                Inicio formInicio = new Inicio(objUsuario);
 
                 // Muestra el nuevo formulario y oculta el actual
                 formInicio.Show();
