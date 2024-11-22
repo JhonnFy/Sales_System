@@ -68,9 +68,9 @@
             this.Welcome.ForeColor = System.Drawing.Color.DarkGray;
             this.Welcome.Location = new System.Drawing.Point(327, 40);
             this.Welcome.Name = "Welcome";
-            this.Welcome.Size = new System.Drawing.Size(105, 25);
+            this.Welcome.Size = new System.Drawing.Size(163, 25);
             this.Welcome.TabIndex = 9;
-            this.Welcome.Text = "Welcome";
+            this.Welcome.Text = "Message Error ";
             // 
             // textBox3
             // 
@@ -82,7 +82,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(315, 15);
             this.textBox3.TabIndex = 8;
-            this.textBox3.Text = "PruebaDeError";
+            this.textBox3.Text = "No Matching User Found In The Database";
             // 
             // AlertExito
             // 
