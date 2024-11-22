@@ -159,7 +159,10 @@ namespace CapaPresentacion
             }
             else
             {
-                MessageBox.Show("The User Cannot Be Found in the DB", "Not Found", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                AlertExito objAlertExito = new AlertExito();
+                objAlertExito.ShowDialog();
+
+                //MessageBox.Show("The User Cannot Be Found in the DB", "Not Found", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

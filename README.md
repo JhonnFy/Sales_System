@@ -18,6 +18,8 @@
 ![image](https://github.com/user-attachments/assets/6d88cca0-a014-4dd6-a4b6-a973c3d64a91)
 ![image](https://github.com/user-attachments/assets/28c75f50-cfa6-4b0f-8d97-e861c9f893b7)
 # Relational Model
+![Uploading image.png…]()
+
 ![Modelo_Relacional](https://github.com/user-attachments/assets/43289df0-d032-4671-b771-cd0918d8eea7)
 ![AddFontAwesome](https://github.com/user-attachments/assets/8337fea9-b5ad-4b3f-a2d3-3c103634767c)
 ![FontAwesome Icon1](https://github.com/user-attachments/assets/06ff8831-6b47-4fd7-b431-1bb771bda1cc)
