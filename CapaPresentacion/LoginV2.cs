@@ -159,6 +159,14 @@ namespace CapaPresentacion
             }
             else
             {
+                lblDni.Text = "Document Number";
+                lblDni.ForeColor = Color.LightGray;
+                lblDni.Focus();
+
+                lblPassword.Text = "User Password";
+                lblPassword.ForeColor = ColorTranslator.FromHtml("#888888");
+                lblPassword.UseSystemPasswordChar = false;
+                
                 AlertExito objAlertExito = new AlertExito();
                 objAlertExito.ShowDialog();
 
