@@ -87,7 +87,12 @@ namespace CapaPresentacion
 
         private void MiGitHub_Click(object sender, EventArgs e)
         {
-
+            //Evento Para Abrir La Url
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "https://github.com/JhonnFy",
+                UseShellExecute = true
+            });           
         }
 
         private void menuTitulo_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
