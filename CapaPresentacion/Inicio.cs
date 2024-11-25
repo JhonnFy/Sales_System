@@ -52,7 +52,8 @@ namespace CapaPresentacion
 
         private void Usuarios_Click(object sender, EventArgs e)
         {
-
+            frmUsers objFrmUsers = new frmUsers();
+            objFrmUsers.ShowDialog();
         }
 
         private void Administrador_Click(object sender, EventArgs e)
