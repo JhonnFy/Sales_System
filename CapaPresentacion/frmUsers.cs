@@ -21,5 +21,10 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void frmUsers_Load(object sender, EventArgs e)
+        {
+            BackColor = Color.White;
+        }
     }
 }

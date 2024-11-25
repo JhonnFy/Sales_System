@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaEntidad;
+using FontAwesome.Sharp;
+using CapaPresentacion;
 
 namespace CapaPresentacion
 {
@@ -15,6 +17,9 @@ namespace CapaPresentacion
     {
         //Variable De Tipo Usuario
         private static Usuario usuarioActual;
+        //Variable Tipo Fromulario
+        private static IconMenuItem MenuActivo = null;
+        private static Form FormularioActivo = null;
 
         public Inicio(Usuario objUsuario)
         {
@@ -32,7 +37,7 @@ namespace CapaPresentacion
         private void Inicio_Load(object sender, EventArgs e)
         {
             lblUsuarioLogin.Text = usuarioActual.NombreCompleto;
-
+            
         }
 
         private void lblUsuarioLogin_Click(object sender, EventArgs e)
@@ -47,14 +52,44 @@ namespace CapaPresentacion
 
         private void menu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-
         }
+
 
         private void Usuarios_Click(object sender, EventArgs e)
         {
-            frmUsers objFrmUsers = new frmUsers();
-            objFrmUsers.ShowDialog();
+            AbrirFormulario((IconMenuItem)sender, new frmUsers());
         }
+
+        //Activa El Color De Fondo Para El Item Seleccionado
+        private void AbrirFormulario(IconMenuItem menu, Form formUser)
+        {
+            if (MenuActivo != null)
+            {
+                MenuActivo.BackColor = Color.White;
+            }
+
+            menu.BackColor = Color.WhiteSmoke;
+            Usuarios.ForeColor = Color.SteelBlue;
+            MenuActivo = menu;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formUser;
+            formUser.TopLevel = false;
+            formUser.FormBorderStyle = FormBorderStyle.None;
+            formUser.Dock = DockStyle.Fill;
+            formUser.BackColor = Color.WhiteSmoke;
+
+
+            Contenedor.Controls.Add(formUser);
+            formUser.Show();
+        }
+
+
+       
 
         private void Administrador_Click(object sender, EventArgs e)
         {
@@ -113,7 +148,6 @@ namespace CapaPresentacion
 
         private void btnMinimize_Click(object sender, EventArgs e)
         {
-            //
             this.WindowState = FormWindowState.Minimized;
         }
 

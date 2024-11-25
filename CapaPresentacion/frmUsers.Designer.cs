@@ -50,6 +50,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmUsers";
             this.Text = "frmUsers";
+            this.Load += new System.EventHandler(this.frmUsers_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

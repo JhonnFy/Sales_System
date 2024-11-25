@@ -54,6 +54,7 @@
             // 
             // menu
             // 
+            this.menu.BackColor = System.Drawing.Color.WhiteSmoke;
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Usuarios,
             this.Administrador,
@@ -209,6 +210,7 @@
             // 
             // Contenedor
             // 
+            this.Contenedor.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Contenedor.Location = new System.Drawing.Point(0, 139);
             this.Contenedor.Name = "Contenedor";
@@ -328,7 +330,6 @@
         private System.Windows.Forms.MenuStrip menuTitulo;
         private System.Windows.Forms.Label label;
         private FontAwesome.Sharp.IconMenuItem MiGitHub;
-        private FontAwesome.Sharp.IconMenuItem Usuarios;
         private FontAwesome.Sharp.IconMenuItem Administrador;
         private FontAwesome.Sharp.IconMenuItem Ventas;
         private FontAwesome.Sharp.IconMenuItem Compras;
@@ -341,6 +342,7 @@
         private FontAwesome.Sharp.IconPictureBox btnExit;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private FontAwesome.Sharp.IconPictureBox ipbMinimizate;
+        private FontAwesome.Sharp.IconMenuItem Usuarios;
     }
 }
 
