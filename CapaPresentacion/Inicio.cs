@@ -180,5 +180,17 @@ namespace CapaPresentacion
             LoginV2 objLoginV2 = new LoginV2();
             objLoginV2.ShowDialog();
         }
+
+        private void subMenuCategory_Click(object sender, EventArgs e)
+        {
+            //Evento Categoria
+            AbrirFormulario(Administrador, new FrmCategorys());
+        }
+
+        private void subMenuProduct_Click(object sender, EventArgs e)
+        {
+            //Evento Productos
+            AbrirFormulario(Administrador, new frmProducts());
+        }
     }
 }
