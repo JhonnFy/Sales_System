@@ -63,10 +63,10 @@ namespace CapaPresentacion
         //Activa El Color De Fondo Para El Formulario User
         private void AbrirFormularioUsuarios(IconMenuItem menuUsuario, Form formUser)
         {
-            if (MenuActivo != null)
-            {
-                MenuActivo.BackColor = Color.White;
-            }
+            //if (MenuActivo != null)
+            //{
+            //    MenuActivo.BackColor = Color.White;
+            //}
 
             menu.BackColor = Color.WhiteSmoke;
             Usuarios.ForeColor = Color.SteelBlue;
@@ -97,7 +97,7 @@ namespace CapaPresentacion
 
             private void Administrador_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Ventas_Click(object sender, EventArgs e)
@@ -193,10 +193,10 @@ namespace CapaPresentacion
         //Activa El Color De Fondo Para El Formulario Administrador-Categoria
         private void AbrirFormularioAdministradorCategorias(IconMenuItem menuAdmCategoria, Form formCategories)
         {
-            if (MenuActivo != null)
-            {
-                MenuActivo.BackColor = Color.White;
-            }
+            //if (MenuActivo != null)
+            //{
+            //    MenuActivo.BackColor = Color.White;
+            //}
 
             menu.BackColor = Color.WhiteSmoke;
             Administrador.ForeColor = Color.SteelBlue;
@@ -212,6 +212,12 @@ namespace CapaPresentacion
             formCategories.FormBorderStyle = FormBorderStyle.None;
             formCategories.Dock = DockStyle.Fill;
             formCategories.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            formCategories.FormClosed += (s, e) =>
+            {
+                Administrador.ForeColor = Color.Black;
+            };
 
             Contenedor.Controls.Add(formCategories);
             formCategories.Show();
