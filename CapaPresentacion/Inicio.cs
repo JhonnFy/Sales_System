@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using CapaEntidad;
 using FontAwesome.Sharp;
 using CapaPresentacion;
+using System.Windows.Media.Converters;
 
 namespace CapaPresentacion
 {
@@ -100,10 +101,40 @@ namespace CapaPresentacion
             
         }
 
+        //Evento Click
         private void Ventas_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioVentas((IconMenuItem)sender, new frmSales());
         }
+
+        //Activa El Color De Fondo Para El Formulario Ventas
+        private void AbrirFormularioVentas(IconMenuItem menuVentas, Form formVentas)
+        {
+            menuVentas.BackColor = Color.WhiteSmoke;
+            Ventas.ForeColor = Color.SteelBlue;
+            MenuActivo = menuVentas;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formVentas;
+            formVentas.TopLevel = false;
+            formVentas.FormBorderStyle = FormBorderStyle.None;
+            formVentas.Dock = DockStyle.Fill;
+            formVentas.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            formVentas.FormClosed += (s, e) =>
+            {
+                Ventas.ForeColor = Color.Black;
+            };
+
+
+            Contenedor.Controls.Add(formVentas);
+            formVentas.Show();
+        }//Cerrar El Metodo
 
         private void Compras_Click(object sender, EventArgs e)
         {
@@ -255,6 +286,6 @@ namespace CapaPresentacion
             Contenedor.Controls.Add(formProductos);
             formProductos.Show();
 
-        }
+        }//Cerrar El Metodo
     }
 }
