@@ -54,14 +54,14 @@ namespace CapaPresentacion
         {
         }
 
-
+        //Evento Click Invocando Un Metodo Personalizado De Colores
         private void Usuarios_Click(object sender, EventArgs e)
         {
-            AbrirFormulario((IconMenuItem)sender, new frmUsers());
+            AbrirFormularioUsuarios((IconMenuItem)sender, new frmUsers());
         }
 
-        //Activa El Color De Fondo Para El Item Seleccionado
-        private void AbrirFormulario(IconMenuItem menu, Form formUser)
+        //Activa El Color De Fondo Para El Formulario User
+        private void AbrirFormularioUsuarios(IconMenuItem menu, Form formUser)
         {
             if (MenuActivo != null)
             {
@@ -89,9 +89,8 @@ namespace CapaPresentacion
         }
 
 
-       
 
-        private void Administrador_Click(object sender, EventArgs e)
+            private void Administrador_Click(object sender, EventArgs e)
         {
 
         }
@@ -183,14 +182,12 @@ namespace CapaPresentacion
 
         private void subMenuCategory_Click(object sender, EventArgs e)
         {
-            //Evento Categoria
-            AbrirFormulario(Administrador, new FrmCategorys());
+
         }
 
         private void subMenuProduct_Click(object sender, EventArgs e)
         {
-            //Evento Productos
-            AbrirFormulario(Administrador, new frmProducts());
+
         }
     }
 }
