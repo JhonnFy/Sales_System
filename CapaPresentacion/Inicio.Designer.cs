@@ -76,6 +76,7 @@
             // Usuarios
             // 
             this.Usuarios.AutoSize = false;
+            this.Usuarios.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Usuarios.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
             this.Usuarios.IconColor = System.Drawing.Color.Black;
             this.Usuarios.IconFont = FontAwesome.Sharp.IconFont.Auto;

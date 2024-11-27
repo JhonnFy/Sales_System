@@ -49,6 +49,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmCategorys";
             this.Text = "FrmCategorys";
+            this.Load += new System.EventHandler(this.FrmCategorys_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
