@@ -225,6 +225,35 @@ namespace CapaPresentacion
 
         private void subMenuProduct_Click(object sender, EventArgs e)
         {
+            AbrirFormularioAdministradorProductos((IconMenuItem)sender, new frmProducts());
+        }
+
+        //Activa El Color De Fondo Para El Formulario Administrador-Productos
+        private void AbrirFormularioAdministradorProductos(IconMenuItem menuAdmProductos, Form formProductos)
+        {
+            menuAdmProductos.BackColor = Color.WhiteSmoke;
+            Administrador.ForeColor = Color.SteelBlue;
+            MenuActivo = menuAdmProductos;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formProductos;
+            formProductos.TopLevel = false;
+            formProductos.FormBorderStyle = FormBorderStyle.None;
+            formProductos.Dock = DockStyle.Fill;
+            formProductos.BackColor = Color.WhiteSmoke;
+
+            // Manejador Para Cambiar El Color Al Cerrar El Formulario
+            formProductos.FormClosed += (s, e) =>
+            {
+                Administrador.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(formProductos);
+            formProductos.Show();
 
         }
     }
