@@ -107,7 +107,7 @@ namespace CapaPresentacion
             AbrirFormularioVentas((IconMenuItem)sender, new frmSales());
         }
 
-        //Activa El Color De Fondo Para El Formulario Ventas
+        //Activa El Color De Fondo Para El Formulario Sales
         private void AbrirFormularioVentas(IconMenuItem menuVentas, Form formVentas)
         {
             menuVentas.BackColor = Color.WhiteSmoke;
@@ -136,10 +136,39 @@ namespace CapaPresentacion
             formVentas.Show();
         }//Cerrar El Metodo
 
+        //Evento Click
         private void Compras_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioShopping((IconMenuItem)sender, new frmShopping());
         }
+        //Activa El Color De Fondo Para El Formulario Shopping
+        private void AbrirFormularioShopping(IconMenuItem menuShopping, Form formShopping)
+        {
+            menuShopping.BackColor = Color.WhiteSmoke;
+            Shopping.ForeColor = Color.SteelBlue;
+            MenuActivo = menuShopping;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formShopping;
+            formShopping.TopLevel = false;
+            formShopping.FormBorderStyle = FormBorderStyle.None;
+            formShopping.Dock = DockStyle.Fill;
+            formShopping.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            formShopping.FormClosed += (s, e) =>
+            {
+                Shopping.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(formShopping);
+            formShopping.Show();
+
+        }//Cerrar Metodo
 
         private void Clientes_Click(object sender, EventArgs e)
         {

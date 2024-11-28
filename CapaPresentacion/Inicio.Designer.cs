@@ -34,7 +34,7 @@
             this.subMenuCategory = new FontAwesome.Sharp.IconMenuItem();
             this.subMenuProduct = new FontAwesome.Sharp.IconMenuItem();
             this.Ventas = new FontAwesome.Sharp.IconMenuItem();
-            this.Compras = new FontAwesome.Sharp.IconMenuItem();
+            this.Shopping = new FontAwesome.Sharp.IconMenuItem();
             this.Clientes = new FontAwesome.Sharp.IconMenuItem();
             this.Proveedores = new FontAwesome.Sharp.IconMenuItem();
             this.Reportes = new FontAwesome.Sharp.IconMenuItem();
@@ -61,7 +61,7 @@
             this.Usuarios,
             this.Administrador,
             this.Ventas,
-            this.Compras,
+            this.Shopping,
             this.Clientes,
             this.Proveedores,
             this.Reportes,
@@ -111,7 +111,7 @@
             this.subMenuCategory.IconColor = System.Drawing.Color.Black;
             this.subMenuCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuCategory.Name = "subMenuCategory";
-            this.subMenuCategory.Size = new System.Drawing.Size(180, 22);
+            this.subMenuCategory.Size = new System.Drawing.Size(122, 22);
             this.subMenuCategory.Text = "Category";
             this.subMenuCategory.Click += new System.EventHandler(this.subMenuCategory_Click);
             // 
@@ -121,7 +121,7 @@
             this.subMenuProduct.IconColor = System.Drawing.Color.Black;
             this.subMenuProduct.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuProduct.Name = "subMenuProduct";
-            this.subMenuProduct.Size = new System.Drawing.Size(180, 22);
+            this.subMenuProduct.Size = new System.Drawing.Size(122, 22);
             this.subMenuProduct.Text = "Product";
             this.subMenuProduct.Click += new System.EventHandler(this.subMenuProduct_Click);
             // 
@@ -139,19 +139,19 @@
             this.Ventas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Ventas.Click += new System.EventHandler(this.Ventas_Click);
             // 
-            // Compras
+            // Shopping
             // 
-            this.Compras.AutoSize = false;
-            this.Compras.IconChar = FontAwesome.Sharp.IconChar.CartPlus;
-            this.Compras.IconColor = System.Drawing.Color.Black;
-            this.Compras.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Compras.IconSize = 50;
-            this.Compras.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.Compras.Name = "Compras";
-            this.Compras.Size = new System.Drawing.Size(100, 70);
-            this.Compras.Text = "Shopping";
-            this.Compras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Compras.Click += new System.EventHandler(this.Compras_Click);
+            this.Shopping.AutoSize = false;
+            this.Shopping.IconChar = FontAwesome.Sharp.IconChar.CartPlus;
+            this.Shopping.IconColor = System.Drawing.Color.Black;
+            this.Shopping.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.Shopping.IconSize = 50;
+            this.Shopping.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.Shopping.Name = "Shopping";
+            this.Shopping.Size = new System.Drawing.Size(100, 70);
+            this.Shopping.Text = "Shopping";
+            this.Shopping.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Shopping.Click += new System.EventHandler(this.Compras_Click);
             // 
             // Clientes
             // 
@@ -358,7 +358,7 @@
         private FontAwesome.Sharp.IconMenuItem MiGitHub;
         private FontAwesome.Sharp.IconMenuItem Administrador;
         private FontAwesome.Sharp.IconMenuItem Ventas;
-        private FontAwesome.Sharp.IconMenuItem Compras;
+        private FontAwesome.Sharp.IconMenuItem Shopping;
         private FontAwesome.Sharp.IconMenuItem Clientes;
         private FontAwesome.Sharp.IconMenuItem Proveedores;
         private FontAwesome.Sharp.IconMenuItem Reportes;
