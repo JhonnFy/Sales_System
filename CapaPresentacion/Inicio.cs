@@ -170,10 +170,41 @@ namespace CapaPresentacion
 
         }//Cerrar Metodo
 
+        //Evento Click
         private void Clientes_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioClients((IconMenuItem)sender, new frmClients());
         }
+
+        //Activa El Color De Fondo Para El Formulario Clients
+        private void AbrirFormularioClients(IconMenuItem menuClients, Form formClients)
+        {
+            menuClients.BackColor = Color.WhiteSmoke;
+            Clients.ForeColor = Color.SteelBlue;
+            MenuActivo = menuClients;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formClients;
+            formClients.TopLevel = false;
+            formClients.FormBorderStyle = FormBorderStyle.None;
+            formClients.Dock = DockStyle.Fill;
+            formClients.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            formClients.FormClosed += (s, e) =>
+            {
+                Clients.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(formClients);
+            formClients.Show();
+
+        }//Cierra Del Metodo
+
 
         private void Proveedores_Click(object sender, EventArgs e)
         {

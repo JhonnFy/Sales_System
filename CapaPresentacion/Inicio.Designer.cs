@@ -35,7 +35,7 @@
             this.subMenuProduct = new FontAwesome.Sharp.IconMenuItem();
             this.Ventas = new FontAwesome.Sharp.IconMenuItem();
             this.Shopping = new FontAwesome.Sharp.IconMenuItem();
-            this.Clientes = new FontAwesome.Sharp.IconMenuItem();
+            this.Clients = new FontAwesome.Sharp.IconMenuItem();
             this.Proveedores = new FontAwesome.Sharp.IconMenuItem();
             this.Reportes = new FontAwesome.Sharp.IconMenuItem();
             this.MiGitHub = new FontAwesome.Sharp.IconMenuItem();
@@ -62,7 +62,7 @@
             this.Administrador,
             this.Ventas,
             this.Shopping,
-            this.Clientes,
+            this.Clients,
             this.Proveedores,
             this.Reportes,
             this.MiGitHub});
@@ -153,19 +153,19 @@
             this.Shopping.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Shopping.Click += new System.EventHandler(this.Compras_Click);
             // 
-            // Clientes
+            // Clients
             // 
-            this.Clientes.AutoSize = false;
-            this.Clientes.IconChar = FontAwesome.Sharp.IconChar.UsersGear;
-            this.Clientes.IconColor = System.Drawing.Color.Black;
-            this.Clientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Clientes.IconSize = 50;
-            this.Clientes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.Clientes.Name = "Clientes";
-            this.Clientes.Size = new System.Drawing.Size(100, 70);
-            this.Clientes.Text = "Clients";
-            this.Clientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Clientes.Click += new System.EventHandler(this.Clientes_Click);
+            this.Clients.AutoSize = false;
+            this.Clients.IconChar = FontAwesome.Sharp.IconChar.UsersGear;
+            this.Clients.IconColor = System.Drawing.Color.Black;
+            this.Clients.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.Clients.IconSize = 50;
+            this.Clients.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.Clients.Name = "Clients";
+            this.Clients.Size = new System.Drawing.Size(100, 70);
+            this.Clients.Text = "Clients";
+            this.Clients.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Clients.Click += new System.EventHandler(this.Clientes_Click);
             // 
             // Proveedores
             // 
@@ -359,7 +359,7 @@
         private FontAwesome.Sharp.IconMenuItem Administrador;
         private FontAwesome.Sharp.IconMenuItem Ventas;
         private FontAwesome.Sharp.IconMenuItem Shopping;
-        private FontAwesome.Sharp.IconMenuItem Clientes;
+        private FontAwesome.Sharp.IconMenuItem Clients;
         private FontAwesome.Sharp.IconMenuItem Proveedores;
         private FontAwesome.Sharp.IconMenuItem Reportes;
         private System.Windows.Forms.Panel Contenedor;
