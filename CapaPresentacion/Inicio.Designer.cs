@@ -47,6 +47,8 @@
             this.btnExit = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.ipbMinimizate = new FontAwesome.Sharp.IconPictureBox();
+            this.subRegister = new FontAwesome.Sharp.IconMenuItem();
+            this.subSaleDetail = new FontAwesome.Sharp.IconMenuItem();
             this.menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
@@ -111,7 +113,7 @@
             this.subMenuCategory.IconColor = System.Drawing.Color.Black;
             this.subMenuCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuCategory.Name = "subMenuCategory";
-            this.subMenuCategory.Size = new System.Drawing.Size(122, 22);
+            this.subMenuCategory.Size = new System.Drawing.Size(180, 22);
             this.subMenuCategory.Text = "Category";
             this.subMenuCategory.Click += new System.EventHandler(this.subMenuCategory_Click);
             // 
@@ -121,13 +123,16 @@
             this.subMenuProduct.IconColor = System.Drawing.Color.Black;
             this.subMenuProduct.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuProduct.Name = "subMenuProduct";
-            this.subMenuProduct.Size = new System.Drawing.Size(122, 22);
+            this.subMenuProduct.Size = new System.Drawing.Size(180, 22);
             this.subMenuProduct.Text = "Product";
             this.subMenuProduct.Click += new System.EventHandler(this.subMenuProduct_Click);
             // 
             // Ventas
             // 
             this.Ventas.AutoSize = false;
+            this.Ventas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.subRegister,
+            this.subSaleDetail});
             this.Ventas.IconChar = FontAwesome.Sharp.IconChar.Shopify;
             this.Ventas.IconColor = System.Drawing.Color.Black;
             this.Ventas.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -318,6 +323,24 @@
             this.ipbMinimizate.TabStop = false;
             this.ipbMinimizate.Click += new System.EventHandler(this.iconPictureBox3_Click);
             // 
+            // subRegister
+            // 
+            this.subRegister.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.subRegister.IconColor = System.Drawing.Color.Black;
+            this.subRegister.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.subRegister.Name = "subRegister";
+            this.subRegister.Size = new System.Drawing.Size(180, 22);
+            this.subRegister.Text = "Register";
+            // 
+            // subSaleDetail
+            // 
+            this.subSaleDetail.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.subSaleDetail.IconColor = System.Drawing.Color.Black;
+            this.subSaleDetail.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.subSaleDetail.Name = "subSaleDetail";
+            this.subSaleDetail.Size = new System.Drawing.Size(180, 22);
+            this.subSaleDetail.Text = "Sale Detail";
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -371,6 +394,8 @@
         private FontAwesome.Sharp.IconMenuItem Usuarios;
         private FontAwesome.Sharp.IconMenuItem subMenuCategory;
         private FontAwesome.Sharp.IconMenuItem subMenuProduct;
+        private FontAwesome.Sharp.IconMenuItem subRegister;
+        private FontAwesome.Sharp.IconMenuItem subSaleDetail;
     }
 }
 
