@@ -37,7 +37,7 @@
             this.Shopping = new FontAwesome.Sharp.IconMenuItem();
             this.Clients = new FontAwesome.Sharp.IconMenuItem();
             this.Suppliers = new FontAwesome.Sharp.IconMenuItem();
-            this.Reportes = new FontAwesome.Sharp.IconMenuItem();
+            this.Reports = new FontAwesome.Sharp.IconMenuItem();
             this.MiGitHub = new FontAwesome.Sharp.IconMenuItem();
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.label = new System.Windows.Forms.Label();
@@ -64,7 +64,7 @@
             this.Shopping,
             this.Clients,
             this.Suppliers,
-            this.Reportes,
+            this.Reports,
             this.MiGitHub});
             this.menu.Location = new System.Drawing.Point(0, 65);
             this.menu.Name = "menu";
@@ -181,19 +181,19 @@
             this.Suppliers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Suppliers.Click += new System.EventHandler(this.Proveedores_Click);
             // 
-            // Reportes
+            // Reports
             // 
-            this.Reportes.AutoSize = false;
-            this.Reportes.IconChar = FontAwesome.Sharp.IconChar.MailBulk;
-            this.Reportes.IconColor = System.Drawing.Color.Black;
-            this.Reportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Reportes.IconSize = 50;
-            this.Reportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.Reportes.Name = "Reportes";
-            this.Reportes.Size = new System.Drawing.Size(122, 70);
-            this.Reportes.Text = "Reports";
-            this.Reportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Reportes.Click += new System.EventHandler(this.Reportes_Click);
+            this.Reports.AutoSize = false;
+            this.Reports.IconChar = FontAwesome.Sharp.IconChar.MailBulk;
+            this.Reports.IconColor = System.Drawing.Color.Black;
+            this.Reports.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.Reports.IconSize = 50;
+            this.Reports.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.Reports.Name = "Reports";
+            this.Reports.Size = new System.Drawing.Size(122, 70);
+            this.Reports.Text = "Reports";
+            this.Reports.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Reports.Click += new System.EventHandler(this.Reportes_Click);
             // 
             // MiGitHub
             // 
@@ -361,7 +361,7 @@
         private FontAwesome.Sharp.IconMenuItem Shopping;
         private FontAwesome.Sharp.IconMenuItem Clients;
         private FontAwesome.Sharp.IconMenuItem Suppliers;
-        private FontAwesome.Sharp.IconMenuItem Reportes;
+        private FontAwesome.Sharp.IconMenuItem Reports;
         private System.Windows.Forms.Panel Contenedor;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private System.Windows.Forms.Label lblUsuarioLogin;

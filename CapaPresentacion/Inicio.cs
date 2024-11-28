@@ -240,10 +240,41 @@ namespace CapaPresentacion
             formSuppliers.Show();
         }//Cierre Del Metodo
 
+        //Evento Click
         private void Reportes_Click(object sender, EventArgs e)
         {
+            AbrirFormularioReports((IconMenuItem)sender, new frmReports());
+        }
+
+        //Activa El Color De Fondo Para El Formulario Reports
+        private void AbrirFormularioReports(IconMenuItem menuAdmReports, Form formReports)
+        {
+            menuAdmReports.BackColor = Color.WhiteSmoke;
+            Reports.ForeColor = Color.SteelBlue;
+            MenuActivo = menuAdmReports;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formReports;
+            formReports.TopLevel = false;
+            formReports.FormBorderStyle = FormBorderStyle.None;
+            formReports.Dock = DockStyle.Fill;
+            formReports.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            formReports.FormClosed += (s, e) =>
+            {
+                Reports.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(formReports);
+            formReports.Show();
 
         }
+
 
         private void MiGitHub_Click(object sender, EventArgs e)
         {
