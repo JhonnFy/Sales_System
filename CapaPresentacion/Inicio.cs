@@ -206,10 +206,39 @@ namespace CapaPresentacion
         }//Cierra Del Metodo
 
 
+        //Evento Click
         private void Proveedores_Click(object sender, EventArgs e)
         {
-
+            AbrirElFormularioSuppliers((IconMenuItem)sender, new frmSuppliers ());
         }
+
+        //Activa El Color De Fondo Para El Formulario Suppliers
+        private void AbrirElFormularioSuppliers(IconMenuItem menuAdmSuppliers, Form formSuppliers)
+        {
+            menuAdmSuppliers.BackColor = Color.WhiteSmoke;
+            Suppliers.ForeColor = Color.SteelBlue;
+            MenuActivo = menuAdmSuppliers;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = formSuppliers;
+            formSuppliers.TopLevel = false;
+            formSuppliers.FormBorderStyle = FormBorderStyle.None;
+            formSuppliers.Dock = DockStyle.Fill;
+            formSuppliers.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            formSuppliers.FormClosed += (s, e) =>
+            {
+                Suppliers.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(formSuppliers);
+            formSuppliers.Show();
+        }//Cierre Del Metodo
 
         private void Reportes_Click(object sender, EventArgs e)
         {
