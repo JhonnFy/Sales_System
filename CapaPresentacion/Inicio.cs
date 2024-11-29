@@ -104,37 +104,38 @@ namespace CapaPresentacion
         //Evento Click
         private void Ventas_Click(object sender, EventArgs e)
         {
-            AbrirFormularioVentas((IconMenuItem)sender, new frmSales());
+            //Este Metodo Solo Se Usa, Si No Desea Usas Los IconMenuItem
+            //AbrirFormularioVentas((IconMenuItem)sender, new frmSales());
         }
 
         //Activa El Color De Fondo Para El Formulario Sales
-        private void AbrirFormularioVentas(IconMenuItem menuVentas, Form formVentas)
-        {
-            menuVentas.BackColor = Color.WhiteSmoke;
-            Ventas.ForeColor = Color.SteelBlue;
-            MenuActivo = menuVentas;
+        //private void AbrirFormularioVentas(IconMenuItem menuVentas, Form formVentas)
+        //{
+        //    menuVentas.BackColor = Color.WhiteSmoke;
+        //    Ventas.ForeColor = Color.SteelBlue;
+        //    MenuActivo = menuVentas;
 
-            if (FormularioActivo != null)
-            {
-                FormularioActivo.Close();
-            }
+        //    if (FormularioActivo != null)
+        //    {
+        //        FormularioActivo.Close();
+        //    }
 
-            FormularioActivo = formVentas;
-            formVentas.TopLevel = false;
-            formVentas.FormBorderStyle = FormBorderStyle.None;
-            formVentas.Dock = DockStyle.Fill;
-            formVentas.BackColor = Color.WhiteSmoke;
+        //    FormularioActivo = formVentas;
+        //    formVentas.TopLevel = false;
+        //    formVentas.FormBorderStyle = FormBorderStyle.None;
+        //    formVentas.Dock = DockStyle.Fill;
+        //    formVentas.BackColor = Color.WhiteSmoke;
 
-            //Manejador Para Cambiar El Color Al Cerrar El Formulario
-            formVentas.FormClosed += (s, e) =>
-            {
-                Ventas.ForeColor = Color.Black;
-            };
+        //    //Manejador Para Cambiar El Color Al Cerrar El Formulario
+        //    formVentas.FormClosed += (s, e) =>
+        //    {
+        //        Ventas.ForeColor = Color.Black;
+        //    };
 
 
-            Contenedor.Controls.Add(formVentas);
-            formVentas.Show();
-        }//Cerrar El Metodo
+        //    Contenedor.Controls.Add(formVentas);
+        //    formVentas.Show();
+        //}//Cerrar El Metodo
 
         //Evento Click
         private void Compras_Click(object sender, EventArgs e)
