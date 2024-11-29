@@ -11,6 +11,7 @@ using CapaEntidad;
 using FontAwesome.Sharp;
 using CapaPresentacion;
 using System.Windows.Media.Converters;
+using System.Drawing.Text;
 
 namespace CapaPresentacion
 {
@@ -408,5 +409,43 @@ namespace CapaPresentacion
             formProductos.Show();
 
         }//Cerrar El Metodo
+
+        private void subRegister_Click(object sender, EventArgs e)
+        {
+            //Evento Click
+            AbrirFormularioRegisterSales((IconMenuItem)sender, new frmSalesRegister());
+        }
+
+        //Activa El Color De Fondo Para El SubFormulario Registrar Venta
+        private void AbrirFormularioRegisterSales(IconMenuItem menuRegistrarVenta, Form frmSalesRegister)
+        {
+            menuRegistrarVenta.BackColor = Color.WhiteSmoke;
+            Sales.ForeColor = Color.SteelBlue;
+            MenuActivo = menuRegistrarVenta;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+
+            FormularioActivo = frmSalesRegister;
+            frmSalesRegister.TopLevel = false;
+            frmSalesRegister.FormBorderStyle = FormBorderStyle.None;
+            frmSalesRegister.Dock = DockStyle.Fill;
+            frmSalesRegister.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            frmSalesRegister.FormClosed += (s, e) =>
+            {
+                Sales.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(frmSalesRegister);
+            frmSalesRegister.Show();
+        }//Cierre Del Metodo
+
+        }
+
     }
-}
+//}
