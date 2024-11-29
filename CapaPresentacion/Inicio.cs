@@ -144,7 +144,7 @@ namespace CapaPresentacion
             AbrirFormularioShopping((IconMenuItem)sender, new frmShopping());
         }
         //Activa El Color De Fondo Para El Formulario Shopping
-        private void AbrirFormularioShopping(IconMenuItem menuShopping, Form formShopping)
+        private void AbrirFormularioShopping(IconMenuItem menuShopping, Form frmShopping)
         {
             menuShopping.BackColor = Color.WhiteSmoke;
             Shopping.ForeColor = Color.SteelBlue;
@@ -155,20 +155,20 @@ namespace CapaPresentacion
                 FormularioActivo.Close();
             }
 
-            FormularioActivo = formShopping;
-            formShopping.TopLevel = false;
-            formShopping.FormBorderStyle = FormBorderStyle.None;
-            formShopping.Dock = DockStyle.Fill;
-            formShopping.BackColor = Color.WhiteSmoke;
+            FormularioActivo = frmShopping;
+            frmShopping.TopLevel = false;
+            frmShopping.FormBorderStyle = FormBorderStyle.None;
+            frmShopping.Dock = DockStyle.Fill;
+            frmShopping.BackColor = Color.WhiteSmoke;
 
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
-            formShopping.FormClosed += (s, e) =>
+            frmShopping.FormClosed += (s, e) =>
             {
                 Shopping.ForeColor = Color.Black;
             };
 
-            Contenedor.Controls.Add(formShopping);
-            formShopping.Show();
+            Contenedor.Controls.Add(frmShopping);
+            frmShopping.Show();
 
         }//Cerrar Metodo
 
@@ -179,7 +179,7 @@ namespace CapaPresentacion
         }
 
         //Activa El Color De Fondo Para El Formulario Clients
-        private void AbrirFormularioClients(IconMenuItem menuClients, Form formClients)
+        private void AbrirFormularioClients(IconMenuItem menuClients, Form frmClients)
         {
             menuClients.BackColor = Color.WhiteSmoke;
             Clients.ForeColor = Color.SteelBlue;
@@ -190,20 +190,20 @@ namespace CapaPresentacion
                 FormularioActivo.Close();
             }
 
-            FormularioActivo = formClients;
-            formClients.TopLevel = false;
-            formClients.FormBorderStyle = FormBorderStyle.None;
-            formClients.Dock = DockStyle.Fill;
-            formClients.BackColor = Color.WhiteSmoke;
+            FormularioActivo = frmClients;
+            frmClients.TopLevel = false;
+            frmClients.FormBorderStyle = FormBorderStyle.None;
+            frmClients.Dock = DockStyle.Fill;
+            frmClients.BackColor = Color.WhiteSmoke;
 
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
-            formClients.FormClosed += (s, e) =>
+            frmClients.FormClosed += (s, e) =>
             {
                 Clients.ForeColor = Color.Black;
             };
 
-            Contenedor.Controls.Add(formClients);
-            formClients.Show();
+            Contenedor.Controls.Add(frmClients);
+            frmClients.Show();
 
         }//Cierra Del Metodo
 
@@ -211,11 +211,11 @@ namespace CapaPresentacion
         //Evento Click
         private void Proveedores_Click(object sender, EventArgs e)
         {
-            AbrirElFormularioSuppliers((IconMenuItem)sender, new frmSuppliers ());
+            AbrirElFormularioSuppliers((IconMenuItem)sender, new frmSuppliers());
         }
 
         //Activa El Color De Fondo Para El Formulario Suppliers
-        private void AbrirElFormularioSuppliers(IconMenuItem menuAdmSuppliers, Form formSuppliers)
+        private void AbrirElFormularioSuppliers(IconMenuItem menuAdmSuppliers, Form frmSuppliers)
         {
             menuAdmSuppliers.BackColor = Color.WhiteSmoke;
             Suppliers.ForeColor = Color.SteelBlue;
@@ -226,20 +226,20 @@ namespace CapaPresentacion
                 FormularioActivo.Close();
             }
 
-            FormularioActivo = formSuppliers;
-            formSuppliers.TopLevel = false;
-            formSuppliers.FormBorderStyle = FormBorderStyle.None;
-            formSuppliers.Dock = DockStyle.Fill;
-            formSuppliers.BackColor = Color.WhiteSmoke;
+            FormularioActivo = frmSuppliers;
+            frmSuppliers.TopLevel = false;
+            frmSuppliers.FormBorderStyle = FormBorderStyle.None;
+            frmSuppliers.Dock = DockStyle.Fill;
+            frmSuppliers.BackColor = Color.WhiteSmoke;
 
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
-            formSuppliers.FormClosed += (s, e) =>
+            frmSuppliers.FormClosed += (s, e) =>
             {
                 Suppliers.ForeColor = Color.Black;
             };
 
-            Contenedor.Controls.Add(formSuppliers);
-            formSuppliers.Show();
+            Contenedor.Controls.Add(frmSuppliers);
+            frmSuppliers.Show();
         }//Cierre Del Metodo
 
         //Evento Click
@@ -249,7 +249,7 @@ namespace CapaPresentacion
         }
 
         //Activa El Color De Fondo Para El Formulario Reports
-        private void AbrirFormularioReports(IconMenuItem menuAdmReports, Form formReports)
+        private void AbrirFormularioReports(IconMenuItem menuAdmReports, Form frmReports)
         {
             menuAdmReports.BackColor = Color.WhiteSmoke;
             Reports.ForeColor = Color.SteelBlue;
@@ -260,22 +260,21 @@ namespace CapaPresentacion
                 FormularioActivo.Close();
             }
 
-            FormularioActivo = formReports;
-            formReports.TopLevel = false;
-            formReports.FormBorderStyle = FormBorderStyle.None;
-            formReports.Dock = DockStyle.Fill;
-            formReports.BackColor = Color.WhiteSmoke;
+            FormularioActivo = frmReports;
+            frmReports.TopLevel = false;
+            frmReports.FormBorderStyle = FormBorderStyle.None;
+            frmReports.Dock = DockStyle.Fill;
+            frmReports.BackColor = Color.WhiteSmoke;
 
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
-            formReports.FormClosed += (s, e) =>
+            frmReports.FormClosed += (s, e) =>
             {
                 Reports.ForeColor = Color.Black;
             };
 
-            Contenedor.Controls.Add(formReports);
-            formReports.Show();
-
-        }
+            Contenedor.Controls.Add(frmReports);
+            frmReports.Show();
+        }//CierreDelMetodo
 
 
         private void MiGitHub_Click(object sender, EventArgs e)
@@ -340,11 +339,11 @@ namespace CapaPresentacion
 
         private void subMenuCategory_Click(object sender, EventArgs e)
         {
-            AbrirFormularioAdministradorCategorias((IconMenuItem)sender, new FrmCategorys());
+            AbrirFormularioAdministradorCategorias((IconMenuItem)sender, new frmCategorys());
         }
 
         //Activa El Color De Fondo Para El Formulario Administrador-Categoria
-        private void AbrirFormularioAdministradorCategorias(IconMenuItem menuAdmCategoria, Form formCategories)
+        private void AbrirFormularioAdministradorCategorias(IconMenuItem menuAdmCategoria, Form frmCategorys)
         {
             //if (MenuActivo != null)
             //{
@@ -360,20 +359,20 @@ namespace CapaPresentacion
                 FormularioActivo.Close();
             }
 
-            FormularioActivo = formCategories;
-            formCategories.TopLevel = false;
-            formCategories.FormBorderStyle = FormBorderStyle.None;
-            formCategories.Dock = DockStyle.Fill;
-            formCategories.BackColor = Color.WhiteSmoke;
+            FormularioActivo = frmCategorys;
+            frmCategorys.TopLevel = false;
+            frmCategorys.FormBorderStyle = FormBorderStyle.None;
+            frmCategorys.Dock = DockStyle.Fill;
+            frmCategorys.BackColor = Color.WhiteSmoke;
 
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
-            formCategories.FormClosed += (s, e) =>
+            frmCategorys.FormClosed += (s, e) =>
             {
                 Administrador.ForeColor = Color.Black;
             };
 
-            Contenedor.Controls.Add(formCategories);
-            formCategories.Show();
+            Contenedor.Controls.Add(frmCategorys);
+            frmCategorys.Show();
         }
 
         private void subMenuProduct_Click(object sender, EventArgs e)
@@ -382,7 +381,7 @@ namespace CapaPresentacion
         }
 
         //Activa El Color De Fondo Para El Formulario Administrador-Productos
-        private void AbrirFormularioAdministradorProductos(IconMenuItem menuAdmProductos, Form formProductos)
+        private void AbrirFormularioAdministradorProductos(IconMenuItem menuAdmProductos, Form frmProducts)
         {
             menuAdmProductos.BackColor = Color.WhiteSmoke;
             Administrador.ForeColor = Color.SteelBlue;
@@ -393,20 +392,20 @@ namespace CapaPresentacion
                 FormularioActivo.Close();
             }
 
-            FormularioActivo = formProductos;
-            formProductos.TopLevel = false;
-            formProductos.FormBorderStyle = FormBorderStyle.None;
-            formProductos.Dock = DockStyle.Fill;
-            formProductos.BackColor = Color.WhiteSmoke;
+            FormularioActivo = frmProducts;
+            frmProducts.TopLevel = false;
+            frmProducts.FormBorderStyle = FormBorderStyle.None;
+            frmProducts.Dock = DockStyle.Fill;
+            frmProducts.BackColor = Color.WhiteSmoke;
 
             // Manejador Para Cambiar El Color Al Cerrar El Formulario
-            formProductos.FormClosed += (s, e) =>
+            frmProducts.FormClosed += (s, e) =>
             {
                 Administrador.ForeColor = Color.Black;
             };
 
-            Contenedor.Controls.Add(formProductos);
-            formProductos.Show();
+            Contenedor.Controls.Add(frmProducts);
+            frmProducts.Show();
 
         }//Cerrar El Metodo
 
@@ -445,7 +444,36 @@ namespace CapaPresentacion
             frmSalesRegister.Show();
         }//Cierre Del Metodo
 
+        //Evento Click
+        private void subSaleDetail_Click(object sender, EventArgs e)
+        {
+            AbrirFormulariofrmSalesDetail((IconMenuItem)sender, new frmSalesDetail());
         }
+    
+        private void AbrirFormulariofrmSalesDetail(IconMenuItem menuDetalleVenta, Form frmSalesDetail)
+        {
+            menuDetalleVenta.BackColor = Color.WhiteSmoke;
+            Sales.ForeColor = Color.SteelBlue;
+            MenuActivo = menuDetalleVenta;
 
+            if (FormularioActivo != null)
+            {
+                FormularioActivo = frmSalesDetail;
+                frmSalesDetail.TopLevel = false;
+                frmSalesDetail.FormBorderStyle = FormBorderStyle.None;
+                frmSalesDetail.Dock = DockStyle.Fill;
+                frmSalesDetail.BackColor = Color.WhiteSmoke;
+
+                //Manejador Para Cambiar El Color Al Cerrar El Formulario
+                frmSalesDetail.FormClosed += (s, e) =>
+                {
+                    Sales.ForeColor = Color.Black;
+                };
+
+                Contenedor.Controls.Add(frmSalesDetail);
+                frmSalesDetail.Show();
+            }
+        }
     }
-//}
+
+}

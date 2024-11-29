@@ -113,7 +113,7 @@
             this.subMenuCategory.IconColor = System.Drawing.Color.Black;
             this.subMenuCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuCategory.Name = "subMenuCategory";
-            this.subMenuCategory.Size = new System.Drawing.Size(180, 22);
+            this.subMenuCategory.Size = new System.Drawing.Size(122, 22);
             this.subMenuCategory.Text = "Category";
             this.subMenuCategory.Click += new System.EventHandler(this.subMenuCategory_Click);
             // 
@@ -123,7 +123,7 @@
             this.subMenuProduct.IconColor = System.Drawing.Color.Black;
             this.subMenuProduct.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuProduct.Name = "subMenuProduct";
-            this.subMenuProduct.Size = new System.Drawing.Size(180, 22);
+            this.subMenuProduct.Size = new System.Drawing.Size(122, 22);
             this.subMenuProduct.Text = "Product";
             this.subMenuProduct.Click += new System.EventHandler(this.subMenuProduct_Click);
             // 
@@ -162,6 +162,7 @@
             this.subSaleDetail.Name = "subSaleDetail";
             this.subSaleDetail.Size = new System.Drawing.Size(180, 22);
             this.subSaleDetail.Text = "Sale Detail";
+            this.subSaleDetail.Click += new System.EventHandler(this.subSaleDetail_Click);
             // 
             // Shopping
             // 
