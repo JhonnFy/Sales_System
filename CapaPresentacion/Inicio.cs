@@ -470,6 +470,7 @@ namespace CapaPresentacion
                     Sales.ForeColor = Color.Black;
                 };
 
+                //frmSalesDetail
                 Contenedor.Controls.Add(frmSalesDetail);
                 frmSalesDetail.Show();
             }

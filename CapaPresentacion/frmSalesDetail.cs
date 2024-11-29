@@ -22,5 +22,10 @@ namespace CapaPresentacion
         {
             BackColor = Color.White;
         }
+
+        private void lblSaleDetail_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
