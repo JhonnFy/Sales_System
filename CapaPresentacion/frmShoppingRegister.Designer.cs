@@ -49,6 +49,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmShoppingRegister";
             this.Text = "fmrRegister";
+            this.Load += new System.EventHandler(this.frmShoppingRegister_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

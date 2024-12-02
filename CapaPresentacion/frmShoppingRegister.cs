@@ -16,5 +16,10 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void frmShoppingRegister_Load(object sender, EventArgs e)
+        {
+            BackColor = Color.White;
+        }
     }
 }

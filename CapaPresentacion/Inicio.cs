@@ -141,36 +141,36 @@ namespace CapaPresentacion
         //Evento Click
         private void Compras_Click(object sender, EventArgs e)
         {
-            AbrirFormularioShopping((IconMenuItem)sender, new frmShopping());
+            //AbrirFormularioShopping((IconMenuItem)sender, new frmShopping());
         }
         //Activa El Color De Fondo Para El Formulario Shopping
-        private void AbrirFormularioShopping(IconMenuItem menuShopping, Form frmShopping)
-        {
-            menuShopping.BackColor = Color.WhiteSmoke;
-            Shopping.ForeColor = Color.SteelBlue;
-            MenuActivo = menuShopping;
+        //private void AbrirFormularioShopping(IconMenuItem menuShopping, Form frmShopping)
+        //{
+        //    menuShopping.BackColor = Color.WhiteSmoke;
+        //    Shopping.ForeColor = Color.SteelBlue;
+        //    MenuActivo = menuShopping;
 
-            if (FormularioActivo != null)
-            {
-                FormularioActivo.Close();
-            }
+        //    if (FormularioActivo != null)
+        //    {
+        //        FormularioActivo.Close();
+        //    }
 
-            FormularioActivo = frmShopping;
-            frmShopping.TopLevel = false;
-            frmShopping.FormBorderStyle = FormBorderStyle.None;
-            frmShopping.Dock = DockStyle.Fill;
-            frmShopping.BackColor = Color.WhiteSmoke;
+        //    FormularioActivo = frmShopping;
+        //    frmShopping.TopLevel = false;
+        //    frmShopping.FormBorderStyle = FormBorderStyle.None;
+        //    frmShopping.Dock = DockStyle.Fill;
+        //    frmShopping.BackColor = Color.WhiteSmoke;
 
-            //Manejador Para Cambiar El Color Al Cerrar El Formulario
-            frmShopping.FormClosed += (s, e) =>
-            {
-                Shopping.ForeColor = Color.Black;
-            };
+        //    //Manejador Para Cambiar El Color Al Cerrar El Formulario
+        //    frmShopping.FormClosed += (s, e) =>
+        //    {
+        //        Shopping.ForeColor = Color.Black;
+        //    };
 
-            Contenedor.Controls.Add(frmShopping);
-            frmShopping.Show();
+        //    Contenedor.Controls.Add(frmShopping);
+        //    frmShopping.Show();
 
-        }//Cerrar Metodo
+        //}//Cerrar Metodo
 
         //Evento Click
         private void Clientes_Click(object sender, EventArgs e)
@@ -476,15 +476,49 @@ namespace CapaPresentacion
             }
         }
 
+        //Evento Click Shopping Register
         private void subShoppingRegister_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioShoppingRegister((IconMenuItem)sender, new frmShoppingRegister());
         }
 
+        //Activar El Color De Fondo Para El Formulario Shopping Register
+        private void AbrirFormularioShoppingRegister(IconMenuItem menuShoppingRegister, Form frmShoppingRegister)
+        {
+            //frmShoppingRegister
+            menu.BackColor = Color.WhiteSmoke;
+            Shopping.ForeColor = Color.SteelBlue;
+            MenuActivo = menuShoppingRegister;
+
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = frmShoppingRegister;
+            frmShoppingRegister.TopLevel = false;
+            frmShoppingRegister.FormBorderStyle = FormBorderStyle.None;
+            frmShoppingRegister.Dock = DockStyle.Fill;
+            frmShoppingRegister.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            frmShoppingRegister.FormClosed += (s, e) =>
+            {
+                Shopping.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(frmShoppingRegister);
+            frmShoppingRegister.Show();
+        }
+
+        //Evento Click Shopping Detail
         private void subShoppingDetail_Click(object sender, EventArgs e)
         {
 
         }
+
+
+
     }
 
 }
