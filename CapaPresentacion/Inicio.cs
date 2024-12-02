@@ -475,6 +475,16 @@ namespace CapaPresentacion
                 frmSalesDetail.Show();
             }
         }
+
+        private void subShoppingRegister_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void subShoppingDetail_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
