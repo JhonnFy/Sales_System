@@ -135,6 +135,7 @@ namespace CapaPresentacion
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        //Evento Click Login
         private void btnLogin_Click(object sender, EventArgs e)
         {
 
@@ -142,7 +143,7 @@ namespace CapaPresentacion
 
             //Expresion lamda para conexion
             Usuario objUsuario = new CN_Usuario().Listar().Where(u => u.Documento == lblDni.Text && u.Clave == lblPassword.Text).FirstOrDefault();
-
+            
 
             //Control Iterador
             if (objUsuario != null)
@@ -156,6 +157,7 @@ namespace CapaPresentacion
 
                 // Suscribe al evento FormClosed en lugar de FormClosing
                 formInicio.FormClosed += FormInicio_FormClosed;
+
             }
             else
             {
@@ -172,7 +174,7 @@ namespace CapaPresentacion
 
                 //MessageBox.Show("The User Cannot Be Found in the DB", "Not Found", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        }//Cierre Del Metodo
 
         private void FormInicio_FormClosed(object sender, FormClosedEventArgs e)
         {
