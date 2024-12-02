@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using CapaDatos;
+using CapaEntidad;
+
+namespace CapaNegocio
+{
+    public class CN_Permisos
+    {
+        //Instanciar la clase usuario
+        private CD_Permiso objcd_poermiso = new CD_Permiso();
+
+        public List<Permisos> Listar(int IdUsuario)
+        {
+            return objcd_poermiso.Listar(IdUsuario);
+        }
+
+    }
+}
