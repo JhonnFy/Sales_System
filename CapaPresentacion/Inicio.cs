@@ -12,6 +12,7 @@ using FontAwesome.Sharp;
 using CapaPresentacion;
 using System.Windows.Media.Converters;
 using System.Drawing.Text;
+using CapaNegocio;
 
 namespace CapaPresentacion
 {
@@ -36,10 +37,24 @@ namespace CapaPresentacion
 
         }
 
+        //Evento Click Aqui Va El Metodo Que Restringe Las Vistas
         private void Inicio_Load(object sender, EventArgs e)
         {
-            lblUsuarioLogin.Text = usuarioActual.NombreCompleto;
-            
+            List<Permisos> ListaPermisos = new CN_Permisos().Listar(usuarioActual.IdUsuario);
+
+            //Restringir la vista de formulario
+            foreach (IconMenuItem iconMenu in menu.Items)
+            {
+                bool encontrado = ListaPermisos.Any(m => m.NombreMenu == iconMenu.Name);
+
+                if (encontrado == false)
+                {
+                    iconMenu.Visible = false;
+                }
+            }
+
+            lblUsuarioLogin.Text = usuarioActual.NombreCompleto;  
+
         }
 
         private void lblUsuarioLogin_Click(object sender, EventArgs e)
