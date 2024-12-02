@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class frmSuppliers
+    partial class frmShoppingDetail
     {
         /// <summary>
         /// Required designer variable.
@@ -37,20 +37,18 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(437, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "This Is Form Shopping Suppliers";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Size = new System.Drawing.Size(391, 31);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "This Is Form Shopping Detail";
             // 
-            // frmSuppliers
+            // frmShoppingDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Name = "frmSuppliers";
-            this.Text = "frmSuppliers";
-            this.Load += new System.EventHandler(this.frmSuppliers_Load);
+            this.Name = "frmShoppingDetail";
+            this.Text = "frmDetail";
             this.ResumeLayout(false);
             this.PerformLayout();
 

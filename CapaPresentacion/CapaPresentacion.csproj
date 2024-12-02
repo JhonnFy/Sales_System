@@ -59,6 +59,12 @@
     <Compile Include="AlertExito.Designer.cs">
       <DependentUpon>AlertExito.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmShoppingRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShoppingRegister.Designer.cs">
+      <DependentUpon>frmShoppingRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     </Compile>
     <Compile Include="frmClients.Designer.cs">
       <DependentUpon>frmClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShoppingDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShoppingDetail.Designer.cs">
+      <DependentUpon>frmShoppingDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="frmProducts.cs">
       <SubType>Form</SubType>
@@ -151,6 +163,9 @@
     <EmbeddedResource Include="frmClients.resx">
       <DependentUpon>frmClients.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShoppingDetail.resx">
+      <DependentUpon>frmShoppingDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmProducts.resx">
       <DependentUpon>frmProducts.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmShopping.resx">
       <DependentUpon>frmShopping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShoppingRegister.resx">
+      <DependentUpon>frmShoppingRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSuppliers.resx">
       <DependentUpon>frmSuppliers.cs</DependentUpon>
