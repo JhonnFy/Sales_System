@@ -514,10 +514,37 @@ namespace CapaPresentacion
         //Evento Click Shopping Detail
         private void subShoppingDetail_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioShoppingDetail((IconMenuItem)sender, new frmShoppingDetail());
         }
 
+        //Activa El Color De Fondo Para El Formulario ShoppingDetail
+        private void AbrirFormularioShoppingDetail(IconMenuItem menuShoppingDetails, Form frmShoppingDetail)
+        {
+            menuShoppingDetails.BackColor = Color.WhiteSmoke;
+            Shopping.ForeColor = Color.SteelBlue;
+            MenuActivo = menuShoppingDetails;
 
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+
+            FormularioActivo = frmShoppingDetail;
+            frmShoppingDetail.TopLevel = false;
+            frmShoppingDetail.FormBorderStyle = FormBorderStyle.None;
+            frmShoppingDetail.Dock = DockStyle.Fill;
+            frmShoppingDetail.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El color Al Cerrar El Formulario
+            frmShoppingDetail.FormClosed += (s, e) =>
+            {
+                Shopping.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(frmShoppingDetail);
+            frmShoppingDetail.Show();
+           
+        }
 
     }
 
