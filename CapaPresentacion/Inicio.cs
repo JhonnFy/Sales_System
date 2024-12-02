@@ -71,7 +71,7 @@ namespace CapaPresentacion
             //}
 
             menu.BackColor = Color.WhiteSmoke;
-            Usuarios.ForeColor = Color.SteelBlue;
+            menuUser.ForeColor = Color.SteelBlue;
             MenuActivo = menuUsuario;
 
             if (FormularioActivo != null)
@@ -88,7 +88,7 @@ namespace CapaPresentacion
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
             formUser.FormClosed += (s, e) =>
             {
-                Usuarios.ForeColor = Color.Black;
+                menuUser.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(formUser);
@@ -182,7 +182,7 @@ namespace CapaPresentacion
         private void AbrirFormularioClients(IconMenuItem menuClients, Form frmClients)
         {
             menuClients.BackColor = Color.WhiteSmoke;
-            Clients.ForeColor = Color.SteelBlue;
+            this.menuClients.ForeColor = Color.SteelBlue;
             MenuActivo = menuClients;
 
             if (FormularioActivo != null)
@@ -199,7 +199,7 @@ namespace CapaPresentacion
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
             frmClients.FormClosed += (s, e) =>
             {
-                Clients.ForeColor = Color.Black;
+                this.menuClients.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmClients);
@@ -218,7 +218,7 @@ namespace CapaPresentacion
         private void AbrirElFormularioSuppliers(IconMenuItem menuAdmSuppliers, Form frmSuppliers)
         {
             menuAdmSuppliers.BackColor = Color.WhiteSmoke;
-            Suppliers.ForeColor = Color.SteelBlue;
+            menuSuppliers.ForeColor = Color.SteelBlue;
             MenuActivo = menuAdmSuppliers;
 
             if (FormularioActivo != null)
@@ -235,7 +235,7 @@ namespace CapaPresentacion
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
             frmSuppliers.FormClosed += (s, e) =>
             {
-                Suppliers.ForeColor = Color.Black;
+                menuSuppliers.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmSuppliers);
@@ -252,7 +252,7 @@ namespace CapaPresentacion
         private void AbrirFormularioReports(IconMenuItem menuAdmReports, Form frmReports)
         {
             menuAdmReports.BackColor = Color.WhiteSmoke;
-            Reports.ForeColor = Color.SteelBlue;
+            menuReports.ForeColor = Color.SteelBlue;
             MenuActivo = menuAdmReports;
 
             if (FormularioActivo != null)
@@ -269,7 +269,7 @@ namespace CapaPresentacion
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
             frmReports.FormClosed += (s, e) =>
             {
-                Reports.ForeColor = Color.Black;
+                menuReports.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmReports);
@@ -351,7 +351,7 @@ namespace CapaPresentacion
             //}
 
             menu.BackColor = Color.WhiteSmoke;
-            Administrador.ForeColor = Color.SteelBlue;
+            menuAdministrator.ForeColor = Color.SteelBlue;
             MenuActivo = menuAdmCategoria;
 
             if (FormularioActivo != null)
@@ -368,7 +368,7 @@ namespace CapaPresentacion
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
             frmCategorys.FormClosed += (s, e) =>
             {
-                Administrador.ForeColor = Color.Black;
+                menuAdministrator.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmCategorys);
@@ -384,7 +384,7 @@ namespace CapaPresentacion
         private void AbrirFormularioAdministradorProductos(IconMenuItem menuAdmProductos, Form frmProducts)
         {
             menuAdmProductos.BackColor = Color.WhiteSmoke;
-            Administrador.ForeColor = Color.SteelBlue;
+            menuAdministrator.ForeColor = Color.SteelBlue;
             MenuActivo = menuAdmProductos;
 
             if (FormularioActivo != null)
@@ -401,7 +401,7 @@ namespace CapaPresentacion
             // Manejador Para Cambiar El Color Al Cerrar El Formulario
             frmProducts.FormClosed += (s, e) =>
             {
-                Administrador.ForeColor = Color.Black;
+                menuAdministrator.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmProducts);
@@ -419,7 +419,7 @@ namespace CapaPresentacion
         private void AbrirFormularioRegisterSales(IconMenuItem menuRegistrarVenta, Form frmSalesRegister)
         {
             menuRegistrarVenta.BackColor = Color.WhiteSmoke;
-            Sales.ForeColor = Color.SteelBlue;
+            menuSales.ForeColor = Color.SteelBlue;
             MenuActivo = menuRegistrarVenta;
 
             if (FormularioActivo != null)
@@ -437,7 +437,7 @@ namespace CapaPresentacion
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
             frmSalesRegister.FormClosed += (s, e) =>
             {
-                Sales.ForeColor = Color.Black;
+                menuSales.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmSalesRegister);
@@ -453,7 +453,7 @@ namespace CapaPresentacion
         private void AbrirFormulariofrmSalesDetail(IconMenuItem menuDetalleVenta, Form frmSalesDetail)
         {
             menuDetalleVenta.BackColor = Color.WhiteSmoke;
-            Sales.ForeColor = Color.SteelBlue;
+            menuSales.ForeColor = Color.SteelBlue;
             MenuActivo = menuDetalleVenta;
 
             if (FormularioActivo != null)
@@ -467,7 +467,7 @@ namespace CapaPresentacion
                 //Manejador Para Cambiar El Color Al Cerrar El Formulario
                 frmSalesDetail.FormClosed += (s, e) =>
                 {
-                    Sales.ForeColor = Color.Black;
+                    menuSales.ForeColor = Color.Black;
                 };
 
                 //frmSalesDetail
@@ -487,7 +487,7 @@ namespace CapaPresentacion
         {
             //frmShoppingRegister
             menu.BackColor = Color.WhiteSmoke;
-            Shopping.ForeColor = Color.SteelBlue;
+            menuShopping.ForeColor = Color.SteelBlue;
             MenuActivo = menuShoppingRegister;
 
             if (FormularioActivo != null)
@@ -504,7 +504,7 @@ namespace CapaPresentacion
             //Manejador Para Cambiar El Color Al Cerrar El Formulario
             frmShoppingRegister.FormClosed += (s, e) =>
             {
-                Shopping.ForeColor = Color.Black;
+                menuShopping.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmShoppingRegister);
@@ -521,7 +521,7 @@ namespace CapaPresentacion
         private void AbrirFormularioShoppingDetail(IconMenuItem menuShoppingDetails, Form frmShoppingDetail)
         {
             menuShoppingDetails.BackColor = Color.WhiteSmoke;
-            Shopping.ForeColor = Color.SteelBlue;
+            menuShopping.ForeColor = Color.SteelBlue;
             MenuActivo = menuShoppingDetails;
 
             if (FormularioActivo != null)
@@ -538,7 +538,7 @@ namespace CapaPresentacion
             //Manejador Para Cambiar El color Al Cerrar El Formulario
             frmShoppingDetail.FormClosed += (s, e) =>
             {
-                Shopping.ForeColor = Color.Black;
+                menuShopping.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmShoppingDetail);
