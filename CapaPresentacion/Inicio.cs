@@ -353,7 +353,7 @@ namespace CapaPresentacion
 
             this.Hide(); //Ocultar El Formulario Actual
             LoginV2 objLoginV2 = new LoginV2(); //Se Crea El Objeto
-            objLoginV2.ShowDialog(); //Muestra EL Nuevo Formulario
+            //objLoginV2.ShowDialog(); //Muestra EL Nuevo Formulario
 
             this.Close(); 
         }
