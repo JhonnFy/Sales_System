@@ -18,5 +18,8 @@ namespace CapaEntidad
         //Tercer Atributo tbl_Rol
         public DateTime FechaRegistro  { get; set; }
 
+        //Objeto
+        public Rol objRol { get; set; }
+
     }
 }

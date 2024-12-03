@@ -12,11 +12,11 @@ namespace CapaNegocio
     public class CN_Permisos
     {
         //Instanciar la clase usuario
-        private CD_Permiso objcd_poermiso = new CD_Permiso();
+        private CD_Permiso objcd_permiso = new CD_Permiso();
 
         public List<Permisos> Listar(int IdUsuario)
         {
-            return objcd_poermiso.Listar(IdUsuario);
+            return objcd_permiso.Listar(IdUsuario);
         }
 
     }
