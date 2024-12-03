@@ -347,14 +347,9 @@ namespace CapaPresentacion
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            //this.Close();
-            //LoginV2 objLoginV2 = new LoginV2();
-            //objLoginV2.ShowDialog();
-
             this.Hide(); //Ocultar El Formulario Actual
             LoginV2 objLoginV2 = new LoginV2(); //Se Crea El Objeto
-            //objLoginV2.ShowDialog(); //Muestra EL Nuevo Formulario
-
+            
             this.Close(); 
         }
 
