@@ -26,11 +26,11 @@ namespace CapaPresentacion
         private static IconMenuItem MenuActivo = null;
         private static Form FormularioActivo = null;
 
-        public Inicio(Usuario objUsuario //, Rol objRol)
+        public Inicio(Usuario objUsuario, Rol objRol)
         {
 
             usuarioActual = objUsuario;
-            //rolActual = objRol;
+            rolActual = objRol;
 
             InitializeComponent();
         }
@@ -75,7 +75,7 @@ namespace CapaPresentacion
 
             lblRolLogin.Text = rolActual.Descripcion;
 
-        }
+        }//Cierre Del Metodo
 
         private void lblUsuarioLogin_Click(object sender, EventArgs e)
         {

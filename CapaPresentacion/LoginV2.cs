@@ -148,8 +148,15 @@ namespace CapaPresentacion
             //Control Iterador
             if (objUsuario != null)
             {
+
+                // Obtener el objeto Rol relacionado con el usuario 
+                Rol objRol = new CN_DescripcionRol().Listar(objUsuario.IdUsuario).FirstOrDefault();
+
+
                 // Se crea la instancia del formulario Inicio
-                Inicio formInicio = new Inicio(objUsuario);
+                Inicio formInicio = new Inicio(objUsuario, objRol);
+
+
 
                 // Muestra el nuevo formulario y oculta el actual
                 formInicio.Show();

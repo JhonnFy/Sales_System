@@ -26,11 +26,10 @@ namespace CapaDatos
 
                 try
                 {
-                    //Declara un objeto de la clase StringBuilder llamado querySQL
                     StringBuilder querySQL = new StringBuilder();
-                    querySQL.AppendLine("Select b.Descripcion From USUARIO a");
-                    querySQL.AppendLine("Inner Join ROL b ON a.IdRol = b.IdRol");
-                    querySQL.AppendLine("Where a.IdUsuario = @idRol");
+                    querySQL.AppendLine("SELECT a.IdRol, a.Descripcion FROM ROL a");
+                    querySQL.AppendLine("INNER JOIN USUARIO b on a.IdRol = b.IdRol");
+                    querySQL.AppendLine("WHERE a.IdRol = @idRol");
 
                     SqlCommand cmd = new SqlCommand(querySQL.ToString(), objConexion);
                     cmd.Parameters.AddWithValue("@idRol", idRol);
