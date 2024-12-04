@@ -51,7 +51,10 @@
             this.btnExit = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.ipbMinimizate = new FontAwesome.Sharp.IconPictureBox();
+            this.lblRolLogin = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.menu.SuspendLayout();
+            this.Contenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
@@ -287,6 +290,8 @@
             // Contenedor
             // 
             this.Contenedor.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Contenedor.Controls.Add(this.label1);
+            this.Contenedor.Controls.Add(this.lblRolLogin);
             this.Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Contenedor.Location = new System.Drawing.Point(0, 139);
             this.Contenedor.Name = "Contenedor";
@@ -368,6 +373,30 @@
             this.ipbMinimizate.TabStop = false;
             this.ipbMinimizate.Click += new System.EventHandler(this.iconPictureBox3_Click);
             // 
+            // lblRolLogin
+            // 
+            this.lblRolLogin.AutoSize = true;
+            this.lblRolLogin.BackColor = System.Drawing.Color.Red;
+            this.lblRolLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRolLogin.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.lblRolLogin.Location = new System.Drawing.Point(237, 184);
+            this.lblRolLogin.Name = "lblRolLogin";
+            this.lblRolLogin.Size = new System.Drawing.Size(55, 31);
+            this.lblRolLogin.TabIndex = 15;
+            this.lblRolLogin.Text = "Rol";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Red;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label1.Location = new System.Drawing.Point(46, 144);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(205, 31);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Descripcion Rol";
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -391,6 +420,8 @@
             this.Load += new System.EventHandler(this.Inicio_Load);
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
+            this.Contenedor.ResumeLayout(false);
+            this.Contenedor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
@@ -425,6 +456,8 @@
         private FontAwesome.Sharp.IconMenuItem subSaleDetail;
         private FontAwesome.Sharp.IconMenuItem subShoppingRegister;
         private FontAwesome.Sharp.IconMenuItem subShoppingDetail;
+        private System.Windows.Forms.Label lblRolLogin;
+        private System.Windows.Forms.Label label1;
     }
 }
 

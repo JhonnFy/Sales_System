@@ -20,24 +20,29 @@ namespace CapaPresentacion
     {
         //Variable De Tipo Usuario
         private static Usuario usuarioActual;
+        //Variable De Tipo Rol
+        private static Rol rolActual;
         //Variable Tipo Fromulario
         private static IconMenuItem MenuActivo = null;
         private static Form FormularioActivo = null;
 
-        public Inicio(Usuario objUsuario)
+        public Inicio(Usuario objUsuario //, Rol objRol)
         {
 
             usuarioActual = objUsuario;
+            //rolActual = objRol;
 
             InitializeComponent();
         }
+
+        
 
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        //Evento Click Aqui Va El Metodo Que Restringe Las Vistas
+        //Presentar En Pantalla El Nombre Del Usuario
         private void Inicio_Load(object sender, EventArgs e)
         {
             List<Permisos> ListaPermisos = new CN_Permisos().Listar(usuarioActual.IdUsuario);
@@ -53,7 +58,22 @@ namespace CapaPresentacion
                 }
             }
 
-            lblUsuarioLogin.Text = usuarioActual.NombreCompleto;  
+            lblUsuarioLogin.Text = usuarioActual.NombreCompleto;
+
+
+            List<Rol> ListaRol = new CN_DescripcionRol().Listar(rolActual.IdRol);
+            //Restringir la vista de formulario
+            foreach(IconMenuItem iconMenuItem in menu.Items)
+            {
+                bool rolEncontrado = ListaRol.Any(m => m.Descripcion == iconMenuItem.Name);
+
+                if (rolEncontrado == false)
+                {
+                    iconMenuItem.Visible = false; 
+                }
+            }
+
+            lblRolLogin.Text = rolActual.Descripcion;
 
         }
 
