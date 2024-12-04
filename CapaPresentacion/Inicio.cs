@@ -67,10 +67,6 @@ namespace CapaPresentacion
             {
                 bool rolEncontrado = ListaRol.Any(m => m.Descripcion == iconMenuItem.Name);
 
-                if (rolEncontrado == false)
-                {
-                    iconMenuItem.Visible = false; 
-                }
             }
 
             lblRolLogin.Text = rolActual.Descripcion;
