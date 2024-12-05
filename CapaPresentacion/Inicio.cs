@@ -58,15 +58,9 @@ namespace CapaPresentacion
                 }
             }
 
-            //lblUsuarioLogin.Text = (usuarioActual.Nombre + " " + usuarioActual.Apellido).ToUpper();
-
-            //lblUsuarioLogin.Text = usuarioActual.NombreCompleto;
-
-            lblUsuarioLogin.Text = (usuarioActual.NombreCompleto + " \uf138 " + rolActual.Descripcion).ToUpper();
-
-
-
-
+            
+            lblUsuarioLogin.Text = (usuarioActual.NombreCompleto + " ↔ " + rolActual.Descripcion).ToUpper();
+            
             List<Rol> ListaRol = new CN_DescripcionRol().Listar(rolActual.IdRol);
             //Restringir la vista de formulario
             foreach(IconMenuItem iconMenuItem in menu.Items)
@@ -74,10 +68,7 @@ namespace CapaPresentacion
                 bool rolEncontrado = ListaRol.Any(m => m.Descripcion == iconMenuItem.Name);
 
             }
-
             //lblUsuarioLogin.Text = nombreUsuario.ToUpper();
-
-            lblRolLogin.Text = rolActual.Descripcion.ToUpper();
 
         }//Cierre Del Metodo
 
