@@ -58,7 +58,13 @@ namespace CapaPresentacion
                 }
             }
 
-            lblUsuarioLogin.Text = usuarioActual.NombreCompleto;
+            //lblUsuarioLogin.Text = (usuarioActual.Nombre + " " + usuarioActual.Apellido).ToUpper();
+
+            //lblUsuarioLogin.Text = usuarioActual.NombreCompleto;
+
+            lblUsuarioLogin.Text = (usuarioActual.NombreCompleto + " \uf138 " + rolActual.Descripcion).ToUpper();
+
+
 
 
             List<Rol> ListaRol = new CN_DescripcionRol().Listar(rolActual.IdRol);
@@ -69,7 +75,9 @@ namespace CapaPresentacion
 
             }
 
-            lblRolLogin.Text = rolActual.Descripcion;
+            //lblUsuarioLogin.Text = nombreUsuario.ToUpper();
+
+            lblRolLogin.Text = rolActual.Descripcion.ToUpper();
 
         }//Cierre Del Metodo
 
@@ -578,6 +586,9 @@ namespace CapaPresentacion
            
         }
 
+        private void lblRolLogin_Click(object sender, EventArgs e)
+        {
+        }
     }
 
 }

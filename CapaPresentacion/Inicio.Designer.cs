@@ -43,7 +43,6 @@
             this.menuSuppliers = new FontAwesome.Sharp.IconMenuItem();
             this.menuReports = new FontAwesome.Sharp.IconMenuItem();
             this.menuGitHub = new FontAwesome.Sharp.IconMenuItem();
-            this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.label = new System.Windows.Forms.Label();
             this.Contenedor = new System.Windows.Forms.Panel();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
@@ -51,10 +50,8 @@
             this.btnExit = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.ipbMinimizate = new FontAwesome.Sharp.IconPictureBox();
-            this.lblRolLogin = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.menu.SuspendLayout();
-            this.Contenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
@@ -262,18 +259,6 @@
             this.menuGitHub.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuGitHub.Click += new System.EventHandler(this.MiGitHub_Click);
             // 
-            // menuTitulo
-            // 
-            this.menuTitulo.AutoSize = false;
-            this.menuTitulo.BackColor = System.Drawing.Color.SteelBlue;
-            this.menuTitulo.Location = new System.Drawing.Point(0, 0);
-            this.menuTitulo.Name = "menuTitulo";
-            this.menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuTitulo.Size = new System.Drawing.Size(873, 65);
-            this.menuTitulo.TabIndex = 1;
-            this.menuTitulo.Text = "menuTitulo";
-            this.menuTitulo.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuTitulo_ItemClicked);
-            // 
             // label
             // 
             this.label.AutoSize = true;
@@ -290,8 +275,6 @@
             // Contenedor
             // 
             this.Contenedor.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.Contenedor.Controls.Add(this.label1);
-            this.Contenedor.Controls.Add(this.lblRolLogin);
             this.Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Contenedor.Location = new System.Drawing.Point(0, 139);
             this.Contenedor.Name = "Contenedor";
@@ -373,29 +356,17 @@
             this.ipbMinimizate.TabStop = false;
             this.ipbMinimizate.Click += new System.EventHandler(this.iconPictureBox3_Click);
             // 
-            // lblRolLogin
+            // menuTitulo
             // 
-            this.lblRolLogin.AutoSize = true;
-            this.lblRolLogin.BackColor = System.Drawing.Color.Red;
-            this.lblRolLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRolLogin.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRolLogin.Location = new System.Drawing.Point(237, 184);
-            this.lblRolLogin.Name = "lblRolLogin";
-            this.lblRolLogin.Size = new System.Drawing.Size(55, 31);
-            this.lblRolLogin.TabIndex = 15;
-            this.lblRolLogin.Text = "Rol";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(46, 144);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 31);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "Descripcion Rol";
+            this.menuTitulo.AutoSize = false;
+            this.menuTitulo.BackColor = System.Drawing.Color.SteelBlue;
+            this.menuTitulo.Location = new System.Drawing.Point(0, 0);
+            this.menuTitulo.Name = "menuTitulo";
+            this.menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.menuTitulo.Size = new System.Drawing.Size(873, 65);
+            this.menuTitulo.TabIndex = 1;
+            this.menuTitulo.Text = "menuTitulo";
+            this.menuTitulo.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuTitulo_ItemClicked);
             // 
             // Inicio
             // 
@@ -420,8 +391,6 @@
             this.Load += new System.EventHandler(this.Inicio_Load);
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
-            this.Contenedor.ResumeLayout(false);
-            this.Contenedor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
@@ -434,7 +403,6 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menu;
-        private System.Windows.Forms.MenuStrip menuTitulo;
         private System.Windows.Forms.Label label;
         private FontAwesome.Sharp.IconMenuItem menuGitHub;
         private FontAwesome.Sharp.IconMenuItem menuAdministrator;
@@ -456,8 +424,7 @@
         private FontAwesome.Sharp.IconMenuItem subSaleDetail;
         private FontAwesome.Sharp.IconMenuItem subShoppingRegister;
         private FontAwesome.Sharp.IconMenuItem subShoppingDetail;
-        private System.Windows.Forms.Label lblRolLogin;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MenuStrip menuTitulo;
     }
 }
 
