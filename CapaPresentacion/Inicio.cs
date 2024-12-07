@@ -368,6 +368,7 @@ namespace CapaPresentacion
             this.Close(); 
         }
 
+        //Evento Click Moes
         private void subMenuCategory_Click(object sender, EventArgs e)
         {
             AbrirFormularioAdministradorCategorias((IconMenuItem)sender, new frmCategorys());

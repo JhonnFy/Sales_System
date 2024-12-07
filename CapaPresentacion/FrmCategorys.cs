@@ -21,5 +21,10 @@ namespace CapaPresentacion
         {
             BackColor = Color.White;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
