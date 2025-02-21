@@ -377,11 +377,7 @@ namespace CapaPresentacion
         //Activa El Color De Fondo Para El Formulario Administrador-Categoria
         private void AbrirFormularioAdministradorCategorias(IconMenuItem menuAdmCategoria, Form frmCategorys)
         {
-            //if (MenuActivo != null)
-            //{
-            //    MenuActivo.BackColor = Color.White;
-            //}
-
+       
             menu.BackColor = Color.WhiteSmoke;
             menuAdministrator.ForeColor = Color.SteelBlue;
             MenuActivo = menuAdmCategoria;
@@ -415,7 +411,7 @@ namespace CapaPresentacion
         //Activa El Color De Fondo Para El Formulario Administrador-Productos
         private void AbrirFormularioAdministradorProductos(IconMenuItem menuAdmProductos, Form frmProducts)
         {
-            menuAdmProductos.BackColor = Color.WhiteSmoke;
+            menu.BackColor = Color.WhiteSmoke;
             menuAdministrator.ForeColor = Color.SteelBlue;
             MenuActivo = menuAdmProductos;
 
@@ -481,36 +477,41 @@ namespace CapaPresentacion
 
 
 
-        //Evento Click
-        private void subSaleDetail_Click(object sender, EventArgs e)
+        //Evento Click subMenuSalesDetails_Click   
+        private void subMenuSalesDetails_Click(object sender, EventArgs e)
         {
-          // AbrirFormulariofrmSalesDetail((IconMenuItem)sender, new frmSalesDetail());
+            //---------------------------------------------------------------------------------------------
+            //[Menu Principal]-[menuSales].[SubMenu].[subMenuSalesDetails]
+            //---------------------------------------------------------------------------------------------
+            AbrirFormularioSalesDetail((IconMenuItem)sender, new frmSalesDetail());
         }
-    
-        private void AbrirFormulariofrmSalesDetail(IconMenuItem menuDetalleVenta, Form frmSalesDetail)
+
+        private void AbrirFormularioSalesDetail(IconMenuItem menuSalesDetails, Form frmSalesDetail)
         {
-            //menuDetalleVenta.BackColor = Color.WhiteSmoke;
-            //menuSales.ForeColor = Color.SteelBlue;
-            //MenuActivo = menuDetalleVenta;
 
-            //if (FormularioActivo != null)
-            //{
-            //    FormularioActivo = frmSalesDetail;
-            //    frmSalesDetail.TopLevel = false;
-            //    frmSalesDetail.FormBorderStyle = FormBorderStyle.None;
-            //    frmSalesDetail.Dock = DockStyle.Fill;
-            //    frmSalesDetail.BackColor = Color.WhiteSmoke;
+            menu.BackColor = Color.WhiteSmoke;
+            menuSales.ForeColor = Color.SteelBlue;
+            MenuActivo = menuSalesDetails;
 
-            //    //Manejador Para Cambiar El Color Al Cerrar El Formulario
-            //    frmSalesDetail.FormClosed += (s, e) =>
-            //    {
-            //        menuSales.ForeColor = Color.Black;
-            //    };
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
 
-            //    //frmSalesDetail
-            //    Contenedor.Controls.Add(frmSalesDetail);
-            //    frmSalesDetail.Show();
-           // }
+            FormularioActivo = frmSalesDetail;
+            frmSalesDetail.TopLevel = false;
+            frmSalesDetail.FormBorderStyle = FormBorderStyle.None;
+            frmSalesDetail.Dock = DockStyle.Fill;
+            frmSalesDetail.BackColor = Color.WhiteSmoke;
+
+            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            frmSalesDetail.FormClosed += (s, e) =>
+            {
+                menuSalesDetails.ForeColor = Color.Black;
+            };
+
+            Contenedor.Controls.Add(frmSalesDetail);
+            frmSalesDetail.Show();
         }
 
         //Evento Click Shopping Register

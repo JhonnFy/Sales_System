@@ -164,7 +164,7 @@
             this.subMenuSalesDetails.Name = "subMenuSalesDetails";
             this.subMenuSalesDetails.Size = new System.Drawing.Size(180, 22);
             this.subMenuSalesDetails.Text = "Sales Details";
-            this.subMenuSalesDetails.Click += new System.EventHandler(this.subSaleDetail_Click);
+            this.subMenuSalesDetails.Click += new System.EventHandler(this.subMenuSalesDetails_Click);
             // 
             // menuShopping
             // 
