@@ -368,7 +368,7 @@ namespace CapaPresentacion
             this.Close(); 
         }
 
-        //Evento Click Moes
+        //Evento Click subMenuCategory_Click
         private void subMenuCategory_Click(object sender, EventArgs e)
         {
             AbrirFormularioAdministradorCategorias((IconMenuItem)sender, new frmCategorys());
@@ -405,7 +405,7 @@ namespace CapaPresentacion
 
             Contenedor.Controls.Add(frmCategorys);
             frmCategorys.Show();
-        }
+        }//
 
         private void subMenuProduct_Click(object sender, EventArgs e)
         {
@@ -441,24 +441,27 @@ namespace CapaPresentacion
 
         }//Cerrar El Metodo
 
-        private void subRegister_Click(object sender, EventArgs e)
+        //Evento Click subMenuSalesRegister_Click
+        private void subMenuSalesRegister_Click(object sender, EventArgs e)
         {
-            //Evento Click
+            //---------------------------------------------------------------------------------------------
+            //[Menu Principal]-[menuSales].[SubMenu].[frmSalesRegister]
+            //---------------------------------------------------------------------------------------------
             AbrirFormularioRegisterSales((IconMenuItem)sender, new frmSalesRegister());
         }
 
-        //Activa El Color De Fondo Para El SubFormulario Registrar Venta
-        private void AbrirFormularioRegisterSales(IconMenuItem menuRegistrarVenta, Form frmSalesRegister)
+
+        //Activa El Color De Fondo Para El Formulario Ventas-Register
+        private void AbrirFormularioRegisterSales(IconMenuItem menuSalesRegister, Form frmSalesRegister)
         {
-            menuRegistrarVenta.BackColor = Color.WhiteSmoke;
+            menu.BackColor = Color.WhiteSmoke;
             menuSales.ForeColor = Color.SteelBlue;
-            MenuActivo = menuRegistrarVenta;
+            MenuActivo = menuSalesRegister;
 
             if (FormularioActivo != null)
             {
                 FormularioActivo.Close();
             }
-
 
             FormularioActivo = frmSalesRegister;
             frmSalesRegister.TopLevel = false;
@@ -466,46 +469,48 @@ namespace CapaPresentacion
             frmSalesRegister.Dock = DockStyle.Fill;
             frmSalesRegister.BackColor = Color.WhiteSmoke;
 
-            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            //Manejador Para Cambio De Color
             frmSalesRegister.FormClosed += (s, e) =>
             {
-                menuSales.ForeColor = Color.Black;
+                menuSalesRegister.ForeColor = Color.Black;
             };
 
             Contenedor.Controls.Add(frmSalesRegister);
             frmSalesRegister.Show();
-        }//Cierre Del Metodo
+        }
+
+
 
         //Evento Click
         private void subSaleDetail_Click(object sender, EventArgs e)
         {
-            AbrirFormulariofrmSalesDetail((IconMenuItem)sender, new frmSalesDetail());
+          // AbrirFormulariofrmSalesDetail((IconMenuItem)sender, new frmSalesDetail());
         }
     
         private void AbrirFormulariofrmSalesDetail(IconMenuItem menuDetalleVenta, Form frmSalesDetail)
         {
-            menuDetalleVenta.BackColor = Color.WhiteSmoke;
-            menuSales.ForeColor = Color.SteelBlue;
-            MenuActivo = menuDetalleVenta;
+            //menuDetalleVenta.BackColor = Color.WhiteSmoke;
+            //menuSales.ForeColor = Color.SteelBlue;
+            //MenuActivo = menuDetalleVenta;
 
-            if (FormularioActivo != null)
-            {
-                FormularioActivo = frmSalesDetail;
-                frmSalesDetail.TopLevel = false;
-                frmSalesDetail.FormBorderStyle = FormBorderStyle.None;
-                frmSalesDetail.Dock = DockStyle.Fill;
-                frmSalesDetail.BackColor = Color.WhiteSmoke;
+            //if (FormularioActivo != null)
+            //{
+            //    FormularioActivo = frmSalesDetail;
+            //    frmSalesDetail.TopLevel = false;
+            //    frmSalesDetail.FormBorderStyle = FormBorderStyle.None;
+            //    frmSalesDetail.Dock = DockStyle.Fill;
+            //    frmSalesDetail.BackColor = Color.WhiteSmoke;
 
-                //Manejador Para Cambiar El Color Al Cerrar El Formulario
-                frmSalesDetail.FormClosed += (s, e) =>
-                {
-                    menuSales.ForeColor = Color.Black;
-                };
+            //    //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            //    frmSalesDetail.FormClosed += (s, e) =>
+            //    {
+            //        menuSales.ForeColor = Color.Black;
+            //    };
 
-                //frmSalesDetail
-                Contenedor.Controls.Add(frmSalesDetail);
-                frmSalesDetail.Show();
-            }
+            //    //frmSalesDetail
+            //    Contenedor.Controls.Add(frmSalesDetail);
+            //    frmSalesDetail.Show();
+           // }
         }
 
         //Evento Click Shopping Register
