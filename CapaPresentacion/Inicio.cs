@@ -377,14 +377,22 @@ namespace CapaPresentacion
         //Activa El Color De Fondo Para El Formulario Administrador-Categoria
         private void AbrirFormularioAdministradorCategorias(IconMenuItem menuAdmCategoria, Form frmCategorys)
         {
-       
-            menu.BackColor = Color.WhiteSmoke;
-            menuAdministrator.ForeColor = Color.SteelBlue;
-            MenuActivo = menuAdmCategoria;
 
-            if (FormularioActivo != null)
+            //1-Resetar El Menu Activo
+            menu.BackColor = Color.WhiteSmoke;
+            menu.ForeColor = Color.Black;
+            menuAdministrator.ForeColor = Color.SteelBlue;
+
+            //if (FormularioActivo != null)
+            //{
+            //    FormularioActivo.Close();
+            //}
+
+            if (FormularioActivo == frmCategorys)
             {
-                FormularioActivo.Close();
+                menu.BackColor = Color.WhiteSmoke;
+                menu.ForeColor = Color.Black;
+                menuAdministrator.ForeColor = Color.SteelBlue;
             }
 
             FormularioActivo = frmCategorys;
