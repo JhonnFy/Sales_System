@@ -368,25 +368,29 @@ namespace CapaPresentacion
             this.Close(); 
         }
 
+        //---------------------------------------------------------------------------------------------
         //Evento Click subMenuCategory_Click
+        //---------------------------------------------------------------------------------------------
         private void subMenuCategory_Click(object sender, EventArgs e)
         {
             AbrirFormularioAdministradorCategorias((IconMenuItem)sender, new frmCategorys());
         }
 
+        //---------------------------------------------------------------------------------------------
         //Activa El Color De Fondo Para El Formulario Administrador-Categoria
+        //---------------------------------------------------------------------------------------------
         private void AbrirFormularioAdministradorCategorias(IconMenuItem menuAdmCategoria, Form frmCategorys)
         {
 
-            //1-Resetar El Menu Activo
-            menu.BackColor = Color.WhiteSmoke;
-            menu.ForeColor = Color.Black;
-            menuAdministrator.ForeColor = Color.SteelBlue;
-
-            //if (FormularioActivo != null)
-            //{
-            //    FormularioActivo.Close();
-            //}
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[Close]
+            //---------------------------------------------------------------------------------------------
+            if (FormularioActivo != null){
+                FormularioActivo.Close();
+                menu.BackColor = Color.WhiteSmoke;
+                menu.ForeColor = Color.Black;
+                menuAdministrator.ForeColor = Color.SteelBlue;
+            }
 
             if (FormularioActivo == frmCategorys)
             {
@@ -401,7 +405,9 @@ namespace CapaPresentacion
             frmCategorys.Dock = DockStyle.Fill;
             frmCategorys.BackColor = Color.WhiteSmoke;
 
-            //Manejador Para Cambiar El Color Al Cerrar El Formulario
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[SubMenu]
+            //---------------------------------------------------------------------------------------------
             frmCategorys.FormClosed += (s, e) =>
             {
                 menuAdministrator.ForeColor = Color.Black;
@@ -409,7 +415,7 @@ namespace CapaPresentacion
 
             Contenedor.Controls.Add(frmCategorys);
             frmCategorys.Show();
-        }//
+        }
 
         private void subMenuProduct_Click(object sender, EventArgs e)
         {
