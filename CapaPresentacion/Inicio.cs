@@ -430,16 +430,31 @@ namespace CapaPresentacion
             frmCategorys.Show();
         }
 
+        //---------------------------------------------------------------------------------------------
+        //Evento Click subMenuProduct_Click
+        //---------------------------------------------------------------------------------------------
         private void subMenuProduct_Click(object sender, EventArgs e)
         {
             AbrirFormularioAdministradorProductos((IconMenuItem)sender, new frmProducts());
         }
 
+        //---------------------------------------------------------------------------------------------
         //Activa El Color De Fondo Para El Formulario Administrador-Productos
+        //---------------------------------------------------------------------------------------------
         private void AbrirFormularioAdministradorProductos(IconMenuItem menuAdmProductos, Form frmProducts)
         {
             //---------------------------------------------------------------------------------------------
-            //Manejador De Colores.[Close]
+            //Manejador De Colores.[Is Null]
+            //---------------------------------------------------------------------------------------------
+            if (FormularioActivo == null)
+            {
+                menu.BackColor = Color.WhiteSmoke;
+                menu.ForeColor = Color.Black;
+                menuAdministrator.ForeColor = Color.SteelBlue;
+            }
+
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[Not Null]
             //---------------------------------------------------------------------------------------------
             if (FormularioActivo != null)
             {
@@ -460,16 +475,21 @@ namespace CapaPresentacion
             frmProducts.Dock = DockStyle.Fill;
             frmProducts.BackColor = Color.WhiteSmoke;
 
-            // Manejador Para Cambiar El Color Al Cerrar El Formulario
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[SubMenu]
+            //---------------------------------------------------------------------------------------------
             frmProducts.FormClosed += (s, e) =>
             {
                 menuAdministrator.ForeColor = Color.Black;
             };
 
+            //---------------------------------------------------------------------------------------------
+            //frmProducts.[Open]
+            //---------------------------------------------------------------------------------------------
             Contenedor.Controls.Add(frmProducts);
             frmProducts.Show();
 
-        }//Cerrar El Metodo
+        }
 
         //Evento Click subMenuSalesRegister_Click
         private void subMenuSalesRegister_Click(object sender, EventArgs e)
