@@ -620,7 +620,7 @@ namespace CapaPresentacion
             {
                 menu.BackColor = Color.WhiteSmoke;
                 menu.ForeColor = Color.Black;
-                menuAdministrator.ForeColor = Color.SteelBlue;
+                menuShopping.ForeColor = Color.SteelBlue;
             }
 
             //---------------------------------------------------------------------------------------------
@@ -631,7 +631,7 @@ namespace CapaPresentacion
                 FormularioActivo.Close();
                 menu.BackColor = Color.WhiteSmoke;
                 menu.ForeColor = Color.Black;
-                menuAdministrator.ForeColor = Color.SteelBlue;
+                menuShopping.ForeColor = Color.SteelBlue;
             }
 
             FormularioActivo = frmShoppingRegister;
@@ -655,23 +655,40 @@ namespace CapaPresentacion
             frmShoppingRegister.Show();
         }
 
-        //Evento Click Shopping Detail
+        //---------------------------------------------------------------------------------------------
+        //Evento Click subMenuShoppingDetail_Click
+        //---------------------------------------------------------------------------------------------
         private void subShoppingDetail_Click(object sender, EventArgs e)
         {
             AbrirFormularioShoppingDetail((IconMenuItem)sender, new frmShoppingDetail());
         }
 
-        //Activa El Color De Fondo Para El Formulario ShoppingDetail
+        //---------------------------------------------------------------------------------------------
+        //Activa El Color De Fondo Para El Formulario Administrador-Categoria
+        //---------------------------------------------------------------------------------------------
         private void AbrirFormularioShoppingDetail(IconMenuItem menuShoppingDetails, Form frmShoppingDetail)
         {
-            menuShoppingDetails.BackColor = Color.WhiteSmoke;
-            menuShopping.ForeColor = Color.SteelBlue;
-            MenuActivo = menuShoppingDetails;
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[Is Null]
+            //---------------------------------------------------------------------------------------------
+            if (FormularioActivo == null)
+            {
+                menu.BackColor = Color.WhiteSmoke;
+                menu.ForeColor = Color.Black;
+                menuShopping.ForeColor = Color.SteelBlue;
+            }
 
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[Not Null]
+            //---------------------------------------------------------------------------------------------
             if (FormularioActivo != null)
             {
                 FormularioActivo.Close();
+                menu.BackColor = Color.WhiteSmoke;
+                menu.ForeColor = Color.Black;
+                menuShopping.ForeColor = Color.SteelBlue;
             }
+
 
             FormularioActivo = frmShoppingDetail;
             frmShoppingDetail.TopLevel = false;
@@ -679,12 +696,17 @@ namespace CapaPresentacion
             frmShoppingDetail.Dock = DockStyle.Fill;
             frmShoppingDetail.BackColor = Color.WhiteSmoke;
 
-            //Manejador Para Cambiar El color Al Cerrar El Formulario
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[SubMenu]
+            //---------------------------------------------------------------------------------------------
             frmShoppingDetail.FormClosed += (s, e) =>
             {
                 menuShopping.ForeColor = Color.Black;
             };
 
+            //---------------------------------------------------------------------------------------------
+            //frmShoppingDetail.[Open]
+            //---------------------------------------------------------------------------------------------
             Contenedor.Controls.Add(frmShoppingDetail);
             frmShoppingDetail.Show();
            
