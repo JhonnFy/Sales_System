@@ -382,10 +382,18 @@ namespace CapaPresentacion
         private void AbrirFormularioAdministradorCategorias(IconMenuItem menuAdmCategoria, Form frmCategorys)
         {
 
+            if (FormularioActivo == null)
+            {
+                menu.BackColor = Color.WhiteSmoke;
+                menu.ForeColor = Color.Black;
+                menuAdministrator.ForeColor = Color.SteelBlue;
+            }
+
             //---------------------------------------------------------------------------------------------
-            //Manejador De Colores.[Close]
+            //Manejador De Colores.[Not Null]
             //---------------------------------------------------------------------------------------------
-            if (FormularioActivo != null){
+            if (FormularioActivo != null)
+            {
                 FormularioActivo.Close();
                 menu.BackColor = Color.WhiteSmoke;
                 menu.ForeColor = Color.Black;
@@ -425,9 +433,16 @@ namespace CapaPresentacion
         //Activa El Color De Fondo Para El Formulario Administrador-Productos
         private void AbrirFormularioAdministradorProductos(IconMenuItem menuAdmProductos, Form frmProducts)
         {
-            menu.BackColor = Color.WhiteSmoke;
-            menuAdministrator.ForeColor = Color.SteelBlue;
-            MenuActivo = menuAdmProductos;
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[Close]
+            //---------------------------------------------------------------------------------------------
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+                menu.BackColor = Color.WhiteSmoke;
+                menu.ForeColor = Color.Black;
+                menuAdministrator.ForeColor = Color.SteelBlue;
+            }
 
             if (FormularioActivo != null)
             {
