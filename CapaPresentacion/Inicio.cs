@@ -381,7 +381,9 @@ namespace CapaPresentacion
         //---------------------------------------------------------------------------------------------
         private void AbrirFormularioAdministradorCategorias(IconMenuItem menuAdmCategoria, Form frmCategorys)
         {
-
+            //---------------------------------------------------------------------------------------------
+            //Manejador De Colores.[Is Null]
+            //---------------------------------------------------------------------------------------------
             if (FormularioActivo == null)
             {
                 menu.BackColor = Color.WhiteSmoke;
@@ -421,6 +423,9 @@ namespace CapaPresentacion
                 menuAdministrator.ForeColor = Color.Black;
             };
 
+            //---------------------------------------------------------------------------------------------
+            //frmCategorys.[Open]
+            //---------------------------------------------------------------------------------------------
             Contenedor.Controls.Add(frmCategorys);
             frmCategorys.Show();
         }
