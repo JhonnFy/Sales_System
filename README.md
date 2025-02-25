@@ -1,3 +1,64 @@
+# Sales System in .NET
+
+## Project Structure
+
+- **📂 Sales_System**
+  - **📂 CapaPresentacion** (UI - Interfaz de Usuario)
+    - `MainForm.cs` (Formulario principal del sistema)
+    - `LoginForm.cs` (Formulario de inicio de sesión)
+    - `Program.cs` (Punto de entrada del sistema)
+  - **📂 CapaNegocio** (Lógica de Negocio)
+    - `SalesManager.cs` (Gestión de ventas y transacciones)
+    - `ProductManager.cs` (Manejo de productos y stock)
+    - `UserManager.cs` (Administración de usuarios y roles)
+  - **📂 CapaDatos** (Acceso a Datos)
+    - `DatabaseHelper.cs` (Gestión de conexión con la base de datos)
+    - `SalesRepository.cs` (Operaciones relacionadas con ventas en la BD)
+    - `UserRepository.cs` (Manejo de usuarios en la BD)
+  - **📂 Database** (Base de Datos)
+    - `database_setup.sql` (Script para crear tablas)
+    - `connection_config.json` (Opcional: Configuración de conexión)
+  - `README.md`
+
+## Description
+Provide a brief overview of the Sales System, its purpose, and its intended users.
+
+## Features
+- List the main features of the Sales System.
+- Example: User authentication, sales tracking, product management, reporting, etc.
+
+## Technologies Used
+- .NET
+- C#
+- Any other relevant technologies, frameworks, or databases
+
+## Installation and Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/JhonnFy/Sales_System.git
+   ```
+2. Navigate to the project directory.
+3. Install dependencies if needed.
+4. Run the project using your preferred .NET environment.
+
+## Gallery
+Include screenshots or gifs showcasing the system's interface and functionalities.
+
+## Contributions
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Submit a pull request.
+
+## License
+Specify the license under which the project is distributed.
+
+
+
+
+
+
+
 # Sales System
 ![image](https://github.com/user-attachments/assets/f6a46e57-877f-4b48-ac43-7f8937d475c1)
 ![image](https://github.com/user-attachments/assets/e5ca633b-fa25-4424-8815-c29c0b9b8dfa)
