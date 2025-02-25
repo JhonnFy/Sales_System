@@ -1,5 +1,8 @@
 # Sales System in .NET
 
+## Description
+This project is a Sales System developed in .NET with Windows Forms, designed to manage and streamline sales operations. It includes CRUD functionality for key modules such as Users, Administrators, Sales, Purchases, Clients, Suppliers, and Reports. The application follows a layered architecture, integrating a database connection to efficiently store and manage transactional data, ensuring secure and organized record-keeping.
+
 ## Project Structure
 
 - **📂 Sales_System**
@@ -19,9 +22,6 @@
     - `database_setup.sql` (Script para crear tablas)
     - `connection_config.json` (Opcional: Configuración de conexión)
   - `README.md`
-
-## Description
-Provide a brief overview of the Sales System, its purpose, and its intended users.
 
 ## Features
 - List the main features of the Sales System.
