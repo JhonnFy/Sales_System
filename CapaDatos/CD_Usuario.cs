@@ -19,7 +19,7 @@ namespace CapaDatos
         //Metodo Para Listar Usuarios
         public List<Usuario> Listar()
         {
-            List<Usuario> lista = new List<Usuario>();
+            List<Usuario> listaUsuarios = new List<Usuario>();
 
             using (SqlConnection objConexion = new SqlConnection(Conexion.cadena))
             {
@@ -27,9 +27,11 @@ namespace CapaDatos
 
                 try
                 {
-                    string querySQL = "SELECT  IdUsuario, Documento, NombreCompleto,Correo,Clave, Estado  FROM  USUARIO";
+                    string querySQL = "SELECT a.IdUsuario, a.Documento, a.NombreCompleto, a.Correo, a.Clave, a.Estado, b.Descripcion AS DescripcionRol " +
+                    "FROM USUARIO a " +
+                    "INNER JOIN ROL b ON a.IdRol = b.IdRol ";
+
                     SqlCommand cmd = new SqlCommand(querySQL, objConexion);
-                    
                     cmd.CommandType = CommandType.Text;
 
                     objConexion.Open();
@@ -38,18 +40,20 @@ namespace CapaDatos
                     {
                         while (dr.Read())
                         {
-                            lista.Add(new Usuario()
+                            Usuario usuario = new Usuario()
                             {
                                 IdUsuario = Convert.ToInt32(dr["IdUsuario"]),
                                 Documento = dr["Documento"].ToString(),
                                 NombreCompleto = dr["NombreCompleto"].ToString(),
                                 Correo = dr["Correo"].ToString(),
                                 Clave = dr["Clave"].ToString(),
-                                Estado = Convert.ToBoolean(dr["Estado"])
-                            });
+                                Estado = Convert.ToBoolean(dr["Estado"]),
+                                //Asignar el valor de la descripción del rol
+                                DescripcionRol = dr["DescripcionRol"].ToString()
+                            };
+                            listaUsuarios.Add(usuario);
                         }
                     }
-
                 }
                 catch (Exception ex)
                 {
@@ -57,7 +61,7 @@ namespace CapaDatos
                     //lista = new List<Usuario>();
                 }
             }
-            return lista;
+            return listaUsuarios;
         }//Cierre Del Metodo
     }
 }

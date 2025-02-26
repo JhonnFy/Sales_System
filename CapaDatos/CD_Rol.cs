@@ -14,16 +14,14 @@ namespace CapaDatos
     public class CD_Rol
     {
         //Metodo Para Listar Nombres De Rol
-        
         public List<Rol> Listar(int idRol)
         {
-            //Objeto
+            // Objeto para almacenar los roles
             List<Rol> lista = new List<Rol>();
 
             using (SqlConnection objConexion = new SqlConnection(Conexion.cadena))
             {
-                //Peticion dB
-
+                // Petición a la base de datos
                 try
                 {
                     StringBuilder querySQL = new StringBuilder();
@@ -43,8 +41,8 @@ namespace CapaDatos
                         {
                             lista.Add(new Rol()
                             {
-                                objRol = new Rol() { IdRol = Convert.ToInt32(dr["IdRol"]) },
-                                Descripcion = dr["Descripcion"].ToString(),
+                                IdRol = Convert.ToInt32(dr["IdRol"]),
+                                Descripcion = dr["DESCRIPCION"].ToString()
                             });
                         }//Cierre del ciclo
                     }
@@ -57,8 +55,42 @@ namespace CapaDatos
 
             }
                 return lista;
-        }//Cierre Del Metodo
+        }//Cierre Del  Primer Metodo
 
-
+        //Seguinte Metodo Para Listar Todos Los Roles
+        public List<Rol> ListarTodos()
+        {
+            // Objeto para almacenar los roles
+            List<Rol> lista = new List<Rol>();
+            using (SqlConnection objConexion = new SqlConnection(Conexion.cadena))
+            {
+                // Petición a la base de datos
+                try
+                {
+                    StringBuilder querySQL = new StringBuilder();
+                    querySQL.AppendLine("SELECT a.IdRol, a.Descripcion FROM ROL a");
+                    querySQL.AppendLine("INNER JOIN USUARIO b on a.IdRol = b.IdRol");
+                    SqlCommand cmd = new SqlCommand(querySQL.ToString(), objConexion);
+                    cmd.CommandType = CommandType.Text;
+                    objConexion.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            lista.Add(new Rol()
+                            {
+                                IdRol = Convert.ToInt32(dr["IdRol"]),
+                                Descripcion = dr["DESCRIPCION"].ToString()
+                            });
+                        }//Cierre del ciclo
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error Al Ejecutar La Consola Rol " + ex.Message);
+                }
+            }
+            return lista;
+        }//Cierre Del  Segundo Metodo
     }
 }
