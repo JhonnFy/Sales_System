@@ -45,6 +45,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderText = "NOMBRE COMPLETO";
                 dataGridViewUsuarios.Columns["CORREO"].HeaderText = "CORREO";
                 dataGridViewUsuarios.Columns["CLAVE"].HeaderText = "CLAVE";
+                //Agregar columna de Rol
+                dataGridViewUsuarios.Columns["DescripcionRol"].HeaderText = "DESCRIPCIÓN ROL";
 
                 // Ocultar columnas adicionales
                 dataGridViewUsuarios.Columns["objRol"].Visible = false;
