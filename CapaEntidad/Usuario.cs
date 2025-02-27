@@ -12,19 +12,29 @@ namespace CapaEntidad
     {
         //Primer Atributo tbl_Usuario
         public int IdUsuario { get; set; }
+
         //Segundo Atributo tbl_Usuario
         public string Documento { get; set; }
+
         //Cuarto Atributo tbl_Usuario
         public string NombreCompleto { get; set; }
+
         //Quinto Atributo tbl_Usuario
         public string  Correo { get; set; }
+
         //Sexto Atributo tbl_Usuario
         public string Clave { get; set; }
+
         //Septimo Atributo tbl_Usuario
         public Rol objRol { get; set; }
+
         //Ocatvo Atributo tbl_Usuario
         public bool Estado { get; set; }
+
         //Noveno Atributo tbl_Usuario
         public DateTime FechaRegistro { get; set; }
+
+        //Decimo Atributo tbl_Usuario
+        public string DescripcionRol { get; set; }
     }
 }
