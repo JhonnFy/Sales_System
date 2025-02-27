@@ -179,10 +179,11 @@ INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) V
 INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('5566778899','tech_pro','tech_pro@SalesSystem.com','tech5566',16,1)
 INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('6677889900','codex_hero','codex_hero@SalesSystem.com','code6677',17,1)
 INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('7788990011','system_slayer','system_slayer@SalesSystem.com','syst7788',18,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('8899001122','software_king','@SalesSystem.com','',19,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('9900112233','dev_master','@SalesSystem.com','',20,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('8899001122','software_king','@SalesSystem.com','soft8899',19,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('9900112233','dev_master','@SalesSystem.com','dev_9900',20,1)
 ----
 --Consultar USUARIO
 ----
 SELECT * FROM USUARIO
 GO
+
