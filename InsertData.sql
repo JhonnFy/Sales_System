@@ -161,28 +161,28 @@ GO
 ----
 ---Insertar Los Usuarios
 ----
-
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('1023456789','Dijhons1023','Dijhons1023@SalesSystem.com','Dijh1023',1,1)--
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('9876543210','testing1','testing1@SalesSystem.com','test9876',2,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('1234567890','testing2','testing2@SalesSystem.com','test1234',3,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('2345678901','tech_guru','tech_guru@SalesSystem.com','tech2345',4,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('3456789012','code_wizard','code@SalesSystem.com','code3456',5,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('4567890123','admin_01','admin_01@SalesSystem.com','admi4567',6,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('5678901234','user_42','user_42@SalesSystem.com','user5678',7,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('6789012345','mr_programmer','mr_programmer@SalesSystem.com','mr_p6789',8,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('7890123456','tech_geek','tech_geek@SalesSystem.com','tech7890',9,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('8901234567','dev_ninja','dev_ninja@SalesSystem.com','dev_8901',10,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('9012345678','code_smith','code_smith@SalesSystem.com','code9012',11,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('1122334455','user_evergreen','user_evergreen@SalesSystem.com','user1122',12,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('2233445566','engineer_001','engineer_001@SalesSystem.com','engi2233',13,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('3344556677','script_warrior','script_warrior@SalesSystem.com','scri3344',14,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('4455667788','system_jedi','system_jedi@SalesSystem.com','syst4455',15,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('5566778899','tech_pro','tech_pro@SalesSystem.com','tech5566',16,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('6677889900','codex_hero','codex_hero@SalesSystem.com','code6677',17,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('7788990011','system_slayer','system_slayer@SalesSystem.com','syst7788',18,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('8899001122','software_king','@SalesSystem.com','',19,1)
+INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('9900112233','dev_master','@SalesSystem.com','',20,1)
+----
+--Consultar USUARIO
+----
 SELECT * FROM USUARIO
 GO
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('1023456789','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',1,1)--
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('9876543210','software_king','software_king@SalesSystem.com','so9876',2,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',3,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',4,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',5,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',6,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',7,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',8,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',9,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',10,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',11,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',12,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',13,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',14,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',15,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',16,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',17,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',18,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',19,1)
-INSERT INTO  USUARIO (Documento, NombreCompleto, Correo, Clave, IdRol, Estado) VALUES ('','Dijhons1023','Dijhons1023@SalesSystem.com','Di1023',20,1)
-
-
