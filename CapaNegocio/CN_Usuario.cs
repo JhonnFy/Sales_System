@@ -10,7 +10,7 @@ namespace CapaNegocio
 {
     public class CN_Usuario
     {
-        //Nuevo Objeto
+        // Instanciar la capa de datos
         private CD_Usuario objcd_Usuario = new CD_Usuario();
 
         public List<Usuario> Listar()
