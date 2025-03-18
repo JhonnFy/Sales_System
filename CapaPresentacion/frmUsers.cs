@@ -75,12 +75,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DescripcionRol"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
 
                 // Evitar que las columnas se redimensionen con el mouse
-                dataGridViewUsuarios.Columns["IdUsuario"].Resizable = DataGridViewTriState.False;
-                dataGridViewUsuarios.Columns["DOCUMENTO"].Resizable = DataGridViewTriState.False;
-                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].Resizable = DataGridViewTriState.False;
-                dataGridViewUsuarios.Columns["CORREO"].Resizable = DataGridViewTriState.False;
-                dataGridViewUsuarios.Columns["CLAVE"].Resizable = DataGridViewTriState.False;
-                dataGridViewUsuarios.Columns["DescripcionRol"].Resizable = DataGridViewTriState.False;
+                dataGridViewUsuarios.AllowUserToResizeColumns = false;
+                dataGridViewUsuarios.AllowUserToResizeRows = false;
 
             }
             catch (Exception ex)
