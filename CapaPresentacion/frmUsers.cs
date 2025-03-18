@@ -54,6 +54,22 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["Estado"].Visible = false;
                 dataGridViewUsuarios.Columns["FechaRegistro"].Visible = false;
 
+                //Fijando El Tamaño
+                dataGridViewUsuarios.Columns["IdUsuario"].Width = 100;
+                dataGridViewUsuarios.Columns["DOCUMENTO"].Width = 100;
+                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].Width = 150;
+                dataGridViewUsuarios.Columns["CORREO"].Width = 250;
+                dataGridViewUsuarios.Columns["CLAVE"].Width = 150;
+                dataGridViewUsuarios.Columns["DescripcionRol"].Width = 200;
+
+                // Evitar que las columnas se redimensionen con el mouse
+                dataGridViewUsuarios.Columns["IdUsuario"].Resizable = DataGridViewTriState.False;
+                dataGridViewUsuarios.Columns["DOCUMENTO"].Resizable = DataGridViewTriState.False;
+                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].Resizable = DataGridViewTriState.False;
+                dataGridViewUsuarios.Columns["CORREO"].Resizable = DataGridViewTriState.False;
+                dataGridViewUsuarios.Columns["CLAVE"].Resizable = DataGridViewTriState.False;
+                dataGridViewUsuarios.Columns["DescripcionRol"].Resizable = DataGridViewTriState.False;
+
             }
             catch (Exception ex)
             {
