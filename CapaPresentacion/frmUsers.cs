@@ -39,7 +39,11 @@ namespace CapaPresentacion
 
                 // Asignar los datos al DataGridView
                 dataGridViewUsuarios.DataSource = usuarios;
-                         
+
+                // Ocultar la columna vacía a la izquierda
+                dataGridViewUsuarios.RowHeadersVisible = false;
+
+
                 // // Personalizar las columnas visibles
                 dataGridViewUsuarios.Columns["IdUsuario"].HeaderText = "Entry Numbe";
                 dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderText = "Document";
@@ -61,6 +65,14 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["CORREO"].Width = 250;
                 dataGridViewUsuarios.Columns["CLAVE"].Width = 150;
                 dataGridViewUsuarios.Columns["DescripcionRol"].Width = 200;
+
+                // Alinear a la izquierda las columnas deseadas
+                dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["CLAVE"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["DescripcionRol"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
 
                 // Evitar que las columnas se redimensionen con el mouse
                 dataGridViewUsuarios.Columns["IdUsuario"].Resizable = DataGridViewTriState.False;
