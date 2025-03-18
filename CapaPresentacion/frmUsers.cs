@@ -39,14 +39,15 @@ namespace CapaPresentacion
 
                 // Asignar los datos al DataGridView
                 dataGridViewUsuarios.DataSource = usuarios;
-
+                         
                 // // Personalizar las columnas visibles
-                dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderText = "DOCUMENTO";
-                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderText = "NOMBRE COMPLETO";
-                dataGridViewUsuarios.Columns["CORREO"].HeaderText = "CORREO";
-                dataGridViewUsuarios.Columns["CLAVE"].HeaderText = "CLAVE";
+                dataGridViewUsuarios.Columns["IdUsuario"].HeaderText = "Entry Numbe";
+                dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderText = "Document";
+                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderText = "Full Name";
+                dataGridViewUsuarios.Columns["CORREO"].HeaderText = "Mail";
+                dataGridViewUsuarios.Columns["CLAVE"].HeaderText = "Password";
                 //Agregar columna de Rol
-                dataGridViewUsuarios.Columns["DescripcionRol"].HeaderText = "DESCRIPCIÓN ROL";
+                dataGridViewUsuarios.Columns["DescripcionRol"].HeaderText = "Role Description";
 
                 // Ocultar columnas adicionales
                 dataGridViewUsuarios.Columns["objRol"].Visible = false;
