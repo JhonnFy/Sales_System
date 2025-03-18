@@ -40,6 +40,7 @@ This project is a Sales System developed in .NET with Windows Forms, designed to
 2. Navigate to the project directory.
 3. Install dependencies if needed.
 4. Run the project using your preferred .NET environment.
+5. Set as Startup Project CapaPresentacion
 
 ## Gallery
 ![image](https://github.com/user-attachments/assets/f6a46e57-877f-4b48-ac43-7f8937d475c1)
