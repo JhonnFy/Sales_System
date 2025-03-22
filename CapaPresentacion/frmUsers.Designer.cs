@@ -34,7 +34,7 @@
             // 
             // dataGridViewUsuarios
             // 
-            this.dataGridViewUsuarios.BackgroundColor = System.Drawing.Color.Red;
+            this.dataGridViewUsuarios.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridViewUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewUsuarios.Location = new System.Drawing.Point(-2, 0);
             this.dataGridViewUsuarios.Name = "dataGridViewUsuarios";
