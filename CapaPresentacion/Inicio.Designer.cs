@@ -275,6 +275,7 @@
             // Contenedor
             // 
             this.Contenedor.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Contenedor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Contenedor.Location = new System.Drawing.Point(0, 139);
             this.Contenedor.Name = "Contenedor";
