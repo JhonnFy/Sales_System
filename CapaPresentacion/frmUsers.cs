@@ -104,6 +104,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.ForeColor = Color.Black;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DefaultCellStyle.ForeColor = Color.Black;
+                dataGridViewUsuarios.Columns["CLAVE"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
+                dataGridViewUsuarios.Columns["CLAVE"].DefaultCellStyle.ForeColor = Color.Black;
 
                 //Inactiva el cambio de color con el paso del cursos del mouse
                 dataGridViewUsuarios.EnableHeadersVisualStyles = false;
