@@ -94,6 +94,14 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DescripcionRol"].DisplayIndex = 4; // Columna 5
                 dataGridViewUsuarios.Columns["CORREO"].DisplayIndex = 5; // Columna 6
 
+                //Asignar Color De Fondo
+                //dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.BackColor = Color.White;
+
+                //Inactiva el cambio de color con el paso del cursos del mouse
+                dataGridViewUsuarios.EnableHeadersVisualStyles = false;
+
+   //             dataGridViewUsuarios.GridColor = Color.Transparent;
+
             }
             catch (Exception ex)
             {
