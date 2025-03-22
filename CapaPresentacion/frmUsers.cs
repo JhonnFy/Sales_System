@@ -112,6 +112,9 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
                 dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.ForeColor = Color.Black;
 
+                //Eliminar El Borde Externo
+                dataGridViewUsuarios.BorderStyle = BorderStyle.None;
+
                 //Inactiva el cambio de color con el paso del cursos del mouse
                 dataGridViewUsuarios.EnableHeadersVisualStyles = false;
 
