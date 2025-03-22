@@ -38,7 +38,7 @@
             this.dataGridViewUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewUsuarios.Location = new System.Drawing.Point(-2, 0);
             this.dataGridViewUsuarios.Name = "dataGridViewUsuarios";
-            this.dataGridViewUsuarios.Size = new System.Drawing.Size(876, 383);
+            this.dataGridViewUsuarios.Size = new System.Drawing.Size(876, 504);
             this.dataGridViewUsuarios.TabIndex = 1;
             this.dataGridViewUsuarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewUsuarios_CellContentClick);
             // 
@@ -46,7 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(870, 381);
+            this.ClientSize = new System.Drawing.Size(870, 502);
             this.Controls.Add(this.dataGridViewUsuarios);
             this.Name = "frmUsers";
             this.Text = "frmUsers";
