@@ -68,6 +68,8 @@ namespace CapaPresentacion
                 //Alinear La Cabecera
                 dataGridViewUsuarios.Columns["IdUsuario"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                
 
 
                 // Alinear A La Izquierda 
