@@ -98,8 +98,12 @@ namespace CapaPresentacion
                 //dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.BackColor = Color.White;
 
 
+                dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
+                dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.ForeColor = Color.Black;
                 dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.BackColor = Color.WhiteSmoke; // Fijar un color de fondo
                 dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.ForeColor = Color.Black; // Fijar un color de contenido
+
+
                 //Inactiva el cambio de color con el paso del cursos del mouse
                 dataGridViewUsuarios.EnableHeadersVisualStyles = false;
 
