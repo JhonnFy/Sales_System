@@ -53,6 +53,7 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DescripcionRol"].HeaderText = "Role Description";
 
                 // Ocultar columnas adicionales
+                dataGridViewUsuarios.Columns["IdUsuario"].Visible = false;
                 dataGridViewUsuarios.Columns["objRol"].Visible = false;
                 dataGridViewUsuarios.Columns["Estado"].Visible = false;
                 dataGridViewUsuarios.Columns["FechaRegistro"].Visible = false;
