@@ -4,7 +4,7 @@
 This project is a Sales System developed in .NET with Windows Forms, designed to manage and streamline sales operations. It includes CRUD functionality for key modules such as Users, Administrators, Sales, Purchases, Clients, Suppliers, and Reports. The application follows a layered architecture, integrating a database connection to efficiently store and manage transactional data, ensuring secure and organized record-keeping.
          
 ## Project Structure
-     
+      
 - **📂 Sales_System**
   - **📂 CapaPresentacion** (UI - Interfaz de Usuario)
     - `MainForm.cs` (Formulario principal del sistema)
