@@ -65,7 +65,11 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["CORREO"].Width = 250;
                 dataGridViewUsuarios.Columns["DescripcionRol"].Width = 200;
 
-                // Alinear a la izquierda las columnas deseadas
+                //Alinear La Cabecera
+                dataGridViewUsuarios.Columns["IdUsuario"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+
+                // Alinear A La Izquierda 
                 dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
