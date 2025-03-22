@@ -76,7 +76,7 @@ namespace CapaPresentacion
 
                 // Alinear A La Izquierda 
                 dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-                dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
                 dataGridViewUsuarios.Columns["CLAVE"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
                 dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
@@ -97,6 +97,9 @@ namespace CapaPresentacion
                 //Asignar Color De Fondo
                 //dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.BackColor = Color.White;
 
+
+                dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.BackColor = Color.WhiteSmoke; // Fijar un color de fondo
+                dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.ForeColor = Color.Black; // Fijar un color de contenido
                 //Inactiva el cambio de color con el paso del cursos del mouse
                 dataGridViewUsuarios.EnableHeadersVisualStyles = false;
 
