@@ -63,7 +63,7 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DOCUMENTO"].Width = 100;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].Width = 150;
                 dataGridViewUsuarios.Columns["CLAVE"].Width = 150;
-                dataGridViewUsuarios.Columns["CORREO"].Width = 275;
+                dataGridViewUsuarios.Columns["CORREO"].Width = 258;
                 dataGridViewUsuarios.Columns["DescripcionRol"].Width = 200;
 
                 //Alinear La Cabecera
