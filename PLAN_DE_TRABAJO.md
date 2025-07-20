@@ -8,6 +8,8 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 - [ ] Validar formulario de inicio de sesión con la base de datos.
 - [ ] Ajustar diseño del menú principal con íconos más claros.
 - [ ] En la db solucionar identity sql server
+- [ ] <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/a66573c4-fbb0-4a2c-8428-b8408c7382ea" />
+
 ---
 
 ## ✅ Completado recientemente
