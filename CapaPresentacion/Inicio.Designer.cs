@@ -51,6 +51,7 @@
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.ipbMinimizate = new FontAwesome.Sharp.IconPictureBox();
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
+            this.menuBarraInferior = new System.Windows.Forms.MenuStrip();
             this.menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
@@ -115,7 +116,7 @@
             this.subMenuCategory.IconColor = System.Drawing.Color.Black;
             this.subMenuCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuCategory.Name = "subMenuCategory";
-            this.subMenuCategory.Size = new System.Drawing.Size(161, 22);
+            this.subMenuCategory.Size = new System.Drawing.Size(180, 22);
             this.subMenuCategory.Text = "Admin Category";
             this.subMenuCategory.Click += new System.EventHandler(this.subMenuCategory_Click);
             // 
@@ -125,7 +126,7 @@
             this.subMenuProduct.IconColor = System.Drawing.Color.Black;
             this.subMenuProduct.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuProduct.Name = "subMenuProduct";
-            this.subMenuProduct.Size = new System.Drawing.Size(161, 22);
+            this.subMenuProduct.Size = new System.Drawing.Size(180, 22);
             this.subMenuProduct.Text = "Admin Product";
             this.subMenuProduct.Click += new System.EventHandler(this.subMenuProduct_Click);
             // 
@@ -152,7 +153,7 @@
             this.subMenuSalesRegister.IconColor = System.Drawing.Color.Black;
             this.subMenuSalesRegister.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuSalesRegister.Name = "subMenuSalesRegister";
-            this.subMenuSalesRegister.Size = new System.Drawing.Size(145, 22);
+            this.subMenuSalesRegister.Size = new System.Drawing.Size(180, 22);
             this.subMenuSalesRegister.Text = "Sales Register";
             this.subMenuSalesRegister.Click += new System.EventHandler(this.subMenuSalesRegister_Click);
             // 
@@ -162,7 +163,7 @@
             this.subMenuSalesDetails.IconColor = System.Drawing.Color.Black;
             this.subMenuSalesDetails.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuSalesDetails.Name = "subMenuSalesDetails";
-            this.subMenuSalesDetails.Size = new System.Drawing.Size(145, 22);
+            this.subMenuSalesDetails.Size = new System.Drawing.Size(180, 22);
             this.subMenuSalesDetails.Text = "Sales Details";
             this.subMenuSalesDetails.Click += new System.EventHandler(this.subMenuSalesDetails_Click);
             // 
@@ -189,7 +190,7 @@
             this.subShoppingRegister.IconColor = System.Drawing.Color.Black;
             this.subShoppingRegister.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subShoppingRegister.Name = "subShoppingRegister";
-            this.subShoppingRegister.Size = new System.Drawing.Size(170, 22);
+            this.subShoppingRegister.Size = new System.Drawing.Size(180, 22);
             this.subShoppingRegister.Text = "Shopping Register";
             this.subShoppingRegister.Click += new System.EventHandler(this.subShoppingRegister_Click);
             // 
@@ -199,7 +200,7 @@
             this.subShoppingDetail.IconColor = System.Drawing.Color.Black;
             this.subShoppingDetail.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subShoppingDetail.Name = "subShoppingDetail";
-            this.subShoppingDetail.Size = new System.Drawing.Size(170, 22);
+            this.subShoppingDetail.Size = new System.Drawing.Size(180, 22);
             this.subShoppingDetail.Text = "Shopping Detail";
             this.subShoppingDetail.Click += new System.EventHandler(this.subShoppingDetail_Click);
             // 
@@ -369,11 +370,24 @@
             this.menuTitulo.Text = "menuTitulo";
             this.menuTitulo.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuTitulo_ItemClicked);
             // 
+            // menuBarraInferior
+            // 
+            this.menuBarraInferior.AutoSize = false;
+            this.menuBarraInferior.BackColor = System.Drawing.Color.SteelBlue;
+            this.menuBarraInferior.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.menuBarraInferior.Location = new System.Drawing.Point(0, 565);
+            this.menuBarraInferior.Name = "menuBarraInferior";
+            this.menuBarraInferior.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.menuBarraInferior.Size = new System.Drawing.Size(873, 36);
+            this.menuBarraInferior.TabIndex = 15;
+            this.menuBarraInferior.Text = "menuStrip1";
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(873, 601);
+            this.Controls.Add(this.menuBarraInferior);
             this.Controls.Add(this.ipbMinimizate);
             this.Controls.Add(this.iconPictureBox2);
             this.Controls.Add(this.btnExit);
@@ -426,6 +440,7 @@
         private FontAwesome.Sharp.IconMenuItem subShoppingRegister;
         private FontAwesome.Sharp.IconMenuItem subShoppingDetail;
         private System.Windows.Forms.MenuStrip menuTitulo;
+        private System.Windows.Forms.MenuStrip menuBarraInferior;
     }
 }
 
