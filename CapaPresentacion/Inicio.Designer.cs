@@ -53,12 +53,16 @@
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.menuBarraInferior = new System.Windows.Forms.MenuStrip();
             this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconPictureBox4 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconPictureBox5 = new FontAwesome.Sharp.IconPictureBox();
             this.menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ipbMinimizate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // menu
@@ -399,11 +403,43 @@
             this.iconPictureBox3.TabIndex = 5;
             this.iconPictureBox3.TabStop = false;
             // 
+            // iconPictureBox4
+            // 
+            this.iconPictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.iconPictureBox4.BackColor = System.Drawing.Color.SteelBlue;
+            this.iconPictureBox4.ForeColor = System.Drawing.Color.Azure;
+            this.iconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
+            this.iconPictureBox4.IconColor = System.Drawing.Color.Azure;
+            this.iconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox4.IconSize = 23;
+            this.iconPictureBox4.Location = new System.Drawing.Point(675, 571);
+            this.iconPictureBox4.Name = "iconPictureBox4";
+            this.iconPictureBox4.Size = new System.Drawing.Size(23, 23);
+            this.iconPictureBox4.TabIndex = 16;
+            this.iconPictureBox4.TabStop = false;
+            // 
+            // iconPictureBox5
+            // 
+            this.iconPictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.iconPictureBox5.BackColor = System.Drawing.Color.SteelBlue;
+            this.iconPictureBox5.ForeColor = System.Drawing.Color.Azure;
+            this.iconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.ArrowRight;
+            this.iconPictureBox5.IconColor = System.Drawing.Color.Azure;
+            this.iconPictureBox5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox5.IconSize = 23;
+            this.iconPictureBox5.Location = new System.Drawing.Point(720, 571);
+            this.iconPictureBox5.Name = "iconPictureBox5";
+            this.iconPictureBox5.Size = new System.Drawing.Size(23, 23);
+            this.iconPictureBox5.TabIndex = 17;
+            this.iconPictureBox5.TabStop = false;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(873, 601);
+            this.Controls.Add(this.iconPictureBox5);
+            this.Controls.Add(this.iconPictureBox4);
             this.Controls.Add(this.iconPictureBox3);
             this.Controls.Add(this.ipbMinimizate);
             this.Controls.Add(this.iconPictureBox2);
@@ -429,6 +465,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ipbMinimizate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -461,6 +499,8 @@
         private System.Windows.Forms.MenuStrip menuTitulo;
         private System.Windows.Forms.MenuStrip menuBarraInferior;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox4;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox5;
     }
 }
 
