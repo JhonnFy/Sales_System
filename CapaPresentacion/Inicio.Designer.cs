@@ -51,14 +51,11 @@
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.ipbMinimizate = new FontAwesome.Sharp.IconPictureBox();
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
-            this.menuBarraInferior = new System.Windows.Forms.MenuStrip();
-            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
             this.menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ipbMinimizate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // menu
@@ -282,7 +279,7 @@
             this.Contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Contenedor.Location = new System.Drawing.Point(0, 139);
             this.Contenedor.Name = "Contenedor";
-            this.Contenedor.Size = new System.Drawing.Size(873, 426);
+            this.Contenedor.Size = new System.Drawing.Size(873, 462);
             this.Contenedor.TabIndex = 3;
             this.Contenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.Contenedor_Paint);
             // 
@@ -372,39 +369,11 @@
             this.menuTitulo.Text = "menuTitulo";
             this.menuTitulo.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuTitulo_ItemClicked);
             // 
-            // menuBarraInferior
-            // 
-            this.menuBarraInferior.AutoSize = false;
-            this.menuBarraInferior.BackColor = System.Drawing.Color.SteelBlue;
-            this.menuBarraInferior.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.menuBarraInferior.Location = new System.Drawing.Point(0, 565);
-            this.menuBarraInferior.Name = "menuBarraInferior";
-            this.menuBarraInferior.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuBarraInferior.Size = new System.Drawing.Size(873, 36);
-            this.menuBarraInferior.TabIndex = 15;
-            this.menuBarraInferior.Text = "menuStrip1";
-            // 
-            // iconPictureBox3
-            // 
-            this.iconPictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconPictureBox3.BackColor = System.Drawing.Color.SteelBlue;
-            this.iconPictureBox3.ForeColor = System.Drawing.Color.Azure;
-            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.ListCheck;
-            this.iconPictureBox3.IconColor = System.Drawing.Color.Azure;
-            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox3.IconSize = 23;
-            this.iconPictureBox3.Location = new System.Drawing.Point(26, 571);
-            this.iconPictureBox3.Name = "iconPictureBox3";
-            this.iconPictureBox3.Size = new System.Drawing.Size(23, 23);
-            this.iconPictureBox3.TabIndex = 5;
-            this.iconPictureBox3.TabStop = false;
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(873, 601);
-            this.Controls.Add(this.iconPictureBox3);
             this.Controls.Add(this.ipbMinimizate);
             this.Controls.Add(this.iconPictureBox2);
             this.Controls.Add(this.btnExit);
@@ -414,7 +383,6 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.menuTitulo);
-            this.Controls.Add(this.menuBarraInferior);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menu;
@@ -428,7 +396,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ipbMinimizate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -459,8 +426,6 @@
         private FontAwesome.Sharp.IconMenuItem subShoppingRegister;
         private FontAwesome.Sharp.IconMenuItem subShoppingDetail;
         private System.Windows.Forms.MenuStrip menuTitulo;
-        private System.Windows.Forms.MenuStrip menuBarraInferior;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
     }
 }
 

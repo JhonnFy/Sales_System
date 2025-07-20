@@ -19,14 +19,23 @@ namespace CapaPresentacion
 
         private CN_Usuario objCN_Usuario = new CN_Usuario();
 
+        //Variables para la paginación
+        private List<Usuario> TodosLosUsuarios = new List<Usuario>();
+        private int PaginaActual = 1;
+        private int RegistroPorPagina = 20;
+        private int TotalPaginas = 0;
 
+        //Metodo Constructor
         public frmUsers()
         {
             InitializeComponent();
         }
 
+
         private void frmUsers_Load(object sender, EventArgs e)
         {
+            TodosLosUsuarios = objCN_Usuario.Listar();
+            TotalPaginas = (int)Math.Ceiling((double)TodosLosUsuarios.Count / RegistroPorPagina); 
             ListarUsuarios();  
         }
 
@@ -34,17 +43,45 @@ namespace CapaPresentacion
         {
             try
             {
+
+                var usuariosPaginados = TodosLosUsuarios
+                    .Skip((PaginaActual - 1) * RegistroPorPagina)
+                    .Take(RegistroPorPagina)
+                    .Select((u, index) => new
+                    {
+                        NumeroFila = (PaginaActual -1) * RegistroPorPagina + index + 1,
+                        IdUsuario = u.IdUsuario,
+                        DOCUMENTO = u.Documento,
+                        NOMBRECOMPLETO = u.NombreCompleto,
+                        CLAVE = u.Clave,
+                        CORREO = u.Correo,
+                        DescripcionRol = u.DescripcionRol,
+                        //Campos Ocultos En El DataGridView
+                        objRol = u.objRol,
+                        Estado = u.Estado,
+                        FechaRegistro = u.FechaRegistro
+                    })
+                    .ToList();
+                    
+
                 //Obtener la lista de usuarios, de la capa negocio
-                var usuarios = objCN_Usuario.Listar();
+                //var usuarios = objCN_Usuario.Listar(); //Antigua Variable Mostraba Todos Los Usuarios
 
                 // Asignar los datos al DataGridView
-                dataGridViewUsuarios.DataSource = usuarios;
+                dataGridViewUsuarios.DataSource = usuariosPaginados;
 
                 // Ocultar la columna vacía a la izquierda
                 dataGridViewUsuarios.RowHeadersVisible = false;
 
-                // // Personalizar las columnas visibles
-                dataGridViewUsuarios.Columns["IdUsuario"].HeaderText = "Entry Numbe";
+                //Agregar La nueva Propiedad, Para Reemplazar El Identity Dañado En La Db
+                //dataGridViewUsuarios.Columns["NumeroFila"].HeaderText = "N°";
+                //dataGridViewUsuarios.Columns["NumeroFila"].Width = 50;
+                dataGridViewUsuarios.Columns["NumeroFila"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dataGridViewUsuarios.Columns["NumeroFila"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+                // Personalizar las columnas visibles
+                dataGridViewUsuarios.Columns["NumeroFila"].HeaderText = "N°";
+                dataGridViewUsuarios.Columns["IdUsuario"].HeaderText = "Entry Number";
                 dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderText = "Document";
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderText = "Full Name";
                 dataGridViewUsuarios.Columns["CLAVE"].HeaderText = "Password";
@@ -59,6 +96,7 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["FechaRegistro"].Visible = false;
 
                 //Fijando El Tamaño
+                dataGridViewUsuarios.Columns["NumeroFila"].Width = 50;
                 dataGridViewUsuarios.Columns["IdUsuario"].Width = 100;
                 dataGridViewUsuarios.Columns["DOCUMENTO"].Width = 100;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].Width = 150;
@@ -67,6 +105,7 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DescripcionRol"].Width = 200;
 
                 //Alinear La Cabecera
+                dataGridViewUsuarios.Columns["NumeroFila"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["IdUsuario"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -76,6 +115,7 @@ namespace CapaPresentacion
 
 
                 // Alinear A La Izquierda 
+                dataGridViewUsuarios.Columns["NumeroFila"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -88,7 +128,7 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.AllowUserToResizeRows = false;
 
                 //Reordenar Las Columas En El DataGridView
-                dataGridViewUsuarios.Columns["IdUsuario"].DisplayIndex = 0; // Columna 1
+                dataGridViewUsuarios.Columns["NumeroFila"].DisplayIndex = 0; // Columna 1
                 dataGridViewUsuarios.Columns["DOCUMENTO"].DisplayIndex = 1; // Columna 2
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DisplayIndex = 2; // Columna 3
                 dataGridViewUsuarios.Columns["CLAVE"].DisplayIndex = 3; // Columna 4
@@ -98,7 +138,8 @@ namespace CapaPresentacion
                 //Asignar Color De Fondo
                 //dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.BackColor = Color.White;
 
-
+                dataGridViewUsuarios.Columns["NumeroFila"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
+                dataGridViewUsuarios.Columns["NumeroFila"].DefaultCellStyle.ForeColor = Color.Black;
                 dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
                 dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.ForeColor = Color.Black;
                 dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
@@ -118,7 +159,7 @@ namespace CapaPresentacion
                 //Inactiva el cambio de color con el paso del cursos del mouse
                 dataGridViewUsuarios.EnableHeadersVisualStyles = false;
 
-   //             dataGridViewUsuarios.GridColor = Color.Transparent;
+                //dataGridViewUsuarios.GridColor = Color.Transparent;
 
             }
             catch (Exception ex)
@@ -127,9 +168,32 @@ namespace CapaPresentacion
             }
         }
 
+
+
         private void dataGridViewUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+
+        //Btn_Anterior
+        private void iconPictureBox4_Click(object sender, EventArgs e)
+        {
+            if (PaginaActual > 1)
+            {
+                PaginaActual--;
+                ListarUsuarios();
+            }
+        }
+
+        //Btn_Siguiente
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            if (PaginaActual < TotalPaginas)
+            {
+                PaginaActual++;
+                ListarUsuarios();
+            }
         }
     }
 }

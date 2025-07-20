@@ -715,6 +715,12 @@ namespace CapaPresentacion
         private void lblRolLogin_Click(object sender, EventArgs e)
         {
         }
+
+        //BtnAnterior
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 
 }
