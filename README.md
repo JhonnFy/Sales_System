@@ -111,11 +111,29 @@ This project is a Sales System developed in .NET with Windows Forms, designed to
 ![image](https://github.com/user-attachments/assets/e51db7e5-2130-4bb8-8ebc-057c0a9045bb)
 ![image](https://github.com/user-attachments/assets/db0a5750-6c47-49fe-9254-7f60ab3380e6)   
 
+## 🗂 Plan de Trabajo
+
+### 🛠 En Desarrollo
+- [ ] Implementar validación de login
+- [ ] Conectar capa de negocio con capa de datos
+- [ ] Crear reportes de ventas
+
+### ✅ Completado
+- [x] Estructura inicial del proyecto
+- [x] Formulario de login sin validaciones
+
+### 🐞 Por Corregir
+- [ ] Manejo de errores en conexión a BD
+- [ ] El botón “Exportar” no descarga correctamente
+
+
 ## Contributions
 Contributions are welcome! Please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature.
 3. Submit a pull request.
+ 
+
 
 ## License
 This project is licensed under the MIT License.
