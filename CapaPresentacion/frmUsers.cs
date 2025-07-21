@@ -56,6 +56,7 @@ namespace CapaPresentacion
                         CLAVE = u.Clave,
                         CORREO = u.Correo,
                         DescripcionRol = u.DescripcionRol,
+                        FECHAREGISTRO =  u.FechaRegistro,
                         //Campos Ocultos En El DataGridView
                         objRol = u.objRol,
                         Estado = u.Estado,
@@ -73,11 +74,6 @@ namespace CapaPresentacion
                 // Ocultar la columna vacía a la izquierda
                 dataGridViewUsuarios.RowHeadersVisible = false;
 
-                //Agregar La nueva Propiedad, Para Reemplazar El Identity Dañado En La Db
-                //dataGridViewUsuarios.Columns["NumeroFila"].HeaderText = "N°";
-                //dataGridViewUsuarios.Columns["NumeroFila"].Width = 50;
-                dataGridViewUsuarios.Columns["NumeroFila"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
-                dataGridViewUsuarios.Columns["NumeroFila"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
                 // Personalizar las columnas visibles
                 dataGridViewUsuarios.Columns["NumeroFila"].HeaderText = "N°";
@@ -86,6 +82,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderText = "Full Name";
                 dataGridViewUsuarios.Columns["CLAVE"].HeaderText = "Password";
                 dataGridViewUsuarios.Columns["CORREO"].HeaderText = "Mail";
+                //FECHAREGISTRO
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].HeaderText = "Fecha Registro";
                 //Agregar columna de Rol
                 dataGridViewUsuarios.Columns["DescripcionRol"].HeaderText = "Role Description";
 
@@ -93,7 +91,6 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["IdUsuario"].Visible = false;
                 dataGridViewUsuarios.Columns["objRol"].Visible = false;
                 dataGridViewUsuarios.Columns["Estado"].Visible = false;
-                dataGridViewUsuarios.Columns["FechaRegistro"].Visible = false;
 
                 //Fijando El Tamaño
                 dataGridViewUsuarios.Columns["NumeroFila"].Width = 50;
@@ -103,6 +100,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["CLAVE"].Width = 150;
                 dataGridViewUsuarios.Columns["CORREO"].Width = 258;
                 dataGridViewUsuarios.Columns["DescripcionRol"].Width = 200;
+                //FECHAREGISTRO
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].Width = 200;
 
                 //Alinear La Cabecera
                 dataGridViewUsuarios.Columns["NumeroFila"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -112,6 +111,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["CLAVE"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["CORREO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["DescripcionRol"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                //FECHAREGISTRO
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
 
                 // Alinear A La Izquierda 
@@ -122,6 +123,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["CLAVE"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
                 dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
                 dataGridViewUsuarios.Columns["DescripcionRol"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+                //FECHAREGISTRO
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
                 // Evitar que las columnas se redimensionen con el mouse
                 dataGridViewUsuarios.AllowUserToResizeColumns = false;
@@ -134,6 +137,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["CLAVE"].DisplayIndex = 3; // Columna 4
                 dataGridViewUsuarios.Columns["DescripcionRol"].DisplayIndex = 4; // Columna 5
                 dataGridViewUsuarios.Columns["CORREO"].DisplayIndex = 5; // Columna 6
+                //FECHAREGISTRO
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DisplayIndex = 6;
 
                 //Asignar Color De Fondo
                 //dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.BackColor = Color.White;
@@ -152,6 +157,9 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DescripcionRol"].DefaultCellStyle.ForeColor = Color.Black;
                 dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
                 dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.ForeColor = Color.Black;
+                //FECHAREGISTRO
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.BackColor = Color.Red;
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.ForeColor = Color.AliceBlue;
 
                 //Eliminar El Borde Externo
                 dataGridViewUsuarios.BorderStyle = BorderStyle.None;

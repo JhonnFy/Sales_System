@@ -27,7 +27,8 @@ namespace CapaDatos
 
                 try
                 {
-                    string querySQL = "SELECT a.IdUsuario, a.Documento, a.NombreCompleto, a.Correo, a.Clave, a.Estado, b.Descripcion AS DescripcionRol " +
+                    string querySQL = "SELECT a.IdUsuario, a.Documento, a.NombreCompleto, a.Correo, a.Clave, a.Estado, a.FechaRegistro," +
+                        " b.Descripcion AS DescripcionRol " +
                     "FROM USUARIO a " +
                     "INNER JOIN ROL b ON a.IdRol = b.IdRol ";
 
@@ -48,8 +49,10 @@ namespace CapaDatos
                                 Correo = dr["Correo"].ToString(),
                                 Clave = dr["Clave"].ToString(),
                                 Estado = Convert.ToBoolean(dr["Estado"]),
+                                FechaRegistro = Convert.ToDateTime(dr["FECHAREGISTRO"]),
                                 //Asignar el valor de la descripción del rol
-                                DescripcionRol = dr["DescripcionRol"].ToString()
+                                DescripcionRol = dr["DescripcionRol"].ToString(),
+
                             };
                             listaUsuarios.Add(usuario);
                         }
