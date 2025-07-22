@@ -34,6 +34,7 @@ namespace CapaPresentacion
 
         private void frmUsers_Load(object sender, EventArgs e)
         {
+            dataGridViewUsuarios.DataBindingComplete += ReordenarColumnasEnDgw;
             TodosLosUsuarios = objCN_Usuario.Listar();
             TotalPaginas = (int)Math.Ceiling((double)TodosLosUsuarios.Count / RegistroPorPagina); 
             ListarUsuarios();  
@@ -80,9 +81,9 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderText = "Document";
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderText = "Full Name";
                 dataGridViewUsuarios.Columns["CLAVE"].HeaderText = "Password";
-                dataGridViewUsuarios.Columns["CORREO"].HeaderText = "Mail";
                 //Agregar columna de Rol
                 dataGridViewUsuarios.Columns["DescripcionRol"].HeaderText = "Role Description";
+                dataGridViewUsuarios.Columns["CORREO"].HeaderText = "Mail";
                 dataGridViewUsuarios.Columns["FECHAREGISTRO"].HeaderText = "Fecha Registro";
 
                 // Ocultar columnas adicionales
@@ -96,8 +97,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DOCUMENTO"].Width = 100;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].Width = 150;
                 dataGridViewUsuarios.Columns["CLAVE"].Width = 150;
-                dataGridViewUsuarios.Columns["CORREO"].Width = 258;
                 dataGridViewUsuarios.Columns["DescripcionRol"].Width = 200;
+                dataGridViewUsuarios.Columns["CORREO"].Width = 300;
                 dataGridViewUsuarios.Columns["FECHAREGISTRO"].Width = 200;
 
                 //Alinear La Cabecera
@@ -106,8 +107,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["CLAVE"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
-                dataGridViewUsuarios.Columns["CORREO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["DescripcionRol"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dataGridViewUsuarios.Columns["CORREO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["FECHAREGISTRO"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
 
@@ -115,24 +116,16 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["NumeroFila"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["IdUsuario"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridViewUsuarios.Columns["DOCUMENTO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
-                dataGridViewUsuarios.Columns["CLAVE"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
-                dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
-                dataGridViewUsuarios.Columns["DescripcionRol"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
-                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["CLAVE"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["DescripcionRol"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
 
                 // Evitar que las columnas se redimensionen con el mouse
                 dataGridViewUsuarios.AllowUserToResizeColumns = false;
                 dataGridViewUsuarios.AllowUserToResizeRows = false;
 
-                //Reordenar Las Columas En El DataGridView
-                dataGridViewUsuarios.Columns["NumeroFila"].DisplayIndex = 0; // Columna 1
-                dataGridViewUsuarios.Columns["DOCUMENTO"].DisplayIndex = 1; // Columna 2
-                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DisplayIndex = 2; // Columna 3
-                dataGridViewUsuarios.Columns["CLAVE"].DisplayIndex = 3; // Columna 4
-                dataGridViewUsuarios.Columns["DescripcionRol"].DisplayIndex = 4; // Columna 5
-                dataGridViewUsuarios.Columns["CORREO"].DisplayIndex = 5; // Columna 6
-                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DisplayIndex = 6; // Columna 7
 
                 //Asignar Color De Fondo
                 //dataGridViewUsuarios.Columns["DOCUMENTO"].HeaderCell.Style.BackColor = Color.White;
@@ -151,8 +144,8 @@ namespace CapaPresentacion
                 dataGridViewUsuarios.Columns["DescripcionRol"].DefaultCellStyle.ForeColor = Color.Black;
                 dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
                 dataGridViewUsuarios.Columns["CORREO"].DefaultCellStyle.ForeColor = Color.Black;
-                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.BackColor = Color.Red;
-                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.ForeColor = Color.AliceBlue;
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.BackColor = Color.WhiteSmoke;
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DefaultCellStyle.ForeColor = Color.Black;
 
                 //Eliminar El Borde Externo
                 dataGridViewUsuarios.BorderStyle = BorderStyle.None;
@@ -162,6 +155,8 @@ namespace CapaPresentacion
 
                 //dataGridViewUsuarios.GridColor = Color.Transparent;
 
+                //Invocar el metodo
+                ActualizarLabelPagina();
             }
             catch (Exception ex)
             {
@@ -169,11 +164,35 @@ namespace CapaPresentacion
             }
         }
 
+        //Metodo Para Reordenar Las Columas En El DataGridView
+        private void ReordenarColumnasEnDgw(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            try
+            {
+                dataGridViewUsuarios.Columns["NumeroFila"].DisplayIndex = 0; // Columna 1
+                dataGridViewUsuarios.Columns["DOCUMENTO"].DisplayIndex = 1; // Columna 2
+                dataGridViewUsuarios.Columns["NOMBRECOMPLETO"].DisplayIndex = 2; // Columna 3
+                dataGridViewUsuarios.Columns["CLAVE"].DisplayIndex = 3; // Columna 4
+                dataGridViewUsuarios.Columns["DescripcionRol"].DisplayIndex = 4; // Columna 5
+                dataGridViewUsuarios.Columns["CORREO"].DisplayIndex = 5; // Columna 6
+                dataGridViewUsuarios.Columns["FECHAREGISTRO"].DisplayIndex = 6; // Columna 7
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error En El Metodo: ReordenarColumnasEnDgw " + ex.Message);
+            }
+        }
+
+        //Metodo para actualizar Label De Paginas
+        private void ActualizarLabelPagina()
+        {
+            labelPages.Text = $"{PaginaActual} - {TotalPaginas}";
+        }
 
 
         private void dataGridViewUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            
         }
 
 
