@@ -9,7 +9,7 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 - [ ] Cambiar la posición del atributo Fecha Registro.
 - [ ] Incluir el atributo ¿Estado?.
 - [ ] Incluir logica para reemplazar el número por disabel/enable, segun corresponda 0-1.
-- [ ] Terminar la vista Usuarios.
+- [ ] Terminar la Igu-Usuarios.
 
 ---
 
