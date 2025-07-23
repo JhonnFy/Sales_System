@@ -4,6 +4,7 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 ---
 
 ## 🟡 En curso
+- [ ] Estilizar la columna Fecha Registro.
 - [ ] Incrementar el número de registros que se presentan en la DataGridView.
 - [ ] Cambiar la posición del atributo Fecha Registro.
 - [ ] Incluir el atributo ¿Estado?.
