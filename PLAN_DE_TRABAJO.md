@@ -4,10 +4,9 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 ---
 
 ## 🟡 En curso
-- [ ] Incrementar el número de registros que se presentan en la DataGridView.
-- [ ] Incluir el atributo ¿Estado?.
-- [ ] Incluir logica para reemplazar el número por disabel/enable, segun corresponda 0-1.
-- [ ] Terminar la Igu-Usuarios.
+- [ ] 
+- [ ] 
+- [ ] 
 
 ---
 
@@ -20,7 +19,11 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 - [x] Estilizar la columna Fecha Registro.
 - [x] Cambiar la posición del atributo Fecha Registro.
 - [x] <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/9860e2c6-8dcb-4c7e-a66e-15efc2aa5210" />
-
+- [x] Incrementar el número de registros que se presentan en la DataGridView.
+- [x] Incluir logica para reemplazar el número por disabel/enable, segun corresponda 0-1.
+- [x] Incluir el atributo ¿Estado?.
+- [x] Terminar la Igu-Usuarios.
+- [x] <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/ed89040b-e96a-4a00-8a87-44a88a5fbb6d" />
 ---
 
 ## 🧠 Ideas / Mejoras futuras
