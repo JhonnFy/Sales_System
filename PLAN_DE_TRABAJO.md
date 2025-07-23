@@ -16,6 +16,9 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 - [x] Integrar botones “Siguiente” y “Anterior” al DataGridView de usuarios.
 - [x] Integrar clase para solucionar identity sql server.
 - [x] <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/a66573c4-fbb0-4a2c-8428-b8408c7382ea" />
+- [x] Incluir la botonera en la barra inferior, para controlar las paginas siguiente, anterior.
+- [x] <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/b38e88d5-558a-4c6f-a61b-8a8428c5eb5b" />
+
 ---
 
 ## 🧠 Ideas / Mejoras futuras
