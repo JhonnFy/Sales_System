@@ -30,4 +30,4 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 ---
 
 ## 🔄 Última actualización
-20 de julio de 2025
+22 de julio de 2025
