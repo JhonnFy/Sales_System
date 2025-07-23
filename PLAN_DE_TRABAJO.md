@@ -4,9 +4,9 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 ---
 
 ## 🟡 En curso
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Cambiar la posición del atributo Fecha Registro
+- [ ] Incluir el atributo ¿Estado?
+- [ ] Incluir logica para reemplazar el número por disabel/enable, ssegun corresponda 0-1
 - [ ] 
 - [ ] 
 
