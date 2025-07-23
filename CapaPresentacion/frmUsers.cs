@@ -35,6 +35,8 @@ namespace CapaPresentacion
         private void frmUsers_Load(object sender, EventArgs e)
         {
             dataGridViewUsuarios.DataBindingComplete += ReordenarColumnasEnDgw;
+            dataGridViewUsuarios.DataBindingComplete += FormatearUsuariosDeshabilitados;
+
             TodosLosUsuarios = objCN_Usuario.Listar();
             TotalPaginas = (int)Math.Ceiling((double)TodosLosUsuarios.Count / RegistroPorPagina); 
             ListarUsuarios();
@@ -231,5 +233,25 @@ namespace CapaPresentacion
                 ListarUsuarios();
             }
         }
+
+        //Metodo Para FormatearUsuariosDeshabilitados
+        private void FormatearUsuariosDeshabilitados(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            foreach (DataGridViewRow vRow in dataGridViewUsuarios.Rows)
+            {
+                // Validamos que la fila no sea nueva (fila en blanco para agregar datos)
+                if (!vRow.IsNewRow && vRow.Cells["EstadoTexto"].Value?.ToString() == "Disabled User")
+                    {
+                        foreach (DataGridViewCell vCell in vRow.Cells)
+                    {
+                        //Propiedad Subrayado
+                        vCell.Style.Font = new Font(dataGridViewUsuarios.Font, FontStyle.Underline);
+                        //Propiedad Para Tachar El Texto
+                        //vCell.Style.Font = new Font(dataGridViewUsuarios.Font, FontStyle.Strikeout);
+                    }
+                }
+            }
+        }
+
     }
 }
