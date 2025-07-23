@@ -24,9 +24,9 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 ---
 
 ## 🧠 Ideas / Mejoras futuras
-- [ ] Cambiar el diseño general por MaterialSkin.
-- [ ] Integrar notificaciones en pantalla para errores y confirmaciones.
-- [ ] Implementar pruebas unitarias básicas para la capa de negocio.
+- [ ] CRUD
+- [ ] <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/76ecbc26-ea49-41a9-b365-941dd2024b9e" />
+ 
 ---
 
 ## 🔄 Última actualización
