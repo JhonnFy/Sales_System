@@ -462,6 +462,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP008', 'Regla Plástica Office Depot', 'Presentación 30 cm', 40, 100, 2200, 3200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP009', 'Corrector Líquido BIC', 'Presentación 20 ml', 40, 100, 2600, 3800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP010', 'Bloc de Notas Post-it', 'Presentación 100 hojas', 40, 100, 4300, 6200, 1);
+--🧺 42. Lavanderia
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA001', 'Gillette Mach3', 'Presentación 1 unidad', 41, 100, 12000, 16500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA002', 'Old Spice Desodorante', 'Presentación 100 ml', 41, 100, 7500, 10500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA003', 'Nivea Men After Shave', 'Presentación 100 ml', 41, 100, 8300, 11500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA004', 'Axe Body Spray', 'Presentación 150 ml', 41, 100, 6700, 9200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA005', 'Gillette Espuma de Afeitar', 'Presentación 200 ml', 41, 100, 5400, 7600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA006', 'Vaseline Men Healing', 'Presentación 100 ml', 41, 100, 3900, 5500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA007', 'Línea Varonil Rexona', 'Presentación 150 ml', 41, 100, 4800, 6900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA008', 'Old Spice Gel para Pelo', 'Presentación 200 ml', 41, 100, 7200, 10300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA009', 'Nivea Men Crema Facial', 'Presentación 50 ml', 41, 100, 8500, 11800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA010', 'Gillette After Shave Sensitive', 'Presentación 100 ml', 41, 100, 9600, 13300, 1);
 
 
 
