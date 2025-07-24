@@ -143,3 +143,14 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS008', 'Cifrut Jugo de Naranja', 'Presentación 600 ml', 12, 100, 2000, 2800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS009', 'Hit Néctar de Guayaba', 'Presentación 1000 ml', 12, 100, 3200, 4200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS010', 'Del Valle Néctar de Manzana', 'Presentación 1000 ml', 12, 100, 3300, 4300, 1);
+--🥤 13. Gaseosas
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO001', 'Coca-Cola Original', 'Presentación 1500 ml', 13, 100, 4300, 5700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO002', 'Pepsi Regular', 'Presentación 1500 ml', 13, 100, 4100, 5500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO003', 'Postobón Manzana', 'Presentación 2000 ml', 13, 100, 4200, 5600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO004', 'Seven Up', 'Presentación 1500 ml', 13, 100, 4000, 5400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO005', 'Colombiana Postobón', 'Presentación 2000 ml', 13, 100, 4300, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO006', 'Sprite Original', 'Presentación 1500 ml', 13, 100, 4100, 5600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO007', 'Fanta Naranja', 'Presentación 1500 ml', 13, 100, 4200, 5700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO008', 'Pepsi Light', 'Presentación 1500 ml', 13, 100, 4100, 5500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO009', 'Coca-Cola Sin Azúcar', 'Presentación 1500 ml', 13, 100, 4300, 5700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO010', 'Bretaña Agua Tónica', 'Presentación 1000 ml', 13, 100, 3900, 5200, 1);
