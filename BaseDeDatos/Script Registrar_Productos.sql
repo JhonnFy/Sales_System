@@ -396,6 +396,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA008', 'Manimoto Yupi', 'Presentación 75 g', 34, 100, 2400, 3300, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA009', 'Tostacos Yupi', 'Presentación 85 g', 34, 100, 2700, 3800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA010', 'Platanitos Naturales', 'Presentación 100 g', 34, 100, 3500, 4900, 1);
+--🥫 36. Aderezos
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END001', 'Monk Fruit Healthy Brand', 'Presentación 200 g', 35, 100, 8200, 11500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END002', 'Stevia Life', 'Presentación 100 g', 35, 100, 5100, 7100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END003', 'Splenda Clásico', 'Presentación 120 g', 35, 100, 6700, 9300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END004', 'Panela La Colina', 'Presentación 500 g', 35, 100, 2500, 3700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END005', 'Azúcar Manuelita', 'Presentación 1000 g', 35, 100, 3100, 4500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END006', 'Miel Natural Bee', 'Presentación 350 ml', 35, 100, 7200, 10200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END007', 'Fructosa NutriLife', 'Presentación 250 g', 35, 100, 4300, 6100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END008', 'Tagatosa Dulzero', 'Presentación 200 g', 35, 100, 7500, 10400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END009', 'Sirope de Agave Organic Farms', 'Presentación 500 ml', 35, 100, 8800, 12400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END010', 'Panela Pulverizada BioPanela', 'Presentación 300 g', 35, 100, 3100, 4400, 1);
 
 
 
