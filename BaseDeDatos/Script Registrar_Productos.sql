@@ -187,6 +187,16 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP008', 'Doña Gallina Caldo en Cubos', 'Presentación 12 und', 16, 100, 1800, 2500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP009', 'El Dorado Sal Refinada', 'Presentación 1000 gr', 16, 100, 1200, 1800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP010', 'Costeñita Yuca Congelada', 'Presentación 1000 gr', 16, 100, 3900, 5200, 1);
-
+--🧂 17. Especias
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE001', 'El Rey Comino Molido', 'Presentación 30 gr', 17, 100, 800, 1500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE002', 'La Constancia Pimienta Negra', 'Presentación 25 gr', 17, 100, 1200, 1800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE003', 'El Rey Color con Comino', 'Presentación 100 gr', 17, 100, 1600, 2400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE004', 'Badia Ajo en Polvo', 'Presentación 85 gr', 17, 100, 3100, 4100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE005', 'McCormick Oregano Molido', 'Presentación 20 gr', 17, 100, 1100, 1600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE006', 'El Rey Curry Amarillo', 'Presentación 50 gr', 17, 100, 1900, 2700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE007', 'La Constancia Paprika Dulce', 'Presentación 40 gr', 17, 100, 2000, 2900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE008', 'El Rey Clavos de Olor', 'Presentación 25 gr', 17, 100, 1500, 2300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE009', 'McCormick Albahaca Seca', 'Presentación 18 gr', 17, 100, 1300, 2000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE010', 'Badia Laurel Entero', 'Presentación 20 gr', 17, 100, 900, 1600, 1);
 
 SELECT * FROM PRODUCTO
