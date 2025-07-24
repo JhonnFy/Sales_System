@@ -451,6 +451,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU008', 'Galletas de Arroz Sin Gluten', 'Presentación 150 g', 39, 100, 4200, 5600, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU009', 'Panqueques Sin Gluten Betty Crocker', 'Presentación 300 g', 39, 100, 7600, 10200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU010', 'Mix para Pasteles Sin Gluten', 'Presentación 400 g', 39, 100, 9100, 12200, 1);
+--🪒 41. CuidadoMasculino
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP001', 'Cuaderno Norma Profesional', 'Presentación 100 hojas', 40, 100, 3200, 4800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP002', 'Bolígrafo BIC Cristal', 'Presentación unidad', 40, 100, 400, 800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP003', 'Resaltador Stabilo Boss', 'Presentación unidad', 40, 100, 2500, 3800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP004', 'Marcador Permanente Sharpie', 'Presentación unidad', 40, 100, 3500, 5200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP005', 'Carpeta Oficio Scribe', 'Presentación unidad', 40, 100, 4500, 6800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP006', 'Tijeras Maped', 'Presentación unidad', 40, 100, 3900, 5600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP007', 'Pegante UHU', 'Presentación 40 g', 40, 100, 3100, 4500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP008', 'Regla Plástica Office Depot', 'Presentación 30 cm', 40, 100, 2200, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP009', 'Corrector Líquido BIC', 'Presentación 20 ml', 40, 100, 2600, 3800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP010', 'Bloc de Notas Post-it', 'Presentación 100 hojas', 40, 100, 4300, 6200, 1);
 
 
 
