@@ -209,6 +209,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA008', 'La Constancia Mostaza', 'Presentación 300 gr', 18, 100, 2600, 4000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA009', 'Bary Salsa BBQ', 'Presentación 500 gr', 18, 100, 4800, 6500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA010', 'La Constancia Salsa Rosada', 'Presentación 400 gr', 18, 100, 4100, 5700, 1);
+--🧴 19. HigieneFemenina
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF001', 'Nosotras Toallas Higiénicas Invisible', 'Presentación 10 und', 19, 100, 3900, 5500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF002', 'Kotex Toallas Nocturnas con Alas', 'Presentación 8 und', 19, 100, 4100, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF003', 'Always Toallas Higiénicas Ultrafinas', 'Presentación 12 und', 19, 100, 4700, 6400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF004', 'Nosotras Tampones Regulares', 'Presentación 10 und', 19, 100, 5200, 6900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF005', 'Tampax Tampones Super', 'Presentación 8 und', 19, 100, 5800, 7600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF006', 'Nosotras Jabón Íntimo Natural', 'Presentación 200 ml', 19, 100, 4300, 6000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF007', 'Saba Toallas Higiénicas Suaves', 'Presentación 14 und', 19, 100, 4500, 6200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF008', 'Always Pantiprotectores Diarios', 'Presentación 40 und', 19, 100, 3900, 5300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF009', 'Nosotras Protectores Diarios Multiestilo', 'Presentación 30 und', 19, 100, 3500, 4900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF010', 'Saba Toallas Higiénicas Nocturnas', 'Presentación 10 und', 19, 100, 4400, 6000, 1);
 
 
 SELECT * FROM PRODUCTO
