@@ -99,5 +99,16 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS008', 'Alquería Leche Deslactosada', 'Presentación 1000 ml', 8, 100, 4600, 5500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS009', 'Danone Yogur Batido Durazno', 'Presentación 150 g', 8, 100, 2100, 3000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS010', 'Lacthosa Crema de Leche', 'Presentación 250 ml', 8, 100, 3600, 4700, 1);
+--🥚 9. Huevos
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS001', 'Kikes Huevos AA', 'Presentación 30 und', 9, 100, 10800, 12500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS002', 'Santa Reyes Huevos Orgánicos', 'Presentación 12 und', 9, 100, 6800, 8000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS003', 'Colombina Huevos Rojos', 'Presentación 30 und', 9, 100, 10200, 11900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS004', 'Avícola Santa Anita Huevos A', 'Presentación 15 und', 9, 100, 5600, 6700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS005', 'Avinal Huevos de Codorniz', 'Presentación 24 und', 9, 100, 4900, 5900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS006', 'Huevos El Pinar AA', 'Presentación 12 und', 9, 100, 4600, 5700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS007', 'Kikes Huevos XL', 'Presentación 15 und', 9, 100, 7200, 8700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS008', 'Santa Reyes Huevos Tipo A', 'Presentación 30 und', 9, 100, 9500, 11000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS009', 'Colombina Huevos Orgánicos', 'Presentación 6 und', 9, 100, 3400, 4300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS010', 'Huevos El Pinar Codorniz', 'Presentación 18 und', 9, 100, 4200, 5200, 1);
 
 
