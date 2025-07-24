@@ -66,6 +66,16 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FRUTAS008', 'Frutas y Vida Kiwi Importado', 'Presentación 500 g', 5, 100, 7200, 8800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FRUTAS009', 'Frutalia Fresas Frescas', 'Presentación 500 g', 5, 100, 6700, 8200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FRUTAS010', 'Del Campo Papaya Maradol', 'Presentación 1500 g', 5, 100, 4900, 6100, 1);
-
+--🥕 6. Verduras
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS001', 'Agroverde Zanahoria Fresca', 'Presentación 1000 g', 6, 100, 2600, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS002', 'Campofresco Tomate Chonto', 'Presentación 1000 g', 6, 100, 3400, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS003', 'Del Campo Cebolla Cabezona', 'Presentación 1000 g', 6, 100, 2900, 3700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS004', 'Verdevida Brócoli Fresco', 'Presentación 500 g', 6, 100, 4100, 5200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS005', 'Agroverde Lechuga Batavia', 'Presentación 300 g', 6, 100, 2200, 2800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS006', 'Verdecampo Pepino Cohombro', 'Presentación 1000 g', 6, 100, 2800, 3500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS007', 'Finca Natural Ajo Blanco', 'Presentación 250 g', 6, 100, 3100, 4000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS008', 'CampoSur Pimentón Rojo', 'Presentación 500 g', 6, 100, 3700, 4600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS009', 'Verdefresco Habichuela Tierna', 'Presentación 500 g', 6, 100, 3900, 5000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS010', 'Campofresco Espinaca Limpia', 'Presentación 250 g', 6, 100, 2700, 3400, 1);
 
 
