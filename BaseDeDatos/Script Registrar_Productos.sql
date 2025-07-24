@@ -242,6 +242,19 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC008', 'Sharp Calculadora Básica', 'Presentación 1 und', 21, 100, 9800, 12900, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC009', 'Pelikan Temperas Escolares', 'Presentación 6 colores', 21, 100, 5600, 7500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC010', 'Faber-Castell Borradores Suaves', 'Presentación 2 und', 21, 100, 1400, 1900, 1);
+--🐾 22. Mascotas
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS001', 'Dog Chow Alimento Adulto', 'Presentación 2000 gr', 22, 100, 21500, 27500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS002', 'Cat Chow Alimento Gato', 'Presentación 1000 gr', 22, 100, 19800, 24900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS003', 'Chunky Alimento Cachorro', 'Presentación 3000 gr', 22, 100, 28900, 35900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS004', 'Pedigree Snacks Dentastix', 'Presentación 7 und', 22, 100, 7600, 9800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS005', 'Whiskas Alimento Húmedo Gato', 'Presentación 85 gr', 22, 100, 2400, 3300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS006', 'Hills Prescription Diet Perro', 'Presentación 3700 gr', 22, 100, 32500, 41800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS007', 'Petys Arena Sanitaria', 'Presentación 4500 gr', 22, 100, 8900, 11800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS008', 'Ringo Galletas para Perros', 'Presentación 500 gr', 22, 100, 5900, 7700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS009', 'Purina One Alimento Gato Esterilizado', 'Presentación 1200 gr', 22, 100, 21900, 28900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS010', 'Kong Juguete Mascota Mediano', 'Presentación 1 und', 22, 100, 16500, 21500, 1);
+
+
 
 
 SELECT * FROM PRODUCTO
