@@ -407,6 +407,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END008', 'Tagatosa Dulzero', 'Presentación 200 g', 35, 100, 7500, 10400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END009', 'Sirope de Agave Organic Farms', 'Presentación 500 ml', 35, 100, 8800, 12400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END010', 'Panela Pulverizada BioPanela', 'Presentación 300 g', 35, 100, 3100, 4400, 1);
+--🧃 37. ProductosLight
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE001', 'Mayonesa Fruco', 'Presentación 400 g', 36, 100, 4600, 6500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE002', 'Mostaza Heinz', 'Presentación 200 g', 36, 100, 3900, 5600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE003', 'Ketchup La Constancia', 'Presentación 400 g', 36, 100, 4700, 6800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE004', 'Salsa BBQ Hunt’s', 'Presentación 500 g', 36, 100, 6200, 8800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE005', 'Salsa Tartara McCormick', 'Presentación 250 g', 36, 100, 5600, 8000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE006', 'Salsa Ajo San Jorge', 'Presentación 180 g', 36, 100, 3300, 4700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE007', 'Salsa de Tomate Fruco', 'Presentación 400 g', 36, 100, 4600, 6500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE008', 'Salsa Ranch La Constancia', 'Presentación 300 ml', 36, 100, 5200, 7500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE009', 'Vinagreta Balsámica Sibaris', 'Presentación 250 ml', 36, 100, 5800, 8400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE010', 'Salsa Sriracha Thai Dragon', 'Presentación 350 g', 36, 100, 7400, 10500, 1);
 
 
 
