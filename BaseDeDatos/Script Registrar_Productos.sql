@@ -440,6 +440,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG008', 'Brócoli Orgánico Campo Limpio', 'Presentación 500 g', 38, 100, 4600, 6200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG009', 'Apio Orgánico Vida Sana', 'Presentación 500 g', 38, 100, 3100, 4200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG010', 'Calabacín Orgánico EcoFresh', 'Presentación 1 kg', 38, 100, 4000, 5500, 1);
+--📚 40. Papeleria
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU001', 'Pan Libre de Gluten Schär', 'Presentación 300 g', 39, 100, 8600, 11500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU002', 'Galletas Sin Gluten Santiveri', 'Presentación 200 g', 39, 100, 5400, 7200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU003', 'Harina de Almendra Bob’s Red Mill', 'Presentación 454 g', 39, 100, 12500, 16500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU004', 'Pasta Sin Gluten Barilla', 'Presentación 400 g', 39, 100, 8700, 11500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU005', 'Cereal Sin Gluten Nature’s Path', 'Presentación 300 g', 39, 100, 9800, 13000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU006', 'Barra Energética Sin Gluten Clif', 'Presentación 68 g', 39, 100, 4900, 6500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU007', 'Harina de Coco Bob’s Red Mill', 'Presentación 340 g', 39, 100, 11800, 15800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU008', 'Galletas de Arroz Sin Gluten', 'Presentación 150 g', 39, 100, 4200, 5600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU009', 'Panqueques Sin Gluten Betty Crocker', 'Presentación 300 g', 39, 100, 7600, 10200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU010', 'Mix para Pasteles Sin Gluten', 'Presentación 400 g', 39, 100, 9100, 12200, 1);
 
 
 
