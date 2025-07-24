@@ -6,7 +6,7 @@ GO
 -- Script Registrar_Categorias
 -- Descripción: Inserción de categorías
 -- Proyecto: Sistema de Inventario
--- Propósito: Garantizar que la tabla 'Categorias' cuente con los datos mínimos requeridos en entornos nuevos o de desarrollo
+-- Propósito: Garantizar que la tabla 'Categorias' cuente con los datos mínimos requeridos para las IGU
 -- Fecha: 24-Jul-2025
 -- Autor: JhonFy
 -- =============================================
