@@ -10,7 +10,6 @@ GO
 -- Autor: JhonFy
 -- =============================================
 
-
 --🧼 1. Aseo
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ASEO001', 'Clorox Cloro Tradicional Desinfectante', 'Presentación: 1000 ml', 1, 50, 3000, 4900, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ASEO002', 'Lysol Aerosol Lavanda Antibacterial', 'Presentación: 400 ml', 1, 50, 6800, 9900, 1);
@@ -386,17 +385,6 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA009', 'Tostacos Yupi', 'Presentación 85 g', 34, 100, 2700, 3800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA010', 'Platanitos Naturales', 'Presentación 100 g', 34, 100, 3500, 4900, 1);
 --🍯 35. Endulzantes
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA001', 'Margarita Natural', 'Presentación 105 g', 34, 100, 3300, 4600, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA002', 'Tosh Integral Queso', 'Presentación 100 g', 34, 100, 4200, 5800, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA003', 'Cheesetos Queso', 'Presentación 90 g', 34, 100, 2700, 3900, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA004', 'De Todito Picante', 'Presentación 95 g', 34, 100, 3100, 4400, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA005', 'Doritos Tex-Mex', 'Presentación 120 g', 34, 100, 3700, 5300, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA006', 'Rizadas BBQ', 'Presentación 90 g', 34, 100, 2900, 4000, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA007', 'Maizitos Natural', 'Presentación 70 g', 34, 100, 1800, 2600, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA008', 'Manimoto Yupi', 'Presentación 75 g', 34, 100, 2400, 3300, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA009', 'Tostacos Yupi', 'Presentación 85 g', 34, 100, 2700, 3800, 1);
-INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA010', 'Platanitos Naturales', 'Presentación 100 g', 34, 100, 3500, 4900, 1);
---🥫 36. Aderezos
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END001', 'Monk Fruit Healthy Brand', 'Presentación 200 g', 35, 100, 8200, 11500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END002', 'Stevia Life', 'Presentación 100 g', 35, 100, 5100, 7100, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END003', 'Splenda Clásico', 'Presentación 120 g', 35, 100, 6700, 9300, 1);
@@ -407,7 +395,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END008', 'Tagatosa Dulzero', 'Presentación 200 g', 35, 100, 7500, 10400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END009', 'Sirope de Agave Organic Farms', 'Presentación 500 ml', 35, 100, 8800, 12400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END010', 'Panela Pulverizada BioPanela', 'Presentación 300 g', 35, 100, 3100, 4400, 1);
---🧃 37. ProductosLight
+----🥫 36. Aderezos
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE001', 'Mayonesa Fruco', 'Presentación 400 g', 36, 100, 4600, 6500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE002', 'Mostaza Heinz', 'Presentación 200 g', 36, 100, 3900, 5600, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE003', 'Ketchup La Constancia', 'Presentación 400 g', 36, 100, 4700, 6800, 1);
@@ -418,7 +406,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE008', 'Salsa Ranch La Constancia', 'Presentación 300 ml', 36, 100, 5200, 7500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE009', 'Vinagreta Balsámica Sibaris', 'Presentación 250 ml', 36, 100, 5800, 8400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE010', 'Salsa Sriracha Thai Dragon', 'Presentación 350 g', 36, 100, 7400, 10500, 1);
---🧃 37. ProductosLight
+--🧃 37. ProductosLight 
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG001', 'Yogurt Alpina Light', 'Presentación 150 g', 37, 100, 2100, 3200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG002', 'Galletas Tosh Light', 'Presentación 180 g', 37, 100, 3800, 5400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG003', 'Queso Bajo en Grasa Colanta', 'Presentación 250 g', 37, 100, 5600, 7900, 1);
@@ -506,7 +494,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC008', 'Tazas Medidoras Pyrex', 'Presentación juego 4 und', 44, 100, 32000, 44000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC009', 'Rallador de Queso', 'Presentación unidad', 44, 100, 15000, 22000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC010', 'Cuchara Grande de Madera', 'Presentación unidad', 44, 100, 7000, 10000, 1);
---🏠 46. Hogar
+--🏠 45. Hogar
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG001', 'Velas Aromáticas Yankee', 'Presentación 300 g', 45, 100, 28000, 40000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG002', 'Cojín Decorativo', 'Presentación unidad', 45, 100, 23000, 33000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG003', 'Difusor de Aromas', 'Presentación 250 ml', 45, 100, 32000, 45000, 1);
@@ -517,7 +505,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG008', 'Manta para Sofá', 'Presentación 1.5 m x 2 m', 45, 100, 38000, 52000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG009', 'Portarretrato', 'Presentación unidad', 45, 100, 18000, 26000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG010', 'Reloj de Pared', 'Presentación unidad', 45, 100, 47000, 64000, 1);
---🔋 47. Tecnologia
+--🔋 46. Tecnologia
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC001', 'Audífonos Inalámbricos JBL', 'Presentación unidad', 46, 100, 85000, 120000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC002', 'Mouse Logitech', 'Presentación unidad', 46, 100, 32000, 46000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC003', 'Teclado Mecánico Redragon', 'Presentación unidad', 46, 100, 110000, 150000, 1);
@@ -528,7 +516,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC008', 'Cable HDMI Belkin', 'Presentación 2 m', 46, 100, 25000, 34000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC009', 'Tablet Lenovo', 'Presentación 10 pulgadas', 46, 100, 420000, 580000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC010', 'Cámara Web Logitech', 'Presentación 1080p', 46, 100, 95000, 130000, 1);
---💡 48. Iluminacion
+--💡 47. Iluminacion
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU001', 'Bombillo LED Philips', 'Presentación 9 W', 47, 100, 8500, 12000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU002', 'Tubo Fluorescente Osram', 'Presentación 36 W', 47, 100, 15000, 21000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU003', 'Lámpara de Techo Homecenter', 'Presentación unidad', 47, 100, 85000, 115000, 1);
@@ -539,7 +527,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU008', 'Lámpara Recargable Xiaomi', 'Presentación unidad', 47, 100, 69000, 89000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU009', 'Balastro Electrónico Fanalca', 'Presentación 40 W', 47, 100, 17000, 23000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU010', 'Sensor de Movimiento VETO', 'Presentación unidad', 47, 100, 25000, 33000, 1);
---📦 49. ProductosDeTemporada
+--📦 48. ProductosDeTemporada
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM001', 'Arbolito de Navidad Decorarte', 'Presentación 1.5 m', 48, 100, 58000, 79000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM002', 'Luces Navideñas LED Homecenter', 'Presentación 100 luces', 48, 100, 22000, 33000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM003', 'Huevitos de Pascua Jet', 'Presentación 200 g', 48, 100, 6700, 10500, 1);
@@ -550,7 +538,28 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM008', 'Decoración Halloween Telaraña', 'Presentación 100 g', 48, 100, 3800, 7200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM009', 'Globos de San Valentín Qualatex', 'Presentación paquete 10 und', 48, 100, 10500, 15500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM010', 'Mochila Escolar de Temporada Totto', 'Presentación unidad', 48, 100, 98000, 135000, 1);
-
+--🏷️ 49. Promociones
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO001', 'Combo Aseo Familia', 'Presentación kit x5 und', 49, 100, 23000, 32000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO002', 'Pack Cervezas Poker', 'Presentación 6 und 355 ml', 49, 100, 10800, 14200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO003', 'Descuento Shampoo Sedal', 'Presentación 650 ml', 49, 100, 9100, 12600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO004', '2x1 Galletas Festival', 'Presentación 2 und 140 g', 49, 100, 2900, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO005', 'Promoción Leche Alquería', 'Presentación 3 und 1100 ml', 49, 100, 8700, 11800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO006', 'Oferta Detergente Ariel', 'Presentación 3000 ml', 49, 100, 15700, 20300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO007', 'Combo Frutas Tropicales', 'Presentación 3 kg', 49, 100, 12600, 17600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO008', 'Oferta Enlatados Zenú', 'Presentación pack x4 und', 49, 100, 9200, 12800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO009', 'Descuento Jugo Hit', 'Presentación 1000 ml', 49, 100, 3200, 5100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO010', '2x1 Papel Higienico Familia', 'Presentación 12 und', 49, 100, 11200, 22400, 1);
+--🛠️ HerramientasFerreteria
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE001', 'Stanley Martillo de Uña', 'presentación 16 oz', 50, 50, 27000, 34900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE002', 'Truper Destornillador Plano', 'presentación 6 mm', 50, 120, 6200, 8800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE003', 'Black+Decker Taladro Percutor', 'presentación 550 w', 50, 30, 135000, 178000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE004', 'Bosch Brocas para Concreto', 'presentación 5 und', 50, 60, 18900, 23900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE005', 'Makita Flexómetro Profesional', 'presentación 5 m', 50, 80, 11900, 15800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE006', 'Pretul Llave Ajustable', 'presentación 10 pulgadas', 50, 90, 13700, 17900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE007', '3M Cinta Aislante Negra', 'presentación 10 m', 50, 100, 3500, 5100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE008', 'DeWalt Sierra Circular Manual', 'presentación 1200 w', 50, 20, 235000, 298000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE009', 'Klein Alicate de Corte', 'presentación 6 pulgadas', 50, 70, 22700, 29400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE010', 'Hilti Pistola de Silicona', 'presentación 1 und', 50, 60, 19700, 24900, 1);
 
 
 SELECT * FROM PRODUCTO
