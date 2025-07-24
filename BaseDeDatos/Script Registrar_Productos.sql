@@ -418,7 +418,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE008', 'Salsa Ranch La Constancia', 'Presentación 300 ml', 36, 100, 5200, 7500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE009', 'Vinagreta Balsámica Sibaris', 'Presentación 250 ml', 36, 100, 5800, 8400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE010', 'Salsa Sriracha Thai Dragon', 'Presentación 350 g', 36, 100, 7400, 10500, 1);
---🌱 38. ProductosOrganicos
+--🧃 37. ProductosLight
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG001', 'Yogurt Alpina Light', 'Presentación 150 g', 37, 100, 2100, 3200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG002', 'Galletas Tosh Light', 'Presentación 180 g', 37, 100, 3800, 5400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG003', 'Queso Bajo en Grasa Colanta', 'Presentación 250 g', 37, 100, 5600, 7900, 1);
@@ -429,7 +429,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG008', 'Refresco Light Clight', 'Presentación 9 g', 37, 100, 600, 1200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG009', 'Cereal Fitness Nestlé Light', 'Presentación 300 g', 37, 100, 7100, 9700, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG010', 'Mermelada Light La Constancia', 'Presentación 250 g', 37, 100, 4900, 6800, 1);
---🚫 39. SinGluten
+--🌱 38. ProductosOrganicos
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG001', 'Manzana Orgánica La Huerta', 'Presentación 1 kg', 38, 100, 6500, 8800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG002', 'Zanahoria Orgánica Campo Vivo', 'Presentación 1 kg', 38, 100, 4200, 5800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG003', 'Lechuga Orgánica BioCampo', 'Presentación 500 g', 38, 100, 3300, 4600, 1);
@@ -440,7 +440,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG008', 'Brócoli Orgánico Campo Limpio', 'Presentación 500 g', 38, 100, 4600, 6200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG009', 'Apio Orgánico Vida Sana', 'Presentación 500 g', 38, 100, 3100, 4200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG010', 'Calabacín Orgánico EcoFresh', 'Presentación 1 kg', 38, 100, 4000, 5500, 1);
---📚 40. Papeleria
+--🚫 39. SinGluten
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU001', 'Pan Libre de Gluten Schär', 'Presentación 300 g', 39, 100, 8600, 11500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU002', 'Galletas Sin Gluten Santiveri', 'Presentación 200 g', 39, 100, 5400, 7200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU003', 'Harina de Almendra Bob’s Red Mill', 'Presentación 454 g', 39, 100, 12500, 16500, 1);
@@ -451,7 +451,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU008', 'Galletas de Arroz Sin Gluten', 'Presentación 150 g', 39, 100, 4200, 5600, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU009', 'Panqueques Sin Gluten Betty Crocker', 'Presentación 300 g', 39, 100, 7600, 10200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GLU010', 'Mix para Pasteles Sin Gluten', 'Presentación 400 g', 39, 100, 9100, 12200, 1);
---🪒 41. CuidadoMasculino
+--📚 40. Papeleria
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP001', 'Cuaderno Norma Profesional', 'Presentación 100 hojas', 40, 100, 3200, 4800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP002', 'Bolígrafo BIC Cristal', 'Presentación unidad', 40, 100, 400, 800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP003', 'Resaltador Stabilo Boss', 'Presentación unidad', 40, 100, 2500, 3800, 1);
@@ -462,7 +462,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP008', 'Regla Plástica Office Depot', 'Presentación 30 cm', 40, 100, 2200, 3200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP009', 'Corrector Líquido BIC', 'Presentación 20 ml', 40, 100, 2600, 3800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PAP010', 'Bloc de Notas Post-it', 'Presentación 100 hojas', 40, 100, 4300, 6200, 1);
---🧺 42. Lavanderia
+--🪒 41. CuidadoMasculino
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA001', 'Gillette Mach3', 'Presentación 1 unidad', 41, 100, 12000, 16500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA002', 'Old Spice Desodorante', 'Presentación 100 ml', 41, 100, 7500, 10500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA003', 'Nivea Men After Shave', 'Presentación 100 ml', 41, 100, 8300, 11500, 1);
@@ -473,6 +473,28 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA008', 'Old Spice Gel para Pelo', 'Presentación 200 ml', 41, 100, 7200, 10300, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA009', 'Nivea Men Crema Facial', 'Presentación 50 ml', 41, 100, 8500, 11800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CMA010', 'Gillette After Shave Sensitive', 'Presentación 100 ml', 41, 100, 9600, 13300, 1);
+--🧺 42. Lavanderia
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV001', 'Ariel Detergente Líquido', 'Presentación 3000 ml', 42, 100, 13800, 18500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV002', 'Suavizante Downy', 'Presentación 1500 ml', 42, 100, 8200, 11200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV003', 'Ace Detergente en Polvo', 'Presentación 2000 g', 42, 100, 9200, 12500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV004', 'Jabón en Barra Zote', 'Presentación 500 g', 42, 100, 2800, 4000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV005', 'Cloro Cloralex', 'Presentación 1000 ml', 42, 100, 3800, 5400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV006', 'Bolsa para Ropa Delicada', 'Presentación 1 und', 42, 100, 2200, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV007', 'Quitamanchas Vanish', 'Presentación 500 ml', 42, 100, 10200, 14200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV008', 'Suavizante Ensueño', 'Presentación 1500 ml', 42, 100, 8400, 11500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV009', 'Detergente Persil', 'Presentación 2000 g', 42, 100, 10500, 13800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LAV010', 'Jabón Líquido Suave', 'Presentación 1000 ml', 42, 100, 6800, 9100, 1);
+--🛁 43. HigieneCorporal
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO001', 'Jabón Dove', 'Presentación 90 g', 43, 100, 2300, 3500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO002', 'Gel de Baño Nivea', 'Presentación 400 ml', 43, 100, 7800, 11000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO003', 'Desodorante Rexona', 'Presentación 150 ml', 43, 100, 6800, 9500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO004', 'Esponja de Baño', 'Presentación 1 und', 43, 100, 2200, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO005', 'Crema Corporal Nivea', 'Presentación 250 ml', 43, 100, 7100, 9800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO006', 'Jabón Antibacterial Protex', 'Presentación 90 g', 43, 100, 1900, 2800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO007', 'Aceite Corporal Bio Oil', 'Presentación 60 ml', 43, 100, 12000, 16000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO008', 'Jabón Líquido Suave', 'Presentación 500 ml', 43, 100, 3800, 5300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO009', 'Exfoliante Corporal St. Ives', 'Presentación 200 ml', 43, 100, 9600, 13500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO010', 'Talco Johnson’s', 'Presentación 150 g', 43, 100, 2700, 3900, 1);
 
 
 
