@@ -231,6 +231,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT008', 'Munchkin Chupos Silicona 0-6m', 'Presentación 2 und', 20, 100, 6100, 8200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT009', 'Evenflo Biberón Boca Ancha', 'Presentación 250 ml', 20, 100, 7100, 9400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT010', 'Johnsons Aceite para Bebé', 'Presentación 200 ml', 20, 100, 6200, 8400, 1);
+--🧸 21. Escolares
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC001', 'Norma Cuaderno Cuadro Grande', 'Presentación 100 hojas', 21, 100, 2300, 3100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC002', 'Scribe Cuaderno Rayado', 'Presentación 80 hojas', 21, 100, 2100, 2900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC003', 'Faber-Castell Lápices de Colores', 'Presentación 12 und', 21, 100, 5800, 7900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC004', 'Bic Esferos Azul', 'Presentación 3 und', 21, 100, 1600, 2200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC005', 'Pelikan Pegante en Barra', 'Presentación 21 gr', 21, 100, 2400, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC006', 'Norma Cartuchera Escolar', 'Presentación 1 und', 21, 100, 6200, 8500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC007', 'Maped Tijeras Escolares', 'Presentación 1 und', 21, 100, 3300, 4500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC008', 'Sharp Calculadora Básica', 'Presentación 1 und', 21, 100, 9800, 12900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC009', 'Pelikan Temperas Escolares', 'Presentación 6 colores', 21, 100, 5600, 7500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESC010', 'Faber-Castell Borradores Suaves', 'Presentación 2 und', 21, 100, 1400, 1900, 1);
 
 
 SELECT * FROM PRODUCTO
