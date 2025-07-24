@@ -77,5 +77,15 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS008', 'CampoSur Pimentón Rojo', 'Presentación 500 g', 6, 100, 3700, 4600, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS009', 'Verdefresco Habichuela Tierna', 'Presentación 500 g', 6, 100, 3900, 5000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('VERDURAS010', 'Campofresco Espinaca Limpia', 'Presentación 250 g', 6, 100, 2700, 3400, 1);
-
+--🧊 7. Congelados
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS001', 'Zenú Hamburguesa de Res', 'Presentación 500 g', 7, 100, 7800, 9500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS002', 'RikoPollo Nuggets de Pollo', 'Presentación 400 g', 7, 100, 6900, 8500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS003', 'Mr. Fish Filete de Tilapia', 'Presentación 600 g', 7, 100, 11200, 13400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS004', 'McCain Papas a la Francesa', 'Presentación 750 g', 7, 100, 7400, 9000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS005', 'Zenú Albóndigas de Res', 'Presentación 500 g', 7, 100, 8800, 10600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS006', 'RikoPollo Alas BBQ', 'Presentación 700 g', 7, 100, 9700, 11500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS007', 'Fruandes Frutas Congeladas Mixtas', 'Presentación 1000 g', 7, 100, 8400, 10200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS008', 'Don Jacobo Arepas Precocidas', 'Presentación 400 g', 7, 100, 6200, 7700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS009', 'Zenú Chorizo Antioqueño Congelado', 'Presentación 500 g', 7, 100, 9500, 11400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS010', 'Mr. Fish Camarón Limpio Congelado', 'Presentación 500 g', 7, 100, 16800, 19600, 1);
 
