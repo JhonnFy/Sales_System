@@ -40,7 +40,17 @@ INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Refrigerados',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Desechables',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Aromatizantes',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Salud',1)
-
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('BebidasHidratantes',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Cereales',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Dulces',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Snacks',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Endulzantes',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Aderezos',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('ProductosLight',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('ProductosOrganicos',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('LibreDeGluten',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Papeleria',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('CuidadoMasculino',1)
 
 SELECT * FROM CATEGORIA
 GO
