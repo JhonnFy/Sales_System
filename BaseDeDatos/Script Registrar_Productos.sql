@@ -264,6 +264,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN008', 'Lion Energy', 'Presentación 500 ml', 23, 100, 3300, 4400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN009', 'Rockstar Energy Original', 'Presentación 473 ml', 23, 100, 5400, 7000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN010', 'Xzoom Energy', 'Presentación 400 ml', 23, 100, 2200, 2900, 1);
+--☕ 24. Cafe
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF001', 'Nescafé Tradición', 'Presentación 170 g', 24, 100, 7800, 10500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF002', 'Águila Roja Café Molido', 'Presentación 250 g', 24, 100, 7200, 9800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF003', 'Oma Café Molido', 'Presentación 250 g', 24, 100, 7500, 10000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF004', 'Sello Rojo Café', 'Presentación 500 g', 24, 100, 9600, 13000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF005', 'Juan Valdez Premium', 'Presentación 284 g', 24, 100, 11500, 15500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF006', 'Colcafé Clásico', 'Presentación 170 g', 24, 100, 7900, 10700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF007', 'Matiz Café Molido', 'Presentación 250 g', 24, 100, 8200, 11000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF008', 'La Bastilla Café Tradicional', 'Presentación 500 g', 24, 100, 8800, 11900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF009', 'Liofilizado Selecto', 'Presentación 95 g', 24, 100, 13200, 17000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF010', 'Gran Café Premium', 'Presentación 250 g', 24, 100, 9700, 12700, 1);
 
 
 
