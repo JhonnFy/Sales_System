@@ -121,4 +121,14 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA008', 'Pan PaYa Pan de Bono', 'Presentación 6 und', 10, 100, 3500, 4500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA009', 'Bimbo Pan Dulce de Leche', 'Presentación 4 und', 10, 100, 3700, 4700, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA010', 'Ramo Rollito de Canela', 'Presentación 2 und', 10, 100, 2800, 3700, 1);
-
+--🍰 11. Reposteria
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA001', 'Ducales Galleta Tradicional', 'Presentación 6 und', 11, 100, 2800, 3700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA002', 'Jet Chocolate con Mani', 'Presentación 120 gr', 11, 100, 4100, 5200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA003', 'Milo Galleta Energética', 'Presentación 180 gr', 11, 100, 3900, 4900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA004', 'Nestlé Leche Condensada', 'Presentación 395 gr', 11, 100, 4300, 5400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA005', 'Ramo Galleta Chocorramo Brownie', 'Presentación 1 und', 11, 100, 2800, 3700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA006', 'Nestlé Cocoa en Polvo', 'Presentación 250 gr', 11, 100, 5200, 6400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA007', 'Ramo Rollito de Fresa', 'Presentación 2 und', 11, 100, 2900, 3900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA008', 'Chocolisto Barras Energéticas', 'Presentación 5 und', 11, 100, 4700, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA009', 'Jet Chocolate Blanco', 'Presentación 100 gr', 11, 100, 3500, 4500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA010', 'Nestlé Topping de Chocolate', 'Presentación 200 ml', 11, 100, 3800, 4800, 1);
