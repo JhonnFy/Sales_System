@@ -517,6 +517,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG008', 'Manta para Sofá', 'Presentación 1.5 m x 2 m', 45, 100, 38000, 52000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG009', 'Portarretrato', 'Presentación unidad', 45, 100, 18000, 26000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG010', 'Reloj de Pared', 'Presentación unidad', 45, 100, 47000, 64000, 1);
+--🔋 47. Tecnologia
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC001', 'Audífonos Inalámbricos JBL', 'Presentación unidad', 46, 100, 85000, 120000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC002', 'Mouse Logitech', 'Presentación unidad', 46, 100, 32000, 46000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC003', 'Teclado Mecánico Redragon', 'Presentación unidad', 46, 100, 110000, 150000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC004', 'Cargador Samsung 25W', 'Presentación unidad', 46, 100, 38000, 52000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC005', 'Disco Duro Externo Toshiba', 'Presentación 1 TB', 46, 100, 180000, 230000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC006', 'Memoria USB SanDisk', 'Presentación 64 GB', 46, 100, 28000, 39000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC007', 'Parlante Bluetooth Sony', 'Presentación unidad', 46, 100, 150000, 210000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC008', 'Cable HDMI Belkin', 'Presentación 2 m', 46, 100, 25000, 34000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC009', 'Tablet Lenovo', 'Presentación 10 pulgadas', 46, 100, 420000, 580000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC010', 'Cámara Web Logitech', 'Presentación 1080p', 46, 100, 95000, 130000, 1);
 
 
 
