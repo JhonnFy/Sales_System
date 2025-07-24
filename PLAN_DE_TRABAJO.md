@@ -4,8 +4,8 @@ Este documento sirve como seguimiento interno del desarrollo del proyecto Sales_
 ---
 
 ## 🟡 En curso
-- [ ] 
-- [ ] 
+- [ ] Insertar registros de Categorias en la base de datos.
+- [ ] Insertar registros de productos en la base de datos.
 - [ ] 
 
 ---
