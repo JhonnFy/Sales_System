@@ -495,6 +495,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO008', 'Jabón Líquido Suave', 'Presentación 500 ml', 43, 100, 3800, 5300, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO009', 'Exfoliante Corporal St. Ives', 'Presentación 200 ml', 43, 100, 9600, 13500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HCO010', 'Talco Johnson’s', 'Presentación 150 g', 43, 100, 2700, 3900, 1);
+--🧻 44. UtensiliosDeCocina
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC001', 'Olla Imusa Antiadherente', 'Presentación 5 L', 44, 100, 72000, 95000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC002', 'Sartén T-fal', 'Presentación 24 cm', 44, 100, 56000, 74000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC003', 'Juego de Cuchillos Tramontina', 'Presentación 5 piezas', 44, 100, 85000, 110000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC004', 'Tabla de Cortar Rubbermaid', 'Presentación unidad', 44, 100, 21000, 29000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC005', 'Colador Metálico', 'Presentación 22 cm', 44, 100, 18000, 25000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC006', 'Espátula de Silicona', 'Presentación unidad', 44, 100, 9000, 13000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC007', 'Batidora de Mano Oster', 'Presentación 200 W', 44, 100, 120000, 158000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC008', 'Tazas Medidoras Pyrex', 'Presentación juego 4 und', 44, 100, 32000, 44000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC009', 'Rallador de Queso', 'Presentación unidad', 44, 100, 15000, 22000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC010', 'Cuchara Grande de Madera', 'Presentación unidad', 44, 100, 7000, 10000, 1);
 
 
 
