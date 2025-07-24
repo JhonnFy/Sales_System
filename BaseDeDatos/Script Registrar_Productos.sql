@@ -44,7 +44,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS008', 'Friko Alitas BBQ Picantes', 'Presentación 650 g', 3, 100, 12200, 15800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS009', 'Zenu Trocitos de Pollo Apanado', 'Presentación 450 g', 3, 100, 9700, 12800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS010', 'Kokoriko Pechuga Marinada', 'Presentación 1000 g', 3, 100, 14000, 17500, 1);
-
+--🦈4. Pescados
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS001', 'Pesquera del Mar Filete de Tilapia', 'Presentación 1000 g', 4, 100, 16500, 19800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS002', 'Marfrío Filete de Merluza', 'Presentación 800 g', 4, 100, 14900, 18500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS003', 'Blue Ocean Atún en Lomo Congelado', 'Presentación 500 g', 4, 100, 12700, 15800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS004', 'Pesquera del Mar Mojarra Entera', 'Presentación 1500 g', 4, 100, 19800, 23500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS005', 'Marina Azul Camarón Crudo Grande', 'Presentación 700 g', 4, 100, 22500, 27800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS006', 'Frigorífico Sur Trucha Arcoíris', 'Presentación 1000 g', 4, 100, 18200, 21500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS007', 'Ocean Catch Filete de Salmón', 'Presentación 600 g', 4, 100, 28900, 34900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS008', 'Blue Ocean Calamar en Anillos', 'Presentación 500 g', 4, 100, 13200, 16500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS009', 'Del Mar Langostinos Cocidos', 'Presentación 400 g', 4, 100, 24800, 29800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PESCADOS010', 'Pesquera Norte Pargo Rojo Fresco', 'Presentación 1000 g', 4, 100, 21000, 26000, 1);
 
 
 
