@@ -341,6 +341,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL008', 'Enterogermina 5 ml', 'Presentación 10 frascos', 30, 100, 17400, 21200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL009', 'Genfar Antigripal Día y Noche', 'Presentación 8 cápsulas', 30, 100, 4300, 5800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL010', 'Vick VapoRub Ungüento', 'Presentación 50 g', 30, 100, 6900, 8500, 1);
+--🧃 31. BebidasHidratantes
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI001', 'Gatorade Mandarina', 'Presentación 500 ml', 31, 100, 2300, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI002', 'Powerade Uva', 'Presentación 591 ml', 31, 100, 2500, 3400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI003', 'Vive100 Hidratante Frutos Rojos', 'Presentación 500 ml', 31, 100, 2700, 3600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI004', 'Aquarius Naranja', 'Presentación 400 ml', 31, 100, 1900, 2600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI005', 'Sporade Limón', 'Presentación 500 ml', 31, 100, 2100, 2800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI006', 'BonSport Original', 'Presentación 600 ml', 31, 100, 2300, 3100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI007', 'Gatorade Sin Azúcar Frutas Cítricas', 'Presentación 500 ml', 31, 100, 2600, 3500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI008', 'Powerade Azul', 'Presentación 1 litro', 31, 100, 4800, 6200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI009', 'Aquarius Manzana', 'Presentación 600 ml', 31, 100, 2200, 3000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI010', 'BonSport Hidratante Piña', 'Presentación 500 ml', 31, 100, 2100, 2800, 1);
 
 
 SELECT * FROM PRODUCTO
