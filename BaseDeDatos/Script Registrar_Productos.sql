@@ -528,6 +528,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC008', 'Cable HDMI Belkin', 'Presentación 2 m', 46, 100, 25000, 34000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC009', 'Tablet Lenovo', 'Presentación 10 pulgadas', 46, 100, 420000, 580000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEC010', 'Cámara Web Logitech', 'Presentación 1080p', 46, 100, 95000, 130000, 1);
+--💡 48. Iluminacion
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU001', 'Bombillo LED Philips', 'Presentación 9 W', 47, 100, 8500, 12000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU002', 'Tubo Fluorescente Osram', 'Presentación 36 W', 47, 100, 15000, 21000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU003', 'Lámpara de Techo Homecenter', 'Presentación unidad', 47, 100, 85000, 115000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU004', 'Aplique Exterior Corona', 'Presentación unidad', 47, 100, 42000, 59000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU005', 'Tira LED RGB Genérica', 'Presentación 5 m', 47, 100, 32000, 46000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU006', 'Foco LED EcoLuz', 'Presentación 12 W', 47, 100, 9500, 13500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU007', 'Lámpara de Escritorio Kalley', 'Presentación unidad', 47, 100, 38000, 52000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU008', 'Lámpara Recargable Xiaomi', 'Presentación unidad', 47, 100, 69000, 89000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU009', 'Balastro Electrónico Fanalca', 'Presentación 40 W', 47, 100, 17000, 23000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU010', 'Sensor de Movimiento VETO', 'Presentación unidad', 47, 100, 25000, 33000, 1);
 
 
 
