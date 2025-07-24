@@ -275,7 +275,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF008', 'La Bastilla Café Tradicional', 'Presentación 500 g', 24, 100, 8800, 11900, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF009', 'Liofilizado Selecto', 'Presentación 95 g', 24, 100, 13200, 17000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CAF010', 'Gran Café Premium', 'Presentación 250 g', 24, 100, 9700, 12700, 1);
-
+--🍷 25. BebidasAlcoholicas
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC001', 'Aguila Original', 'Presentación 330 ml', 25, 100, 1800, 2500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC002', 'Club Colombia Dorada', 'Presentación 330 ml', 25, 100, 2100, 2900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC003', 'Poker Cerveza', 'Presentación 330 ml', 25, 100, 1700, 2300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC004', 'Corona Extra', 'Presentación 355 ml', 25, 100, 4200, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC005', 'Heineken', 'Presentación 330 ml', 25, 100, 4000, 5500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC006', 'Aguardiente Antioqueño', 'Presentación 750 ml', 25, 100, 29000, 37000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC007', 'Ron Medellín Añejo', 'Presentación 750 ml', 25, 100, 32000, 42000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC008', 'Baileys Irish Cream', 'Presentación 750 ml', 25, 100, 52000, 68000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC009', 'Whisky Old Parr', 'Presentación 750 ml', 25, 100, 78000, 99000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC010', 'Vino Gato Negro Cabernet Sauvignon', 'Presentación 750 ml', 25, 100, 25000, 33000, 1);
 
 
 SELECT * FROM PRODUCTO
