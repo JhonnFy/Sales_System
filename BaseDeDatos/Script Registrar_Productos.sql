@@ -286,6 +286,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC008', 'Baileys Irish Cream', 'Presentación 750 ml', 25, 100, 52000, 68000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC009', 'Whisky Old Parr', 'Presentación 750 ml', 25, 100, 78000, 99000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ALC010', 'Vino Gato Negro Cabernet Sauvignon', 'Presentación 750 ml', 25, 100, 25000, 33000, 1);
+--📦 26. Enlatados
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL001', 'Van Camp’s Atún en Agua', 'Presentación 160 g', 26, 100, 3700, 4800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL002', 'Van Camp’s Sardinas en Salsa', 'Presentación 155 g', 26, 100, 3100, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL003', 'Del Monte Duraznos en Almíbar', 'Presentación 820 g', 26, 100, 8200, 10500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL004', 'La Constancia Fríjoles en Lata', 'Presentación 400 g', 26, 100, 4300, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL005', 'Zenú Salchichas Viena', 'Presentación 150 g', 26, 100, 2700, 3600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL006', 'La Fina Maíz Dulce', 'Presentación 300 g', 26, 100, 3400, 4500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL007', 'Zenú Albóndigas en Salsa', 'Presentación 400 g', 26, 100, 6500, 8500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL008', 'Zenú Garbanzos Cocidos', 'Presentación 300 g', 26, 100, 4100, 5600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL009', 'Zenú Lentejas en Lata', 'Presentación 300 g', 26, 100, 3900, 5100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL010', 'La Constancia Champiñones Laminados', 'Presentación 185 g', 26, 100, 5200, 6900, 1);
 
 
 SELECT * FROM PRODUCTO
