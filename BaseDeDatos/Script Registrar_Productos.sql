@@ -363,6 +363,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER008', 'Kellogg’s Choco Krispis', 'Presentación 500 g', 32, 100, 8000, 10600, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER009', 'Avena Quaker Instantánea', 'Presentación 400 g', 32, 100, 4400, 5900, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER010', 'Kellogg’s Special K', 'Presentación 400 g', 32, 100, 8700, 11500, 1);
+--🍭 33. Dulces
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL001', 'Jet Chocolate', 'Presentación 12 g', 33, 100, 200, 400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL002', 'Bon Bon Bum Fresa', 'Presentación 24 und', 33, 100, 3700, 5400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL003', 'Chocorramo Ramo', 'Presentación 65 g', 33, 100, 1900, 2600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL004', 'Trululu Gomitas Ositos', 'Presentación 100 g', 33, 100, 2900, 4000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL005', 'Nestlé Chocolatina Crunch', 'Presentación 32 g', 33, 100, 2300, 3400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL006', 'M&M’s Mani', 'Presentación 45 g', 33, 100, 3900, 5400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL007', 'Galleta Festival Vainilla', 'Presentación 6 und', 33, 100, 1200, 1800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL008', 'Supercoco Original', 'Presentación 24 und', 33, 100, 2800, 4100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL009', 'Chocolatina Jumbo Maní', 'Presentación 55 g', 33, 100, 2600, 3700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DUL010', 'Halls Mentho-Lyptus', 'Presentación 25 g', 33, 100, 1200, 1800, 1);
 
 
 SELECT * FROM PRODUCTO
