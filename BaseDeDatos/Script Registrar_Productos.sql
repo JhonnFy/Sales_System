@@ -429,6 +429,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG008', 'Refresco Light Clight', 'Presentación 9 g', 37, 100, 600, 1200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG009', 'Cereal Fitness Nestlé Light', 'Presentación 300 g', 37, 100, 7100, 9700, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG010', 'Mermelada Light La Constancia', 'Presentación 250 g', 37, 100, 4900, 6800, 1);
+--🚫 39. SinGluten
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG001', 'Manzana Orgánica La Huerta', 'Presentación 1 kg', 38, 100, 6500, 8800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG002', 'Zanahoria Orgánica Campo Vivo', 'Presentación 1 kg', 38, 100, 4200, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG003', 'Lechuga Orgánica BioCampo', 'Presentación 500 g', 38, 100, 3300, 4600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG004', 'Tomate Orgánico Vida Verde', 'Presentación 1 kg', 38, 100, 5300, 7200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG005', 'Cebolla Orgánica NaturalFresh', 'Presentación 1 kg', 38, 100, 3800, 5200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG006', 'Aguacate Orgánico Del Campo', 'Presentación 1 kg', 38, 100, 7200, 9800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG007', 'Pepino Orgánico BioVida', 'Presentación 1 kg', 38, 100, 3500, 4800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG008', 'Brócoli Orgánico Campo Limpio', 'Presentación 500 g', 38, 100, 4600, 6200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG009', 'Apio Orgánico Vida Sana', 'Presentación 500 g', 38, 100, 3100, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ORG010', 'Calabacín Orgánico EcoFresh', 'Presentación 1 kg', 38, 100, 4000, 5500, 1);
 
 
 
