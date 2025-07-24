@@ -549,7 +549,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO008', 'Oferta Enlatados Zenú', 'Presentación pack x4 und', 49, 100, 9200, 12800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO009', 'Descuento Jugo Hit', 'Presentación 1000 ml', 49, 100, 3200, 5100, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PRO010', '2x1 Papel Higienico Familia', 'Presentación 12 und', 49, 100, 11200, 22400, 1);
---🛠️ HerramientasFerreteria
+--🛠️ 50. HerramientasFerreteria
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE001', 'Stanley Martillo de Uña', 'presentación 16 oz', 50, 50, 27000, 34900, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE002', 'Truper Destornillador Plano', 'presentación 6 mm', 50, 120, 6200, 8800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE003', 'Black+Decker Taladro Percutor', 'presentación 550 w', 50, 30, 135000, 178000, 1);
