@@ -506,6 +506,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC008', 'Tazas Medidoras Pyrex', 'Presentación juego 4 und', 44, 100, 32000, 44000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC009', 'Rallador de Queso', 'Presentación unidad', 44, 100, 15000, 22000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('UTC010', 'Cuchara Grande de Madera', 'Presentación unidad', 44, 100, 7000, 10000, 1);
+--🏠 46. Hogar
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG001', 'Velas Aromáticas Yankee', 'Presentación 300 g', 45, 100, 28000, 40000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG002', 'Cojín Decorativo', 'Presentación unidad', 45, 100, 23000, 33000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG003', 'Difusor de Aromas', 'Presentación 250 ml', 45, 100, 32000, 45000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG004', 'Cortina de Baño', 'Presentación unidad', 45, 100, 26000, 37000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG005', 'Organizador de Closet', 'Presentación unidad', 45, 100, 40000, 56000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG006', 'Lámpara de Mesa', 'Presentación unidad', 45, 100, 55000, 75000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG007', 'Silla Plegable', 'Presentación unidad', 45, 100, 45000, 60000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG008', 'Manta para Sofá', 'Presentación 1.5 m x 2 m', 45, 100, 38000, 52000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG009', 'Portarretrato', 'Presentación unidad', 45, 100, 18000, 26000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HOG010', 'Reloj de Pared', 'Presentación unidad', 45, 100, 47000, 64000, 1);
 
 
 
