@@ -132,3 +132,14 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA008', 'Chocolisto Barras Energéticas', 'Presentación 5 und', 11, 100, 4700, 5800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA009', 'Jet Chocolate Blanco', 'Presentación 100 gr', 11, 100, 3500, 4500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REPOSTERIA010', 'Nestlé Topping de Chocolate', 'Presentación 200 ml', 11, 100, 3800, 4800, 1);
+--🧃 12. Jugos
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS001', 'Hit Néctar de Mango', 'Presentación 1000 ml', 12, 100, 3200, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS002', 'Del Valle Néctar de Durazno', 'Presentación 1000 ml', 12, 100, 3300, 4300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS003', 'Jumex Jugo de Manzana', 'Presentación 335 ml', 12, 100, 2200, 3000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS004', 'Cifrut Jugo Tropical', 'Presentación 600 ml', 12, 100, 2000, 2800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS005', 'Hit Néctar de Mora', 'Presentación 1000 ml', 12, 100, 3100, 4000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS006', 'Del Valle Multifrutas', 'Presentación 1000 ml', 12, 100, 3300, 4300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS007', 'Jumex Jugo de Piña', 'Presentación 335 ml', 12, 100, 2200, 3000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS008', 'Cifrut Jugo de Naranja', 'Presentación 600 ml', 12, 100, 2000, 2800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS009', 'Hit Néctar de Guayaba', 'Presentación 1000 ml', 12, 100, 3200, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('JUGOS010', 'Del Valle Néctar de Manzana', 'Presentación 1000 ml', 12, 100, 3300, 4300, 1);
