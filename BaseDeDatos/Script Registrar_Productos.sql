@@ -418,6 +418,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE008', 'Salsa Ranch La Constancia', 'Presentación 300 ml', 36, 100, 5200, 7500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE009', 'Vinagreta Balsámica Sibaris', 'Presentación 250 ml', 36, 100, 5800, 8400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE010', 'Salsa Sriracha Thai Dragon', 'Presentación 350 g', 36, 100, 7400, 10500, 1);
+--🌱 38. ProductosOrganicos
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG001', 'Yogurt Alpina Light', 'Presentación 150 g', 37, 100, 2100, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG002', 'Galletas Tosh Light', 'Presentación 180 g', 37, 100, 3800, 5400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG003', 'Queso Bajo en Grasa Colanta', 'Presentación 250 g', 37, 100, 5600, 7900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG004', 'Leche Deslactosada Alpina Light', 'Presentación 1000 ml', 37, 100, 4300, 6000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG005', 'Gelatina Light Dany', 'Presentación 6 und', 37, 100, 2900, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG006', 'Arequipe Light Alpina', 'Presentación 220 g', 37, 100, 4800, 6700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG007', 'Pan Integral Light Bimbo', 'Presentación 500 g', 37, 100, 5200, 7300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG008', 'Refresco Light Clight', 'Presentación 9 g', 37, 100, 600, 1200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG009', 'Cereal Fitness Nestlé Light', 'Presentación 300 g', 37, 100, 7100, 9700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LIG010', 'Mermelada Light La Constancia', 'Presentación 250 g', 37, 100, 4900, 6800, 1);
 
 
 
