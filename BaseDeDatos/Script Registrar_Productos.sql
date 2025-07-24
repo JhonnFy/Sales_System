@@ -330,6 +330,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO008', 'Glade Velas Aromáticas Frutas Rojas', 'Presentación 96 g', 29, 100, 5400, 6800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO009', 'Renuzit Perlas Aromáticas Floral', 'Presentación 275 g', 29, 100, 7600, 9500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO010', 'Air Wick Aceite Esencial Repuesto Brisa', 'Presentación 21 ml', 29, 100, 9300, 11800, 1);
+--🧪 30. Salud
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL001', 'Genfar Acetaminofén 500 mg', 'Presentación 10 tabletas', 30, 100, 1500, 2200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL002', 'Dolex Forte 500 mg', 'Presentación 16 tabletas', 30, 100, 6800, 8900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL003', 'Alka-Seltzer Tabletas Efervescentes', 'Presentación 8 und', 30, 100, 4500, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL004', 'Aspirina Bayer 500 mg', 'Presentación 20 tabletas', 30, 100, 8700, 10900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL005', 'Buscapina Compositum N', 'Presentación 10 cápsulas', 30, 100, 11900, 14500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL006', 'Sal de Frutas Lua', 'Presentación 5 sobres', 30, 100, 3100, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL007', 'Genfar Loratadina 10 mg', 'Presentación 10 tabletas', 30, 100, 2600, 3400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL008', 'Enterogermina 5 ml', 'Presentación 10 frascos', 30, 100, 17400, 21200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL009', 'Genfar Antigripal Día y Noche', 'Presentación 8 cápsulas', 30, 100, 4300, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SAL010', 'Vick VapoRub Ungüento', 'Presentación 50 g', 30, 100, 6900, 8500, 1);
 
 
 SELECT * FROM PRODUCTO
