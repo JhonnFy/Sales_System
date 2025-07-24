@@ -51,6 +51,15 @@ INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('ProductosOrganicos',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('LibreDeGluten',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Papeleria',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('CuidadoMasculino',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Lavanderia',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('HigieneCorporal',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('UtensiliosDeCocina',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Hogar',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Tecnologia',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Iluminacion',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('ProductosDeTemporada',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Promociones',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('HerramientasFerreteria',1)
 
 SELECT * FROM CATEGORIA
 GO
