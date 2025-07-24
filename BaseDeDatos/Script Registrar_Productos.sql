@@ -352,6 +352,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI008', 'Powerade Azul', 'Presentación 1 litro', 31, 100, 4800, 6200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI009', 'Aquarius Manzana', 'Presentación 600 ml', 31, 100, 2200, 3000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BHI010', 'BonSport Hidratante Piña', 'Presentación 500 ml', 31, 100, 2100, 2800, 1);
+--🍚 32. Cereales
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER001', 'Kellogg’s Zucaritas', 'Presentación 500 g', 32, 100, 7800, 10400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER002', 'Nestlé Corn Flakes', 'Presentación 510 g', 32, 100, 7300, 9800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER003', 'Kellogg’s Froot Loops', 'Presentación 400 g', 32, 100, 7900, 10700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER004', 'Nestlé Fitness', 'Presentación 375 g', 32, 100, 8200, 10900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER005', 'Kellogg’s All Bran', 'Presentación 380 g', 32, 100, 8400, 11200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER006', 'Quaker Granola Tradicional', 'Presentación 500 g', 32, 100, 8500, 11300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER007', 'Nestlé Nesquik Cereal', 'Presentación 360 g', 32, 100, 7200, 9700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER008', 'Kellogg’s Choco Krispis', 'Presentación 500 g', 32, 100, 8000, 10600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER009', 'Avena Quaker Instantánea', 'Presentación 400 g', 32, 100, 4400, 5900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CER010', 'Kellogg’s Special K', 'Presentación 400 g', 32, 100, 8700, 11500, 1);
 
 
 SELECT * FROM PRODUCTO
