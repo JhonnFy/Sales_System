@@ -33,11 +33,19 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CARNES008', 'Frisby Costillas BBQ', 'Presentación 600 g', 2, 100, 17500, 22000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CARNES009', 'Zenu Lomo de Cerdo Adobado', 'Presentación 800 g', 2, 100, 15500, 19500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CARNES010', 'Resplandor Bistec de Res', 'Presentación 1000 g', 2, 100, 18500, 23000, 1);
+--🍗 3. Pollo
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS001', 'Kokoriko Pechuga de Pollo', 'Presentación 1000 g', 3, 100, 13500, 16800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS002', 'Campollo Alas BBQ', 'Presentación 800 g', 3, 100, 12000, 15500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS003', 'Zenu Nuggets de Pollo', 'Presentación 500 g', 3, 100, 9800, 12400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS004', 'Avícola Nacional Pollo Entero', 'Presentación 2000 g', 3, 100, 16000, 19900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS005', 'Pimpollo Filete de Pechuga', 'Presentación 750 g', 3, 100, 12500, 15900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS006', 'Superpollo Hamburguesa de Pollo', 'Presentación 600 g', 3, 100, 8900, 11500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS007', 'La Fazenda Muslos de Pollo', 'Presentación 1000 g', 3, 100, 11000, 14500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS008', 'Friko Alitas BBQ Picantes', 'Presentación 650 g', 3, 100, 12200, 15800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS009', 'Zenu Trocitos de Pollo Apanado', 'Presentación 450 g', 3, 100, 9700, 12800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('POLLOS010', 'Kokoriko Pechuga Marinada', 'Presentación 1000 g', 3, 100, 14000, 17500, 1);
 
-				
 
 
-
- 
 
 
