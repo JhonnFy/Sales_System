@@ -15,6 +15,9 @@ INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Carnes',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Pollos',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Pescados',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Frutas',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Verduras',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Congelados',1)
+
 
 SELECT * FROM CATEGORIA
 GO
