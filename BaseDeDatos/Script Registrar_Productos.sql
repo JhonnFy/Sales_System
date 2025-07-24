@@ -198,5 +198,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE008', 'El Rey Clavos de Olor', 'Presentación 25 gr', 17, 100, 1500, 2300, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE009', 'McCormick Albahaca Seca', 'Presentación 18 gr', 17, 100, 1300, 2000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ESPE010', 'Badia Laurel Entero', 'Presentación 20 gr', 17, 100, 900, 1600, 1);
+--🍯 18. AceitesVinagresAderezos
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA001', 'Girasol Aceite Vegetal', 'Presentación 1000 ml', 18, 100, 6500, 8500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA002', 'Olitalia Aceite de Oliva Extra Virgen', 'Presentación 500 ml', 18, 100, 13500, 17000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA003', 'La Constancia Vinagre Blanco', 'Presentación 1000 ml', 18, 100, 2300, 3900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA004', 'Heinz Vinagre de Manzana', 'Presentación 473 ml', 18, 100, 2900, 4400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA005', 'Fruco Mayonesa Clásica', 'Presentación 400 gr', 18, 100, 4200, 5700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA006', 'Hellmann’s Mayonesa Light', 'Presentación 390 gr', 18, 100, 4500, 6000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA007', 'Fruco Salsa de Tomate', 'Presentación 400 gr', 18, 100, 3000, 4600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA008', 'La Constancia Mostaza', 'Presentación 300 gr', 18, 100, 2600, 4000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA009', 'Bary Salsa BBQ', 'Presentación 500 gr', 18, 100, 4800, 6500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('AVA010', 'La Constancia Salsa Rosada', 'Presentación 400 gr', 18, 100, 4100, 5700, 1);
+
 
 SELECT * FROM PRODUCTO
