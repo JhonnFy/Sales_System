@@ -539,6 +539,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU008', 'Lámpara Recargable Xiaomi', 'Presentación unidad', 47, 100, 69000, 89000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU009', 'Balastro Electrónico Fanalca', 'Presentación 40 W', 47, 100, 17000, 23000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ILU010', 'Sensor de Movimiento VETO', 'Presentación unidad', 47, 100, 25000, 33000, 1);
+--📦 49. ProductosDeTemporada
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM001', 'Arbolito de Navidad Decorarte', 'Presentación 1.5 m', 48, 100, 58000, 79000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM002', 'Luces Navideñas LED Homecenter', 'Presentación 100 luces', 48, 100, 22000, 33000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM003', 'Huevitos de Pascua Jet', 'Presentación 200 g', 48, 100, 6700, 10500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM004', 'Disfraz de Halloween PartyCity', 'Presentación infantil', 48, 100, 45000, 63000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM005', 'Sombrero Navideño Genérico', 'Presentación unidad', 48, 100, 6000, 9500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM006', 'Velas Aromáticas Navidad Yankee Candle', 'Presentación pack 3 und', 48, 100, 18000, 25000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM007', 'Canasta de Chocolates Ferrero', 'Presentación 24 und', 48, 100, 45000, 60000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM008', 'Decoración Halloween Telaraña', 'Presentación 100 g', 48, 100, 3800, 7200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM009', 'Globos de San Valentín Qualatex', 'Presentación paquete 10 und', 48, 100, 10500, 15500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('TEM010', 'Mochila Escolar de Temporada Totto', 'Presentación unidad', 48, 100, 98000, 135000, 1);
 
 
 
