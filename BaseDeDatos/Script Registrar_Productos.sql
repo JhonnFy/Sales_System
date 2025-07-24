@@ -253,7 +253,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS008', 'Ringo Galletas para Perros', 'Presentación 500 gr', 22, 100, 5900, 7700, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS009', 'Purina One Alimento Gato Esterilizado', 'Presentación 1200 gr', 22, 100, 21900, 28900, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAS010', 'Kong Juguete Mascota Mediano', 'Presentación 1 und', 22, 100, 16500, 21500, 1);
-
+--🧃 23. BebidasEnergeticas
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN001', 'Red Bull Energy Drink', 'Presentación 250 ml', 23, 100, 4700, 6000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN002', 'Monster Energy Original', 'Presentación 473 ml', 23, 100, 5200, 6900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN003', 'Vive 100 Bebida Energizante', 'Presentación 400 ml', 23, 100, 2300, 3000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN004', 'Volt Energy Drink Original', 'Presentación 400 ml', 23, 100, 2500, 3400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN005', 'Speed Max Energy', 'Presentación 473 ml', 23, 100, 4600, 6100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN006', 'Hype Energy Drink MFP', 'Presentación 250 ml', 23, 100, 4100, 5500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN007', 'Burn Bebida Energizante', 'Presentación 355 ml', 23, 100, 3950, 5100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN008', 'Lion Energy', 'Presentación 500 ml', 23, 100, 3300, 4400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN009', 'Rockstar Energy Original', 'Presentación 473 ml', 23, 100, 5400, 7000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('BEN010', 'Xzoom Energy', 'Presentación 400 ml', 23, 100, 2200, 2900, 1);
 
 
 
