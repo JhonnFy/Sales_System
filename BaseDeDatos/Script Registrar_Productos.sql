@@ -220,6 +220,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF008', 'Always Pantiprotectores Diarios', 'Presentación 40 und', 19, 100, 3900, 5300, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF009', 'Nosotras Protectores Diarios Multiestilo', 'Presentación 30 und', 19, 100, 3500, 4900, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HF010', 'Saba Toallas Higiénicas Nocturnas', 'Presentación 10 und', 19, 100, 4400, 6000, 1);
+--👶 20. Maternidad
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT001', 'Huggies Pañales Recién Nacido', 'Presentación 30 und', 20, 100, 11500, 14500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT002', 'Pampers Pañales Etapa 1', 'Presentación 40 und', 20, 100, 12300, 15500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT003', 'Johnsons Shampoo para Bebé', 'Presentación 400 ml', 20, 100, 7800, 9900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT004', 'Mustela Crema para Rozaduras', 'Presentación 100 ml', 20, 100, 9900, 12900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT005', 'Chicco Gel de Baño para Bebé', 'Presentación 200 ml', 20, 100, 8500, 11000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT006', 'Enfamil Fórmula Infantil Etapa 1', 'Presentación 400 gr', 20, 100, 28000, 34000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT007', 'Similac Fórmula Infantil Sensitive', 'Presentación 375 gr', 20, 100, 26000, 32000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT008', 'Munchkin Chupos Silicona 0-6m', 'Presentación 2 und', 20, 100, 6100, 8200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT009', 'Evenflo Biberón Boca Ancha', 'Presentación 250 ml', 20, 100, 7100, 9400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('MAT010', 'Johnsons Aceite para Bebé', 'Presentación 200 ml', 20, 100, 6200, 8400, 1);
 
 
 SELECT * FROM PRODUCTO
