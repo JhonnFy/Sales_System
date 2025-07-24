@@ -319,6 +319,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES008', 'Zebra Bandejas de Icopor', 'Presentación 25 und', 28, 100, 5600, 7200, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES009', 'Elite Toallas de Cocina Desechables', 'Presentación 3 rollos', 28, 100, 8800, 10500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES010', 'Rey Palillos de Madera', 'Presentación 200 und', 28, 100, 1900, 2700, 1);
+--🕯️ 29. Aromatizantes
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO001', 'Glade Aerosol Manzana Canela', 'Presentación 360 ml', 29, 100, 6700, 8500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO002', 'Renuzit Gel Aromatizante Lavanda', 'Presentación 198 g', 29, 100, 4900, 6300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO003', 'Ambi Pur Ambientador Auto Vainilla', 'Presentación 7 ml', 29, 100, 10500, 12900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO004', 'Glade Toque Manzana Verde', 'Presentación 10 ml', 29, 100, 4600, 5900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO005', 'Renuzit Spray Automático Repuesto Cítrico', 'Presentación 250 ml', 29, 100, 7300, 9200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO006', 'Air Wick Ambientador Líquido Canela', 'Presentación 250 ml', 29, 100, 8600, 10500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO007', 'Ambi Pur Difusor Eléctrico Repuesto Lavanda', 'Presentación 20 ml', 29, 100, 9200, 11700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO008', 'Glade Velas Aromáticas Frutas Rojas', 'Presentación 96 g', 29, 100, 5400, 6800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO009', 'Renuzit Perlas Aromáticas Floral', 'Presentación 275 g', 29, 100, 7600, 9500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ARO010', 'Air Wick Aceite Esencial Repuesto Brisa', 'Presentación 21 ml', 29, 100, 9300, 11800, 1);
 
 
 SELECT * FROM PRODUCTO
