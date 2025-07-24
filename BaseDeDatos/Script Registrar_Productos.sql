@@ -154,3 +154,14 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO008', 'Pepsi Light', 'Presentación 1500 ml', 13, 100, 4100, 5500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO009', 'Coca-Cola Sin Azúcar', 'Presentación 1500 ml', 13, 100, 4300, 5700, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('GASEO010', 'Bretaña Agua Tónica', 'Presentación 1000 ml', 13, 100, 3900, 5200, 1);
+--🧴 14. CuidadoPersonal
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP001', 'Colgate Luminous White', 'Presentación 75 ml', 14, 100, 3800, 5100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP002', 'Palmolive Naturals Shampoo', 'Presentación 350 ml', 14, 100, 6200, 8200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP003', 'Rexona Men Antitranspirante', 'Presentación 150 ml', 14, 100, 5600, 7300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP004', 'Nivea Crema Corporal', 'Presentación 400 ml', 14, 100, 9500, 12200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP005', 'Gillette Prestobarba 3', 'Presentación 2 und', 14, 100, 7800, 10300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP006', 'Listerine Enjuague Bucal', 'Presentación 250 ml', 14, 100, 4800, 6500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP007', 'Head & Shoulders Anticaspa', 'Presentación 375 ml', 14, 100, 7700, 9900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP008', 'Sensodyne Rápido Alivio', 'Presentación 100 ml', 14, 100, 8900, 11500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP009', 'Dove Jabón de Tocador', 'Presentación 90 gr', 14, 100, 2900, 4000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP010', 'Oral-B Cepillo Dental Suave', 'Presentación 1 und', 14, 100, 3700, 5200, 1);
