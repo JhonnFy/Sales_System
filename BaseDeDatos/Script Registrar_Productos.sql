@@ -297,6 +297,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL008', 'Zenú Garbanzos Cocidos', 'Presentación 300 g', 26, 100, 4100, 5600, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL009', 'Zenú Lentejas en Lata', 'Presentación 300 g', 26, 100, 3900, 5100, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ENL010', 'La Constancia Champiñones Laminados', 'Presentación 185 g', 26, 100, 5200, 6900, 1);
+--🧊 27. Refrigerados
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF001', 'Colanta Yogurt Fresa', 'Presentación 1000 ml', 27, 100, 4800, 6200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF002', 'Alquería Leche Deslactosada', 'Presentación 1100 ml', 27, 100, 4300, 5700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF003', 'Zenú Pechuga de Pollo Horneada', 'Presentación 250 g', 27, 100, 8700, 10900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF004', 'Ramo Ponqué Gala', 'Presentación 300 g', 27, 100, 5200, 6900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF005', 'Yogo Yogo Yogurt Infantil', 'Presentación 6 und', 27, 100, 4500, 6000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF006', 'Zenú Jamón de Cerdo', 'Presentación 250 g', 27, 100, 8500, 11200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF007', 'Colanta Kumis Tradicional', 'Presentación 1000 ml', 27, 100, 4700, 6200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF008', 'Alpina Yogurt Griego Natural', 'Presentación 150 g', 27, 100, 4200, 5500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF009', 'Zenú Chorizo Antioqueño', 'Presentación 500 g', 27, 100, 10900, 13800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF010', 'Ramo Gansito Congelado', 'Presentación 80 g', 27, 100, 2900, 3900, 1);
 
 
 SELECT * FROM PRODUCTO
