@@ -395,7 +395,7 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END008', 'Tagatosa Dulzero', 'Presentación 200 g', 35, 100, 7500, 10400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END009', 'Sirope de Agave Organic Farms', 'Presentación 500 ml', 35, 100, 8800, 12400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('END010', 'Panela Pulverizada BioPanela', 'Presentación 300 g', 35, 100, 3100, 4400, 1);
-----🥫 36. Aderezos
+--🥫 36. Aderezos
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE001', 'Mayonesa Fruco', 'Presentación 400 g', 36, 100, 4600, 6500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE002', 'Mostaza Heinz', 'Presentación 200 g', 36, 100, 3900, 5600, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('ADE003', 'Ketchup La Constancia', 'Presentación 400 g', 36, 100, 4700, 6800, 1);
@@ -562,4 +562,5 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE010', 'Hilti Pistola de Silicona', 'presentación 1 und', 50, 60, 19700, 24900, 1);
 
 
-SELECT * FROM PRODUCTO
+SELECT * FROM PRODUCTO WHERE IdCategoria = 1
+
