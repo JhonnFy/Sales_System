@@ -17,6 +17,9 @@ INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Pescados',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Frutas',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Verduras',1)
 INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Congelados',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Lacteos',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Huevos',1)
+INSERT INTO CATEGORIA (Descripcion, Estado) VALUES ('Panaderia',1)
 
 
 SELECT * FROM CATEGORIA
