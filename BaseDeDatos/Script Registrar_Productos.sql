@@ -385,6 +385,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA008', 'Manimoto Yupi', 'Presentación 75 g', 34, 100, 2400, 3300, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA009', 'Tostacos Yupi', 'Presentación 85 g', 34, 100, 2700, 3800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA010', 'Platanitos Naturales', 'Presentación 100 g', 34, 100, 3500, 4900, 1);
+--🍯 35. Endulzantes
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA001', 'Margarita Natural', 'Presentación 105 g', 34, 100, 3300, 4600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA002', 'Tosh Integral Queso', 'Presentación 100 g', 34, 100, 4200, 5800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA003', 'Cheesetos Queso', 'Presentación 90 g', 34, 100, 2700, 3900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA004', 'De Todito Picante', 'Presentación 95 g', 34, 100, 3100, 4400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA005', 'Doritos Tex-Mex', 'Presentación 120 g', 34, 100, 3700, 5300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA006', 'Rizadas BBQ', 'Presentación 90 g', 34, 100, 2900, 4000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA007', 'Maizitos Natural', 'Presentación 70 g', 34, 100, 1800, 2600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA008', 'Manimoto Yupi', 'Presentación 75 g', 34, 100, 2400, 3300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA009', 'Tostacos Yupi', 'Presentación 85 g', 34, 100, 2700, 3800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('SNA010', 'Platanitos Naturales', 'Presentación 100 g', 34, 100, 3500, 4900, 1);
 
 
 
