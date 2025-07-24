@@ -176,7 +176,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM008', 'Mary Kay Primer Facial', 'Presentación 29 ml', 15, 100, 19800, 26500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM009', 'Natura Brillo Labial', 'Presentación 5.5 ml', 15, 100, 10700, 14500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM010', 'Covergirl Corrector Líquido', 'Presentación 7 ml', 15, 100, 9900, 13200, 1);
-
+--🍽️ 16. Despensa
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP001', 'Diana Arroz Premium', 'Presentación 1000 gr', 16, 100, 3200, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP002', 'Ramo Harina de Trigo', 'Presentación 1000 gr', 16, 100, 2800, 3700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP003', 'Haz de Oros Pasta Spaghetti', 'Presentación 500 gr', 16, 100, 2600, 3400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP004', 'La Constancia Fríjol Bola Roja', 'Presentación 500 gr', 16, 100, 3300, 4300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP005', 'Doria Lentejas', 'Presentación 500 gr', 16, 100, 2900, 3850, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP006', 'El Rey Maicena Natural', 'Presentación 400 gr', 16, 100, 2500, 3300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP007', 'Colombina Azúcar Refinada', 'Presentación 1000 gr', 16, 100, 3100, 4100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP008', 'Doña Gallina Caldo en Cubos', 'Presentación 12 und', 16, 100, 1800, 2500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP009', 'El Dorado Sal Refinada', 'Presentación 1000 gr', 16, 100, 1200, 1800, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DESP010', 'Costeñita Yuca Congelada', 'Presentación 1000 gr', 16, 100, 3900, 5200, 1);
 
 
 SELECT * FROM PRODUCTO
