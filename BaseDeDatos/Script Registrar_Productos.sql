@@ -88,4 +88,16 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS008', 'Don Jacobo Arepas Precocidas', 'Presentación 400 g', 7, 100, 6200, 7700, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS009', 'Zenú Chorizo Antioqueño Congelado', 'Presentación 500 g', 7, 100, 9500, 11400, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CONGELADOS010', 'Mr. Fish Camarón Limpio Congelado', 'Presentación 500 g', 7, 100, 16800, 19600, 1);
+--🧈 8. Lácteos
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS001', 'Alpina Leche Entera', 'Presentación 1000 ml', 8, 100, 4200, 5000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS002', 'Colanta Yogur Fresa', 'Presentación 1500 ml', 8, 100, 6300, 7700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS003', 'Alquería Kumis Natural', 'Presentación 1000 ml', 8, 100, 5900, 7100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS004', 'Campi Mantequilla con Sal', 'Presentación 250 g', 8, 100, 4800, 6000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS005', 'Colanta Queso Campesino', 'Presentación 500 g', 8, 100, 9700, 11400, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS006', 'Alpina Yogurt Griego Natural', 'Presentación 500 g', 8, 100, 9200, 11000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS007', 'Colanta Quesito Antioqueño', 'Presentación 400 g', 8, 100, 8800, 10600, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS008', 'Alquería Leche Deslactosada', 'Presentación 1000 ml', 8, 100, 4600, 5500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS009', 'Danone Yogur Batido Durazno', 'Presentación 150 g', 8, 100, 2100, 3000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('LACTEOS010', 'Lacthosa Crema de Leche', 'Presentación 250 ml', 8, 100, 3600, 4700, 1);
+
 
