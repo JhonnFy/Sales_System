@@ -562,5 +562,5 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('FERRE010', 'Hilti Pistola de Silicona', 'presentación 1 und', 50, 60, 19700, 24900, 1);
 
 
-SELECT * FROM PRODUCTO WHERE IdCategoria = 1
+SELECT * FROM PRODUCTO 
 
