@@ -308,6 +308,17 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF008', 'Alpina Yogurt Griego Natural', 'Presentación 150 g', 27, 100, 4200, 5500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF009', 'Zenú Chorizo Antioqueño', 'Presentación 500 g', 27, 100, 10900, 13800, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('REF010', 'Ramo Gansito Congelado', 'Presentación 80 g', 27, 100, 2900, 3900, 1);
+--📌 28. Desechables
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES001', 'Rey Platos Desechables Blancos', 'Presentación 20 und', 28, 100, 2300, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES002', 'Zebra Vasos Plásticos Transparentes', 'Presentación 50 und', 28, 100, 4800, 6300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES003', 'Elite Servilletas Desechables', 'Presentación 100 und', 28, 100, 4500, 5900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES004', 'Rey Cucharas Plásticas Blancas', 'Presentación 50 und', 28, 100, 3900, 5100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES005', 'Zebra Tenedores Desechables', 'Presentación 50 und', 28, 100, 3900, 5100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES006', 'Plastiempanadas Empaques Térmicos', 'Presentación 25 und', 28, 100, 5200, 6900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES007', 'Rey Bolsas Negras para Basura', 'Presentación 20 und', 28, 100, 6400, 7900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES008', 'Zebra Bandejas de Icopor', 'Presentación 25 und', 28, 100, 5600, 7200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES009', 'Elite Toallas de Cocina Desechables', 'Presentación 3 rollos', 28, 100, 8800, 10500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('DES010', 'Rey Palillos de Madera', 'Presentación 200 und', 28, 100, 1900, 2700, 1);
 
 
 SELECT * FROM PRODUCTO
