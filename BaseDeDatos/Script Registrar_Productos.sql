@@ -165,3 +165,18 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP008', 'Sensodyne Rápido Alivio', 'Presentación 100 ml', 14, 100, 8900, 11500, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP009', 'Dove Jabón de Tocador', 'Presentación 90 gr', 14, 100, 2900, 4000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('CUIDP010', 'Oral-B Cepillo Dental Suave', 'Presentación 1 und', 14, 100, 3700, 5200, 1);
+--💅 15. Cosmetica
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM001', 'Maybelline Fit Me Base Líquida', 'Presentación 30 ml', 15, 100, 21500, 28900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM002', 'L’Oréal Máscara Voluminous', 'Presentación 10 ml', 15, 100, 18600, 24900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM003', 'Revlon Labial Ultra HD', 'Presentación 3.5 gr', 15, 100, 14300, 19500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM004', 'Vogue Polvo Compacto Natural', 'Presentación 13 gr', 15, 100, 6700, 8900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM005', 'Essence Delineador Líquido', 'Presentación 3 ml', 15, 100, 5500, 7500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM006', 'Max Factor Rubor Compacto', 'Presentación 5 gr', 15, 100, 9200, 12900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM007', 'Avon Dúo de Sombras', 'Presentación 2.2 gr', 15, 100, 8300, 11300, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM008', 'Mary Kay Primer Facial', 'Presentación 29 ml', 15, 100, 19800, 26500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM009', 'Natura Brillo Labial', 'Presentación 5.5 ml', 15, 100, 10700, 14500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('COSM010', 'Covergirl Corrector Líquido', 'Presentación 7 ml', 15, 100, 9900, 13200, 1);
+
+
+
+SELECT * FROM PRODUCTO
