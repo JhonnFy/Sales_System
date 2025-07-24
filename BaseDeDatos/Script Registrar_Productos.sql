@@ -110,5 +110,15 @@ INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCom
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS008', 'Santa Reyes Huevos Tipo A', 'Presentación 30 und', 9, 100, 9500, 11000, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS009', 'Colombina Huevos Orgánicos', 'Presentación 6 und', 9, 100, 3400, 4300, 1);
 INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('HUEVOS010', 'Huevos El Pinar Codorniz', 'Presentación 18 und', 9, 100, 4200, 5200, 1);
-
+--🥖 10. Panadería
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA001', 'Bimbo Pan Blanco Tradicional', 'Presentación 500 gr', 10, 100, 4500, 5700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA002', 'Ramo Ponqué Gala', 'Presentación 250 gr', 10, 100, 3200, 4200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA003', 'Bimbo Pan Integral', 'Presentación 550 gr', 10, 100, 4800, 5900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA004', 'Pan PaYa Pan Francés', 'Presentación 6 und', 10, 100, 3000, 3900, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA005', 'Ramo Galletas Festival Chocolate', 'Presentación 12 und', 10, 100, 2300, 3200, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA006', 'Bimbo Croissant con Queso', 'Presentación 2 und', 10, 100, 3100, 4000, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA007', 'Ramo Pan Tajado Tradicional', 'Presentación 400 gr', 10, 100, 4100, 5100, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA008', 'Pan PaYa Pan de Bono', 'Presentación 6 und', 10, 100, 3500, 4500, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA009', 'Bimbo Pan Dulce de Leche', 'Presentación 4 und', 10, 100, 3700, 4700, 1);
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado) VALUES ('PANADERIA010', 'Ramo Rollito de Canela', 'Presentación 2 und', 10, 100, 2800, 3700, 1);
 
